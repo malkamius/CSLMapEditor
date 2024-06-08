@@ -29,6 +29,7 @@ namespace Mapper2
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
+            Settings.Load();
             WeaponDamageMessage.LoadWeaponDamageMessages();
             Race.LoadRaces();
             SkillSpellGroup.LoadSkillSpellGroups();
