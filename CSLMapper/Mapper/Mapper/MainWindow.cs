@@ -488,7 +488,7 @@ namespace CLSMapper
                     room.Description = "";
                 }
                 room.sector = EditingRoom.sector;
-                RoomData.Rooms.Add(vnum, room);
+                RoomData.Rooms.TryAdd(vnum, room);
             }
             room.Area.saved = false;
             EditingRoom.Area.saved = false;
