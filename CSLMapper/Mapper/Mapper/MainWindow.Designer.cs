@@ -1,4 +1,6 @@
-﻿namespace CLSMapper
+﻿using Mapper;
+
+namespace CLSMapper
 {
     partial class MainWindow
     {
@@ -29,11 +31,11 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            mapPanel = new Panel();
-            pictureBox1 = new PictureBox();
+            mapPanel = new NoMouseWheelPanel();
+            pictureBox1 = new NoMouseWheelPictureBox();
             selectorTreeView = new TreeView();
             createSquareButton = new Button();
-            panel1 = new Panel();
+            panel1 = new ZoomPanel();
             filterTextBox = new TextBox();
             panel2 = new Panel();
             VnumText = new TextBox();
@@ -87,9 +89,10 @@
             pictureBox1.Location = new Point(-1, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(42, 47);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             pictureBox1.MouseDown += pictureBox1_MouseDown;
             pictureBox1.MouseMove += pictureBox1_MouseMove;
             pictureBox1.MouseUp += pictureBox1_MouseUp;
@@ -466,7 +469,6 @@
             Name = "MainWindow";
             Load += MainWindow_Load;
             mapPanel.ResumeLayout(false);
-            mapPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -478,10 +480,10 @@
 
         #endregion
 
-        private Panel mapPanel;
+        private NoMouseWheelPanel mapPanel;
         private TreeView selectorTreeView;
         private Button createSquareButton;
-        private Panel panel1;
+        private ZoomPanel panel1;
         private TextBox filterTextBox;
         private Panel panel2;
         private TextBox roomDescTextBox;
@@ -512,7 +514,7 @@
         private TextBox VnumText;
         private Label label6;
         private ToolTip ToolTip;
-        private PictureBox pictureBox1;
+        private NoMouseWheelPictureBox pictureBox1;
         private CheckBox drawWholeWorldCheckBox;
     }
 }

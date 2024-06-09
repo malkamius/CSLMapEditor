@@ -2,6 +2,7 @@ using CrimsonStainedLands;
 using CrimsonStainedLands.Extensions;
 using SkiaSharp;
 using System.Drawing.Imaging;
+using System.Windows.Forms;
 
 
 namespace CLSMapper
@@ -17,7 +18,7 @@ namespace CLSMapper
         // Picturebox panning
         private bool isDragging = false;
         private Point startPoint = new Point(0, 0);
-
+        private float zoomFactor = 1.0f;
         public MainWindow()
         {
             InitializeComponent();
@@ -26,7 +27,14 @@ namespace CLSMapper
             CrimsonStainedLands.Settings.RacesPath = "..\\..\\..\\data\\races";
             CrimsonStainedLands.Settings.GuildsPath = "..\\..\\..\\data\\guilds";
             CrimsonStainedLands.Settings.PlayersPath = "..\\..\\..\\data\\players";
+            panel1.ZoomChanged += Panel1_ZoomChanged; ;
+            //panel1.MouseWheel += PictureBox1_MouseWheel;
+        }
 
+        private void Panel1_ZoomChanged(object sender, Mapper.ZoomPanel.ZoomEventArgs e)
+        {
+            zoomFactor = Math.Min(3f, Math.Max(0.1f, zoomFactor + ((float)e.Delta / 1000f)));
+            Zoom();
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
@@ -215,6 +223,7 @@ namespace CLSMapper
             }
 
             pictureBox1.Image = drawBoxes(area);
+            Zoom();
             pictureBox1.Parent = mapPanel;
             mapPanel.ResumeLayout();
             Application.DoEvents();
@@ -628,5 +637,21 @@ namespace CLSMapper
                 }
             }
         }
+
+        private void Zoom()
+        {
+            if (pictureBox1.Image != null)
+            {
+                var size = new SizeF(pictureBox1.Image.Width, pictureBox1.Image.Height) * zoomFactor;
+                pictureBox1.Size = new Size((int)Math.Ceiling(size.Width), (int)Math.Ceiling(size.Height));
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
