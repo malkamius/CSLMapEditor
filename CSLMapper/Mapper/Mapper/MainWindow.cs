@@ -13,7 +13,11 @@ namespace CLSMapper
 
         AreaData? drawnArea = null;
         private Dictionary<RoomData, (int Zone, Drawer.Box Box)> RoomsDraw = new Dictionary<RoomData, (int Zone, Drawer.Box Box)>();
-        
+
+        // Picturebox panning
+        private bool isDragging = false;
+        private Point startPoint = new Point(0, 0);
+
         public MainWindow()
         {
             InitializeComponent();
@@ -240,7 +244,7 @@ namespace CLSMapper
 
                         if (room.Area != drawnArea)
                             drawMap(room.Area);
-                        
+
                         var selectedroomdraw = RoomsDraw.FirstOrDefault(kvp => kvp.Key == room);
 
                         if (selectedroomdraw.Key != null)
@@ -250,7 +254,7 @@ namespace CLSMapper
                             selectedroomdraw.Value.Box.BackColor = SKColors.LightBlue;
 
                             selectorTreeView.SelectedNode = roomnode;
-                            
+
                             if (pictureBox1.Image != null)
                             {
                                 pictureBox1.Image.Dispose();
@@ -259,7 +263,7 @@ namespace CLSMapper
                             panel1.HorizontalScroll.Value = Math.Min(panel1.HorizontalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.X + selectedroomdraw.Value.Box.XOffsetForZone));
                             panel1.VerticalScroll.Value = Math.Min(panel1.VerticalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.Y));
                         }
-                       
+
                         pauseUpdate = true;
                         EditingRoom = room;
                         VnumText.Text = room.Vnum.ToString();
@@ -540,7 +544,7 @@ namespace CLSMapper
                 imagename = imagename.Replace(ch, ' ');
 
             if (pictureBox1.Image != null)
-            pictureBox1.Image.Save(imagename, ImageFormat.Jpeg);
+                pictureBox1.Image.Save(imagename, ImageFormat.Jpeg);
         }
 
         private void selectorTreeView_Click(object sender, EventArgs e)
@@ -588,21 +592,41 @@ namespace CLSMapper
 
         }
 
-        private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
-            MouseEventArgs e2 = e;
-            var rd = RoomsDraw.FirstOrDefault(q => e2.X >= q.Value.Box.drawlocation.X + q.Value.Box.XOffsetForZone && e2.X <= q.Value.Box.drawlocation.Right + q.Value.Box.XOffsetForZone && e2.Y >= q.Value.Box.drawlocation.Y && e2.Y <= q.Value.Box.drawlocation.Bottom);
-            if (rd.Key != null)
+            startPoint = new Point(e.X, e.Y);
+        }
+
+        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
             {
-                if (rd.Key.Area != drawnArea)
-                    selectorTreeView.SelectedNode = selectorTreeView.Nodes.OfType<TreeNode>().FirstOrDefault(n => n.Tag == rd.Key.Area);
-                selectNode(rd.Key);
+                isDragging = true;
+                panel1.AutoScrollPosition = new Point(-(panel1.AutoScrollPosition.X + e.X - startPoint.X),
+                                          -(panel1.AutoScrollPosition.Y + e.Y - startPoint.Y));
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
-
+            if (e.Button == MouseButtons.Left)
+            {
+                if (isDragging)
+                {
+                    isDragging = false;
+                }
+                else
+                {
+                    MouseEventArgs e2 = e;
+                    var rd = RoomsDraw.FirstOrDefault(q => e2.X >= q.Value.Box.drawlocation.X + q.Value.Box.XOffsetForZone && e2.X <= q.Value.Box.drawlocation.Right + q.Value.Box.XOffsetForZone && e2.Y >= q.Value.Box.drawlocation.Y && e2.Y <= q.Value.Box.drawlocation.Bottom);
+                    if (rd.Key != null)
+                    {
+                        if (rd.Key.Area != drawnArea)
+                            selectorTreeView.SelectedNode = selectorTreeView.Nodes.OfType<TreeNode>().FirstOrDefault(n => n.Tag == rd.Key.Area);
+                        selectNode(rd.Key);
+                    }
+                }
+            }
         }
     }
 }
