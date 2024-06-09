@@ -83,7 +83,9 @@ namespace CLSMapper
             if (e.Node == null) return;
             else if (e.Node.Tag is AreaData)
             {
+
                 drawMap((AreaData)e.Node.Tag);
+
             }
             else if (e.Node.Tag is RoomData room)
             {
@@ -108,7 +110,7 @@ namespace CLSMapper
             }
         }
 
-        Bitmap? drawBoxes(AreaData area)
+        Bitmap? drawBoxes(AreaData? area)
         {
             var bitmaps = new List<SKBitmap>();
             var ZoneXOffset = 0;
@@ -133,7 +135,7 @@ namespace CLSMapper
                     Drawer.Boxes.Add(box);
                     if (string.IsNullOrEmpty(box.text))
                     {
-                        if (mappedroom.Key.Area == area)
+                        if (mappedroom.Key.Area == area || area == null)
                         {
                             box.BackColor = SkiaSharp.SKColors.LightYellow;
                             box.OriginalBackColor = box.BackColor;
@@ -171,30 +173,65 @@ namespace CLSMapper
 
             if (bitmaps.Any())
             {
-                var bitmap = new Bitmap(bitmaps.Sum(b => b.Width), bitmaps.Max(b => b.Height));
-                var x = 0;
-                using (var g = Graphics.FromImage(bitmap))
-                {
-                    g.Clear(Color.White);
-                    foreach (var skbmp in bitmaps)
-                    {
-                        using (var tmp = new Bitmap(skbmp.Width, skbmp.Height))
-                        {
-                            var data = tmp.LockBits(new Rectangle(0, 0, tmp.Width, tmp.Height),
-                                        System.Drawing.Imaging.ImageLockMode.WriteOnly, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
-                            IntPtr ptr = data.Scan0;
-                            int size = skbmp.RowBytes * skbmp.Height;
-                            System.Runtime.InteropServices.Marshal.Copy(skbmp.Bytes, 0, ptr, size);
-                            skbmp.Dispose();
-                            tmp.UnlockBits(data);
-                            g.DrawImage(tmp, x, 0);
-                            x += tmp.Width;
-                        }
+                var w = bitmaps.Sum(b => b.Width);
+                var h = bitmaps.Max(b => b.Height);
 
+                if (drawnArea != null)
+                {
+                    var bitmap = new Bitmap(w, h);
+                    var x = 0;
+                    using (var g = Graphics.FromImage(bitmap))
+                    {
+                        g.Clear(Color.White);
+                        foreach (var skbmp in bitmaps)
+                        {
+                            using (var tmp = new Bitmap(skbmp.Width, skbmp.Height))
+                            {
+                                var data = tmp.LockBits(new Rectangle(0, 0, tmp.Width, tmp.Height),
+                                            System.Drawing.Imaging.ImageLockMode.WriteOnly, System.Drawing.Imaging.PixelFormat.Format32bppPArgb);
+                                IntPtr ptr = data.Scan0;
+                                int size = skbmp.RowBytes * skbmp.Height;
+                                System.Runtime.InteropServices.Marshal.Copy(skbmp.Bytes, 0, ptr, size);
+                                skbmp.Dispose();
+                                tmp.UnlockBits(data);
+                                g.DrawImage(tmp, x, 0);
+                                x += tmp.Width;
+                            }
+
+                        }
+                    }
+                    return bitmap;
+                }
+                else
+                {
+                    var x = 0;
+                    var skbitmap = new SKBitmap(w, h);
+
+                    using (var canvas = new SKCanvas(skbitmap))
+                    {
+                        foreach (var srcbmp in bitmaps)
+                        {
+                            using (var srcimg = SKImage.FromBitmap(srcbmp))
+                            {
+                                canvas.DrawImage(srcimg, new SKPoint(x, 0));
+                            }
+
+                            x += srcbmp.Width;
+                        }
+                    }
+                    using (var skimg = SKImage.FromBitmap(skbitmap))
+                    {
+                        
+                        using (var data = skimg.Encode())
+                        using(var stream = new System.IO.FileStream("CrimsonStainedLands-World.png", FileMode.Create, FileAccess.Write))
+                        {
+                            if(data != null)
+                                data.SaveTo(stream);
+                        }
                     }
                 }
 
-                return bitmap;
+
             }
             return null;
         }
@@ -203,9 +240,29 @@ namespace CLSMapper
         {
             //wholemapdrawn = drawWholeWorldCheckBox.Checked;
 
-
             mapPanel.Enabled = false;
 
+
+            if (drawWholeWorldCheckBox.Checked)
+            {
+                var image = new Bitmap(panel1.Width, panel1.Height);
+                using (var g = Graphics.FromImage(image))
+                {
+                    g.Clear(Color.White);
+                    g.DrawString("Generating World Image", Font, Brushes.Black, 0, 0);
+                }
+                if (pictureBox1.Image != null)
+                {
+                    pictureBox1.Image.Dispose();
+                }
+                pictureBox1.Image = image;
+                pictureBox1.Width = image.Width;
+                pictureBox1.Height = image.Height;
+                Application.DoEvents();
+                drawWorld(area);
+            }
+
+            
             if (pictureBox1.Image != null)
             {
                 pictureBox1.Image.Dispose();
@@ -229,6 +286,20 @@ namespace CLSMapper
             Application.DoEvents();
 
             mapPanel.Enabled = true;
+        }
+
+        private void drawWorld(AreaData area)
+        {
+            var mapper = new Mapper.AreaMapper();
+            mapper.MapRooms(area, RoomData.Rooms.Values);
+            drawnArea = null;
+            RoomsDraw.Clear();
+            foreach (var position in mapper.roomPositions)
+            {
+                RoomsDraw.Add(position.Key, (position.Value.Zone, new Drawer.Box() { x = position.Value.X, y = position.Value.Y }));
+            }
+            drawBoxes(null);
+
         }
 
         private void selectNode(RoomData? room)
@@ -647,11 +718,5 @@ namespace CLSMapper
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
     }
 }

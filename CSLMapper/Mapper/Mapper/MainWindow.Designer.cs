@@ -92,7 +92,6 @@ namespace CLSMapper
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             pictureBox1.MouseDown += pictureBox1_MouseDown;
             pictureBox1.MouseMove += pictureBox1_MouseMove;
             pictureBox1.MouseUp += pictureBox1_MouseUp;
@@ -451,7 +450,6 @@ namespace CLSMapper
             drawWholeWorldCheckBox.TabIndex = 1;
             drawWholeWorldCheckBox.Text = "Draw whole world";
             drawWholeWorldCheckBox.UseVisualStyleBackColor = true;
-            drawWholeWorldCheckBox.Visible = false;
             // 
             // MainWindow
             // 

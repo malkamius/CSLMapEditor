@@ -14,12 +14,32 @@ namespace Mapper
         private HashSet<(int X, int Y, int Zone)> occupiedPositions = new HashSet<(int X, int Y, int Zone)>();
         private int currentZone = 0;
         private AreaData? areaData = null;
+        private bool allRooms = false;
 
         public void MapRooms(AreaData area)
         {
             areaData = area;
+            allRooms = false;
+            currentZone = 0;
             var visited = new HashSet<RoomData>();
             foreach (var room in area.Rooms.Values)
+            {
+                if (!visited.Contains(room) && !roomPositions.ContainsKey(room))
+                {
+                    MapComponent(room, visited);
+                    currentZone++;
+                }
+            }
+        }
+
+        public void MapRooms(AreaData area, IEnumerable<RoomData> rooms)
+        {
+            areaData = area;
+            allRooms = true;
+            currentZone = 0;
+            var visited = new HashSet<RoomData>();
+
+            foreach (var room in area.Rooms.Values.Concat(rooms))
             {
                 if (!visited.Contains(room) && !roomPositions.ContainsKey(room))
                 {
@@ -45,7 +65,7 @@ namespace Mapper
 
                 PlaceRoom(currentRoom, currentX, currentY, currentZone);
 
-                if (areaData == currentRoom.Area)
+                if (areaData == currentRoom.Area || allRooms)
                 {
                     foreach (Direction direction in Enum.GetValues(typeof(Direction)))
                     {

@@ -25,10 +25,10 @@ namespace Mapper
                 {
                     // Get the mouse position relative to the form
                     //Point mousePosition = this.PointToClient(Control.MousePosition);
-                    Point mousePosition = Control.MousePosition;
+                    //Point mousePosition = Control.MousePosition;
 
                     // Check if the mouse position is within the bounds of the Panel
-                    if (this.Bounds.Contains(mousePosition))
+                    //if (this.Bounds.Contains(mousePosition))
                     {
                         if (this.Parent != null)
                         {
@@ -55,9 +55,9 @@ namespace Mapper
                 {
                     // Get the mouse position relative to the form
                     //Point mousePosition = this.PointToClient(Control.MousePosition);
-                    Point mousePosition = Control.MousePosition;
+                    //Point mousePosition = Control.MousePosition;
                     // Check if the mouse position is within the bounds of the PictureBox
-                    if (this.Bounds.Contains(mousePosition))
+                    //if (this.Bounds.Contains(mousePosition))
                     {
                         if (this.Parent != null)
                         {
@@ -97,9 +97,9 @@ namespace Mapper
                 {
                     // Get the mouse position relative to the form
                     //Point mousePosition = this.PointToClient(Control.MousePosition);
-                    Point mousePosition = Control.MousePosition;
+                    //Point mousePosition = Control.MousePosition;
                     // Check if the mouse position is within the bounds of the Panel
-                    if (this.Bounds.Contains(mousePosition))
+                    //if (this.Bounds.Contains(mousePosition))
                     {
                         int delta = (int)m.WParam >> 16;
 
