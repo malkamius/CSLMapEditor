@@ -34,7 +34,6 @@
             selectorTreeView = new TreeView();
             createSquareButton = new Button();
             panel1 = new Panel();
-            drawWholeWorldCheckBox = new CheckBox();
             filterTextBox = new TextBox();
             panel2 = new Panel();
             VnumText = new TextBox();
@@ -65,6 +64,7 @@
             saveMapImageButton = new Button();
             saveWorldButton = new Button();
             ToolTip = new ToolTip(components);
+            drawWholeWorldCheckBox = new CheckBox();
             mapPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -79,18 +79,19 @@
             mapPanel.Controls.Add(pictureBox1);
             mapPanel.Location = new Point(3, 3);
             mapPanel.Name = "mapPanel";
-            mapPanel.Size = new Size(13, 14);
+            mapPanel.Size = new Size(46, 52);
             mapPanel.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new System.Drawing.Point(-1, 0);
+            pictureBox1.Location = new Point(-1, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(42, 47);
-            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            pictureBox1.Size = new Size(42, 47);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
-            pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(pictureBox1_MouseClick);
+            pictureBox1.Click += pictureBox1_Click;
+            pictureBox1.MouseClick += pictureBox1_MouseClick;
             // 
             // selectorTreeView
             // 
@@ -125,16 +126,6 @@
             panel1.Size = new Size(335, 535);
             panel1.TabIndex = 3;
             panel1.Paint += panel1_Paint;
-            // 
-            // drawWholeWorldCheckBox
-            // 
-            drawWholeWorldCheckBox.AutoSize = true;
-            drawWholeWorldCheckBox.Location = new Point(12, 12);
-            drawWholeWorldCheckBox.Name = "drawWholeWorldCheckBox";
-            drawWholeWorldCheckBox.Size = new Size(121, 19);
-            drawWholeWorldCheckBox.TabIndex = 1;
-            drawWholeWorldCheckBox.Text = "Draw whole world";
-            drawWholeWorldCheckBox.UseVisualStyleBackColor = true;
             // 
             // filterTextBox
             // 
@@ -176,8 +167,6 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(336, 535);
             panel2.TabIndex = 4;
-
-
             // 
             // VnumText
             // 
@@ -449,6 +438,17 @@
             // 
             ToolTip.Popup += ToolTip_Popup;
             // 
+            // drawWholeWorldCheckBox
+            // 
+            drawWholeWorldCheckBox.AutoSize = true;
+            drawWholeWorldCheckBox.Location = new Point(12, 12);
+            drawWholeWorldCheckBox.Name = "drawWholeWorldCheckBox";
+            drawWholeWorldCheckBox.Size = new Size(121, 19);
+            drawWholeWorldCheckBox.TabIndex = 1;
+            drawWholeWorldCheckBox.Text = "Draw whole world";
+            drawWholeWorldCheckBox.UseVisualStyleBackColor = true;
+            drawWholeWorldCheckBox.Visible = false;
+            // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -481,7 +481,6 @@
         private TreeView selectorTreeView;
         private Button createSquareButton;
         private Panel panel1;
-        private CheckBox drawWholeWorldCheckBox;
         private TextBox filterTextBox;
         private Panel panel2;
         private TextBox roomDescTextBox;
@@ -513,5 +512,6 @@
         private Label label6;
         private ToolTip ToolTip;
         private PictureBox pictureBox1;
+        private CheckBox drawWholeWorldCheckBox;
     }
 }
