@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Reflection.PortableExecutable;
 
-namespace Mapper2
+namespace CLSMapper
 {
     public partial class NPCsWindow : Form
     {

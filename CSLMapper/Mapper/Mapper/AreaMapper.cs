@@ -1,5 +1,5 @@
 ﻿using CrimsonStainedLands;
-using Mapper2;
+using CLSMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;

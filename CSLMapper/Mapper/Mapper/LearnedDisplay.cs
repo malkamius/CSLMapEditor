@@ -1,6 +1,6 @@
 ﻿using CrimsonStainedLands;
 
-namespace Mapper2
+namespace CLSMapper
 {
     internal class LearnedDisplay
     {

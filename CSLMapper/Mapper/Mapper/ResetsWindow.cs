@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Mapper2
+namespace CLSMapper
 {
     public partial class ResetsWindow : Form
     {

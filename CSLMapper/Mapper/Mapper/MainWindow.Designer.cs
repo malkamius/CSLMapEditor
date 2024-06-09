@@ -1,4 +1,4 @@
-﻿namespace Mapper2
+﻿namespace CLSMapper
 {
     partial class MainWindow
     {

@@ -2,7 +2,7 @@ using static CrimsonStainedLands.Command;
 using System.Reflection;
 using CrimsonStainedLands;
 
-namespace Mapper2
+namespace CLSMapper
 {
     public static class Program
     {

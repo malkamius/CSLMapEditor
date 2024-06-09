@@ -1,13 +1,10 @@
 using CrimsonStainedLands;
 using CrimsonStainedLands.Extensions;
 using SkiaSharp;
-using System;
-using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
-using System.Linq;
 
-namespace Mapper2
+
+namespace CLSMapper
 {
 
     public partial class MainWindow : Form
@@ -16,7 +13,7 @@ namespace Mapper2
 
         AreaData? drawnArea = null;
         private Dictionary<RoomData, (int Zone, Drawer.Box Box)> RoomsDraw = new Dictionary<RoomData, (int Zone, Drawer.Box Box)>();
-        //private Dictionary<Drawer.Box, RoomData> DrawnBoxes = new Dictionary<Drawer.Box, RoomData>();
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -42,7 +39,6 @@ namespace Mapper2
             CrimsonStainedLands.AreaData.LoadAreas(false);
 
             foreach (var area in AreaData.Areas)
-                //area = new AreaData(area.fileName, false);
                 foreach (var exitfixroom in area.Rooms.Values)
                     foreach (var exit in exitfixroom.exits)
                     {
@@ -53,8 +49,6 @@ namespace Mapper2
                         }
 
                     }
-
-            //font = new Font(this.Font.FontFamily, 7);
             sectorComboBox.Items.AddRange((from sector in Utility.GetEnumValues<SectorTypes>() select ((object)sector.ToString())).ToArray());
 
             selectorTreeView.Nodes.AddRange((from area in CrimsonStainedLands.AreaData.Areas orderby area.Name select new TreeNode(area.Name) { Tag = area }).ToArray());
@@ -74,14 +68,15 @@ namespace Mapper2
 
         private void selectorTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            if (e.Node.Tag is AreaData)
+            if (e.Node == null) return;
+            else if (e.Node.Tag is AreaData)
             {
-                //if (!wholemapdrawn || !drawWholeWorldCheckBox.Checked)
                 drawMap((AreaData)e.Node.Tag);
             }
-            else if (e.Node.Tag is RoomData)
-                selectNode((from room in RoomsDraw.Keys where room == e.Node.Tag select room).FirstOrDefault());
-
+            else if (e.Node.Tag is RoomData room)
+            {
+                selectNode(room);
+            }
             if (e.Node.Text == "Items" && e.Node.Parent != null && e.Node.Parent.Tag is AreaData)
             {
                 var itemsWindow = new ItemsWindow((AreaData)e.Node.Parent.Tag);
@@ -112,7 +107,7 @@ namespace Mapper2
                 foreach (var mappedroom in RoomsDraw.Where(b => b.Value.Zone == zone))
                 {
                     var box = mappedroom.Value.Box;
-                    //if (mappedroom.Value.Zone == zone)
+
                     if (box == null)
                     {
                         box = new Drawer.Box();
@@ -139,8 +134,6 @@ namespace Mapper2
                             box.OriginalBackColor = box.BackColor;
                         }
                     }
-
-                    //rooms.Add(mappedroom.Key, box);
                 }
 
                 foreach (var rd in RoomsDraw.Where(b => b.Value.Zone == zone))
@@ -150,7 +143,6 @@ namespace Mapper2
                         {
                             KeyValuePair<RoomData, (int Zone, Drawer.Box Box)>? DestinationBox = null;
 
-                            //if (exit != null && exit.destination != null &&  rooms.TryGetValue(exit.destination, out var destinationbox))
                             if (exit != null && exit.destination != null && (DestinationBox = RoomsDraw.FirstOrDefault(b => b.Key == exit.destination && b.Value.Zone == rd.Value.Zone)).HasValue && DestinationBox.Value.Value.Box != null)
                                 rd.Value.Box.Exits.Add(exit.direction, DestinationBox.Value.Value.Box);
                         }
@@ -163,17 +155,6 @@ namespace Mapper2
                     ZoneXOffset += skbmp.Width;
                 }
             }
-
-
-            //foreach (var mappedroom in rooms)
-            //{
-            //    foreach (var exit in mappedroom.Key.exits)
-            //    {
-
-            //        if (exit != null && exit.destination != null && rooms.TryGetValue(exit.destination, out var destinationbox))
-            //            mappedroom.Value.Exits.Add(exit.direction, destinationbox);
-            //    }
-            //}
 
 
             if (bitmaps.Any())
@@ -208,7 +189,7 @@ namespace Mapper2
 
         void drawMap(AreaData area)
         {
-            wholemapdrawn = drawWholeWorldCheckBox.Checked;
+            //wholemapdrawn = drawWholeWorldCheckBox.Checked;
 
 
             mapPanel.Enabled = false;
@@ -239,8 +220,7 @@ namespace Mapper2
 
         private void selectNode(RoomData? room)
         {
-            var room2 = room;
-            if (room2 == null)
+            if (room == null)
             {
                 return;
             }
@@ -258,27 +238,19 @@ namespace Mapper2
                     {
                         selectorTreeView.SelectedNode = roomnode;
 
-
-                        //Drawer.Box box = Drawer.Boxes.Where((Drawer.Box b) => b.wrapper == room2).FirstOrDefault();
-                        //if (box != null)
-                        //{
-                        //    panel1.HorizontalScroll.Value = Math.Min(panel1.HorizontalScroll.Maximum, Math.Max(0, box.x + Drawer.Origin.X - panel1.Width / 2));
-                        //    panel1.VerticalScroll.Value = Math.Min(panel1.VerticalScroll.Maximum, Math.Max(0, box.y + Drawer.Origin.Y - panel1.Height / 2));
-                        //}
-                        //foreach (KeyValuePair<int, AreaMapper> room3 in rooms)
-                        //{
-                        //    room3.Value.Box.BackColor = Brushes.White;
-                        //}
-                        foreach (var artifact in RoomsDraw)
-                            artifact.Value.Box.BackColor = artifact.Value.Box.OriginalBackColor;
+                        if (room.Area != drawnArea)
+                            drawMap(room.Area);
+                        
                         var selectedroomdraw = RoomsDraw.FirstOrDefault(kvp => kvp.Key == room);
 
                         if (selectedroomdraw.Key != null)
                         {
+                            foreach (var artifact in RoomsDraw)
+                                artifact.Value.Box.BackColor = artifact.Value.Box.OriginalBackColor;
                             selectedroomdraw.Value.Box.BackColor = SKColors.LightBlue;
 
                             selectorTreeView.SelectedNode = roomnode;
-                            //room2.Box.BackColor = Brushes.Aqua;
+                            
                             if (pictureBox1.Image != null)
                             {
                                 pictureBox1.Image.Dispose();
@@ -287,16 +259,7 @@ namespace Mapper2
                             panel1.HorizontalScroll.Value = Math.Min(panel1.HorizontalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.X + selectedroomdraw.Value.Box.XOffsetForZone));
                             panel1.VerticalScroll.Value = Math.Min(panel1.VerticalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.Y));
                         }
-                        //if (box != null)
-                        //{
-
-                        //}
-                        //foreach (KeyValuePair<int, AreaMapper> room3 in rooms)
-                        //{
-                        //    room3.Value.Box.BackColor = Brushes.White;
-                        //}
-
-                        //pictureBox1.Image = Drawer.Draw();
+                       
                         pauseUpdate = true;
                         EditingRoom = room;
                         VnumText.Text = room.Vnum.ToString();
@@ -576,7 +539,7 @@ namespace Mapper2
             foreach (var ch in System.IO.Path.GetInvalidFileNameChars())
                 imagename = imagename.Replace(ch, ' ');
 
-            if (pictureBox1.Image != null) { }
+            if (pictureBox1.Image != null)
             pictureBox1.Image.Save(imagename, ImageFormat.Jpeg);
         }
 

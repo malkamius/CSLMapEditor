@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.Linq;
-using Mapper2;
+using CLSMapper;
 using Microsoft.VisualBasic.ApplicationServices;
 using SkiaSharp;
 
