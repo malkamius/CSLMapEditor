@@ -39,7 +39,7 @@ namespace Mapper
             currentZone = 0;
             var visited = new HashSet<RoomData>();
 
-            foreach (var room in area.Rooms.Values.Concat(rooms))
+            foreach (var room in area.Rooms.Values.Concat(rooms.OrderByDescending(r => r.Vnum)))
             {
                 if (!visited.Contains(room) && !roomPositions.ContainsKey(room))
                 {
@@ -71,7 +71,7 @@ namespace Mapper
                     {
                         if (currentRoom.GetExit(direction, out var exit) && exit.destination != null && !roomPositions.ContainsKey(exit.destination))
                         {
-                            var (newX, newY) = GetNewPosition(currentX, currentY, direction);
+                            var (newX, newY) = GetNewPosition(currentX, currentY, direction);//, !allRooms || exit.destination.Area == currentRoom.Area? 1 : 50);
                             ResolveConflict(ref newX, ref newY, currentZone, direction);
 
                             queue.Enqueue((exit.destination, newX, newY));
@@ -87,16 +87,16 @@ namespace Mapper
             occupiedPositions.Add((x, y, zone));
         }
 
-        private (int X, int Y) GetNewPosition(int x, int y, Direction direction)
+        private (int X, int Y) GetNewPosition(int x, int y, Direction direction, int distance = 1)
         {
             return direction switch
             {
-                Direction.North => (x, y - 1),
-                Direction.East => (x + 1, y),
-                Direction.South => (x, y + 1),
-                Direction.West => (x - 1, y),
-                Direction.Up => (x + 1, y - 1),
-                Direction.Down => (x - 1, y + 1),
+                Direction.North => (x, y - distance),
+                Direction.East => (x + distance, y),
+                Direction.South => (x, y + distance),
+                Direction.West => (x - distance, y),
+                Direction.Up => (x + distance, y - distance),
+                Direction.Down => (x - distance, y + distance),
                 _ => throw new ArgumentException("Invalid direction")
             };
         }

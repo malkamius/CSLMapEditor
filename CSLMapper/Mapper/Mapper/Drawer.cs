@@ -48,12 +48,7 @@ internal class Drawer
         int minX = Drawer.Boxes.Min((Drawer.Box b) => b.x);
         int maxX = Drawer.Boxes.Max((Drawer.Box b) => b.x);
         var xoffset = 0 - minX;
-        var list = new List<int>();
-        foreach (var box in Drawer.Boxes)
-        {
-            if (!list.Contains(xoffset + box.x))
-                list.Add(xoffset + box.x);
-        }
+
         var boxheight = 50;
 
         int height = (maxY - minY) * boxheight + boxheight * 2;
@@ -70,6 +65,10 @@ internal class Drawer
                 if (columnwidth < box.width)
                     columnwidths[xoffset + box.x] = box.width;
             }
+
+            for(int ix = 0; ix < maxX + xoffset; ix++)
+                if(!columnwidths.ContainsKey(ix))
+                    columnwidths[ix] = 50;
 
             var widthsum = 0;
             for (int i = 0; i < columnwidths.Count; i++)

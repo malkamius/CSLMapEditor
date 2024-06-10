@@ -340,8 +340,18 @@ namespace CLSMapper
                                 pictureBox1.Image.Dispose();
                             }
                             pictureBox1.Image = drawBoxes(room.Area);
-                            panel1.HorizontalScroll.Value = Math.Min(panel1.HorizontalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.X + selectedroomdraw.Value.Box.XOffsetForZone));
-                            panel1.VerticalScroll.Value = Math.Min(panel1.VerticalScroll.Maximum, Math.Max(0, selectedroomdraw.Value.Box.drawlocation.Y));
+                            // Calculate the center position of the selected room within the panel
+                            int roomCenterX = (int)((selectedroomdraw.Value.Box.drawlocation.X + selectedroomdraw.Value.Box.XOffsetForZone) * zoomFactor);
+                            int roomCenterY = (int)((selectedroomdraw.Value.Box.drawlocation.Y) * zoomFactor);
+
+                            // Calculate the new scroll values to center the room in the panel's viewport
+                            int newHorizontalScrollValue = roomCenterX - (panel1.ClientSize.Width / 2);
+                            int newVerticalScrollValue = roomCenterY - (panel1.ClientSize.Height / 2);
+
+                            // Ensure the scroll values are within valid bounds
+                            panel1.HorizontalScroll.Value = Math.Min(panel1.HorizontalScroll.Maximum, Math.Max(0, newHorizontalScrollValue));
+                            panel1.VerticalScroll.Value = Math.Min(panel1.VerticalScroll.Maximum, Math.Max(0, newVerticalScrollValue));
+
                         }
 
                         pauseUpdate = true;
@@ -697,8 +707,10 @@ namespace CLSMapper
                 }
                 else
                 {
-                    MouseEventArgs e2 = e;
-                    var rd = RoomsDraw.FirstOrDefault(q => e2.X >= q.Value.Box.drawlocation.X + q.Value.Box.XOffsetForZone && e2.X <= q.Value.Box.drawlocation.Right + q.Value.Box.XOffsetForZone && e2.Y >= q.Value.Box.drawlocation.Y && e2.Y <= q.Value.Box.drawlocation.Bottom);
+                    var mouseX = e.X;// * zoomFactor;
+                    var mouseY = e.Y;// * zoomFactor;
+                    
+                    var rd = RoomsDraw.FirstOrDefault(q => mouseX >= (q.Value.Box.drawlocation.X + q.Value.Box.XOffsetForZone) * zoomFactor && mouseX <= (q.Value.Box.drawlocation.Right + q.Value.Box.XOffsetForZone) * zoomFactor && mouseY >= (q.Value.Box.drawlocation.Y) * zoomFactor && mouseY <= (q.Value.Box.drawlocation.Bottom) * zoomFactor);
                     if (rd.Key != null)
                     {
                         if (rd.Key.Area != drawnArea)
