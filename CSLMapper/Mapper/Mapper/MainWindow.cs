@@ -585,8 +585,8 @@ namespace CLSMapper
             var revDirection = reverseDirections[direction];
             var flags = new List<ExitFlags>();
 
-            room.exits[(int)revDirection] = new ExitData() { destination = EditingRoom, destinationVnum = EditingRoom.Vnum, direction = revDirection, description = "", flags = new List<ExitFlags>(), originalFlags = new List<ExitFlags>() };
-            EditingRoom.exits[(int)direction] = new ExitData() { destination = room, direction = direction, description = "", flags = new List<ExitFlags>(), originalFlags = new List<ExitFlags>() };
+            room.exits[(int)revDirection] = new ExitData() { destination = EditingRoom, destinationVnum = EditingRoom.Vnum, direction = revDirection, description = "", flags = new HashSet<ExitFlags>(), originalFlags = new HashSet<ExitFlags>() };
+            EditingRoom.exits[(int)direction] = new ExitData() { destination = room, direction = direction, description = "", flags = new HashSet<ExitFlags>(), originalFlags = new HashSet<ExitFlags>() };
 
             selectorTreeView.Nodes.OfType<TreeNode>().First(n => n.Tag == room.Area).Nodes.OfType<TreeNode>().First(n => n.Text == "Rooms").Nodes.Add(new TreeNode(room.Vnum + " - " + room.Name) { Tag = room });
 
