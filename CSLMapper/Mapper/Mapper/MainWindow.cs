@@ -221,11 +221,11 @@ namespace CLSMapper
                     }
                     using (var skimg = SKImage.FromBitmap(skbitmap))
                     {
-                        
+
                         using (var data = skimg.Encode())
-                        using(var stream = new System.IO.FileStream("CrimsonStainedLands-World.png", FileMode.Create, FileAccess.Write))
+                        using (var stream = new System.IO.FileStream("CrimsonStainedLands-World.png", FileMode.Create, FileAccess.Write))
                         {
-                            if(data != null)
+                            if (data != null)
                                 data.SaveTo(stream);
                         }
                     }
@@ -262,7 +262,7 @@ namespace CLSMapper
                 drawWorld(area);
             }
 
-            
+
             if (pictureBox1.Image != null)
             {
                 pictureBox1.Image.Dispose();
@@ -709,7 +709,7 @@ namespace CLSMapper
                 {
                     var mouseX = e.X;// * zoomFactor;
                     var mouseY = e.Y;// * zoomFactor;
-                    
+
                     var rd = RoomsDraw.FirstOrDefault(q => mouseX >= (q.Value.Box.drawlocation.X + q.Value.Box.XOffsetForZone) * zoomFactor && mouseX <= (q.Value.Box.drawlocation.Right + q.Value.Box.XOffsetForZone) * zoomFactor && mouseY >= (q.Value.Box.drawlocation.Y) * zoomFactor && mouseY <= (q.Value.Box.drawlocation.Bottom) * zoomFactor);
                     if (rd.Key != null)
                     {
@@ -730,5 +730,12 @@ namespace CLSMapper
             }
         }
 
+        private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(AreaData.Areas.Any(a => a.saved == false))
+            {
+                e.Cancel = MessageBox.Show("You have unsaved changes, exit?", "Warning", MessageBoxButtons.OKCancel) == DialogResult.Cancel;
+            }
+        }
     }
 }

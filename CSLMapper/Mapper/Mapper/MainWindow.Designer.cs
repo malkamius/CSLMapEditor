@@ -465,6 +465,7 @@ namespace CLSMapper
             Controls.Add(createSquareButton);
             Controls.Add(selectorTreeView);
             Name = "MainWindow";
+            FormClosing += MainWindow_FormClosing;
             Load += MainWindow_Load;
             mapPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
