@@ -23,7 +23,7 @@
   <Title>the Code Conjurer</Title>
   <ExtendedTitle>, Digital Dungeon Architect</ExtendedTitle>
   <alignment>Good</alignment>
-  <ethos>Orderly</ethos>
+  <ethos>Lawful</ethos>
   <room>19094</room>
   <hitroll>23</hitroll>
   <damRoll>32</damRoll>
@@ -1877,7 +1877,7 @@
   <ShapeFocusMajor>Defense</ShapeFocusMajor>
   <ShapeFocusMinor>None</ShapeFocusMinor>
   <Wimpy>0</Wimpy>
-  <LastReadNote>1/1/0001 12:00:00 AM</LastReadNote>
-  <TotalPlayTime>11.09:36:14.9805146</TotalPlayTime>
+  <LastReadNote>1/1/0001 12:00:00 AM</LastReadNote>
+  <TotalPlayTime>11.09:44:48.2292165</TotalPlayTime>
   <password>211C56FAEEAB13765C107C310FE39344</password>
 </PlayerData>

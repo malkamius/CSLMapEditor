@@ -1,5 +1,6 @@
 ﻿using CrimsonStainedLands.Extensions;
 using CrimsonStainedLands;
+using CrimsonStainedLands.World;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -229,7 +230,10 @@ namespace CLSMapper
             if (save && NPCsTreeView.SelectedNode != null && NPCsTreeView.SelectedNode.Tag is NPCTemplateData)
             {
                 var npc = (NPCTemplateData)NPCsTreeView.SelectedNode.Tag;
-                int.TryParse(LevelTextBox.Text, out npc.Level);
+                if(int.TryParse(LevelTextBox.Text, out var npclevel))
+                {
+                    npc.Level = npclevel;
+                }
                 Area.saved = false;
             }
         }

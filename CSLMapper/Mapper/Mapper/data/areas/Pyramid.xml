@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>8700</VnumStart>
     <VnumEnd>8799</VnumEnd>
+    <MinimumLevel>5</MinimumLevel>
+    <MaximumLevel>50</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{ 5-50} Andersen The Great Pyramid</Credits>
+    <Credits>Andersen The Great Pyramid</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -2448,6 +2452,7 @@ The poison bite of this snake has felled many a mighty pharoah.</description>
       <ManaPointDiceSides>2</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>5</trust>
       <hitpoints>100</hitpoints>
       <maxhitpoints>100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2474,6 +2479,7 @@ The poison bite of this snake has felled many a mighty pharoah.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2502,6 +2508,7 @@ colors designed to serve notice to its prey that it is about to strike.</descrip
       <ManaPointDiceSides>3</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>7</trust>
       <hitpoints>140</hitpoints>
       <maxhitpoints>140</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2528,6 +2535,7 @@ colors designed to serve notice to its prey that it is about to strike.</descrip
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2556,6 +2564,7 @@ She sniffs you and appears to be looking for food in your hand.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2582,6 +2591,7 @@ She sniffs you and appears to be looking for food in your hand.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -2611,6 +2621,7 @@ sand-colored clothing.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>8</trust>
       <hitpoints>160</hitpoints>
       <maxhitpoints>160</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2637,6 +2648,7 @@ sand-colored clothing.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2664,6 +2676,7 @@ sand-colored clothing.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2690,6 +2703,7 @@ sand-colored clothing.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2720,6 +2734,7 @@ he might get caught, but not today...</description>
       <ManaPointDiceSides>9</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>18</trust>
       <hitpoints>360</hitpoints>
       <maxhitpoints>360</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2746,6 +2761,7 @@ he might get caught, but not today...</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2775,6 +2791,7 @@ above the ground!  In fact, it seems to be ALIVE!</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2801,6 +2818,7 @@ above the ground!  In fact, it seems to be ALIVE!</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2829,6 +2847,7 @@ animated by the distempered spirit of a long-deceased person.</description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>12</trust>
       <hitpoints>240</hitpoints>
       <maxhitpoints>240</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2855,6 +2874,7 @@ animated by the distempered spirit of a long-deceased person.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -2884,6 +2904,7 @@ and sandy winds.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>14</trust>
       <hitpoints>280</hitpoints>
       <maxhitpoints>280</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2910,6 +2931,7 @@ and sandy winds.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>12</DamageDiceCount>
@@ -2938,6 +2960,7 @@ with disdain and scorn, arms folded across his mighty chest.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>20</trust>
       <hitpoints>400</hitpoints>
       <maxhitpoints>400</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2964,6 +2987,7 @@ with disdain and scorn, arms folded across his mighty chest.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2993,6 +3017,7 @@ but you can still make out a deadly stone sword in the hands of each figure.</de
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>24</trust>
       <hitpoints>480</hitpoints>
       <maxhitpoints>480</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3019,6 +3044,7 @@ but you can still make out a deadly stone sword in the hands of each figure.</de
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3049,6 +3075,7 @@ skin, and strokes his goatee.</description>
       <ManaPointDiceSides>28</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>28</trust>
       <hitpoints>560</hitpoints>
       <maxhitpoints>560</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3075,6 +3102,7 @@ skin, and strokes his goatee.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3105,6 +3133,7 @@ cousins.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3131,6 +3160,7 @@ cousins.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3161,6 +3191,7 @@ just heard a puzzling riddle from a cousin criosphinx.</description>
       <ManaPointDiceSides>19</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>19</trust>
       <hitpoints>380</hitpoints>
       <maxhitpoints>380</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3187,6 +3218,7 @@ just heard a puzzling riddle from a cousin criosphinx.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3216,6 +3248,7 @@ and in poking occasional fun at his easily confused lesser cousins.</description
       <ManaPointDiceSides>23</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>23</trust>
       <hitpoints>460</hitpoints>
       <maxhitpoints>460</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3242,6 +3275,7 @@ and in poking occasional fun at his easily confused lesser cousins.</description
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3272,6 +3306,7 @@ mighty roar of this sphinx.</description>
       <ManaPointDiceSides>27</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>27</trust>
       <hitpoints>540</hitpoints>
       <maxhitpoints>540</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3298,6 +3333,7 @@ mighty roar of this sphinx.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3329,6 +3365,7 @@ advised many rulers.</description>
       <ManaPointDiceSides>20</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>41</trust>
       <hitpoints>820</hitpoints>
       <maxhitpoints>820</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3354,7 +3391,8 @@ advised many rulers.</description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectMagic Sanctuary ProtectionEvil DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis DetectMagic Sanctuary ProtectEvil DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3386,6 +3424,7 @@ his chest not even moving to breathe.</description>
       <ManaPointDiceSides>38</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>38</trust>
       <hitpoints>760</hitpoints>
       <maxhitpoints>760</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3411,7 +3450,8 @@ his chest not even moving to breathe.</description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectMagic Sanctuary Infrared ProtectionEvil DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis DetectMagic Sanctuary Infrared ProtectEvil DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3453,6 +3493,7 @@ his chest not even moving to breathe.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3490,6 +3531,7 @@ his chest not even moving to breathe.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>4</ArmorSlash>
       <ArmorPierce>4</ArmorPierce>
@@ -3520,7 +3562,9 @@ matter how much you try.</Description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3531,6 +3575,7 @@ matter how much you try.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3559,8 +3604,12 @@ matter how much you try.</Description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3571,6 +3620,7 @@ matter how much you try.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -3609,6 +3659,7 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -3649,6 +3700,7 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3689,6 +3741,7 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3717,8 +3770,12 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <ExtraFlags>Glow Magic</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3729,6 +3786,7 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3757,8 +3815,12 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <ExtraFlags>Hum Magic</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3769,6 +3831,7 @@ the head and hair of its previous owner, who must not have bathed much.</Descrip
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3807,6 +3870,7 @@ with a sharp, cold blade that is marred only by a few nicks here and there.</Des
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3832,7 +3896,7 @@ with a sharp, cold blade that is marred only by a few nicks here and there.</Des
       <DiceBonus>1</DiceBonus>
       <Weight>0</Weight>
       <WearFlags></WearFlags>
-      <ExtraFlags>Closeable PickProof</ExtraFlags>
+      <ExtraFlags>Closable PickProof</ExtraFlags>
       <ItemTypes>Container</ItemTypes>
       <Affects />
       <Silver>0</Silver>
@@ -3844,6 +3908,7 @@ with a sharp, cold blade that is marred only by a few nicks here and there.</Des
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3885,6 +3950,7 @@ You see a small keyhole in the side of the sarcophagus.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3923,6 +3989,7 @@ of aged bone inside -- it must be the ancient remains of something.</Description
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3952,8 +4019,12 @@ insectile legs and the faceting of the emeralds in its eyes.</Description>
       <ExtraFlags>Glow Hum Magic AntiEvil</ExtraFlags>
       <ItemTypes>Talisman</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Spells>
         <Spell Level="25" SpellName="fly" />
@@ -3967,6 +4038,7 @@ insectile legs and the faceting of the emeralds in its eyes.</Description>
       <Material>oldstyle</Material>
       <Charges>5</Charges>
       <MaxCharges>5</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3996,9 +4068,15 @@ grime off, but it doesn't seem like anybody is home.</Description>
       <ExtraFlags>Bless AntiEvil</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4009,6 +4087,7 @@ grime off, but it doesn't seem like anybody is home.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4052,6 +4131,7 @@ It glows with a soft bright light that is soothing to you.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4082,9 +4162,15 @@ by its contents and put it down to sort your head out.</Description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4095,6 +4181,7 @@ by its contents and put it down to sort your head out.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4134,6 +4221,7 @@ becoming an extension of your arm.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4172,6 +4260,7 @@ sheet of parchment.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4210,6 +4299,7 @@ wealth than you could ever possibly imagine accumulated in one place.</Descripti
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4238,11 +4328,21 @@ wealth than you could ever possibly imagine accumulated in one place.</Descripti
       <ExtraFlags>Evil Magic NoDrop NoRemove</ExtraFlags>
       <ItemTypes>Trash</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="-50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-100" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="-50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4253,6 +4353,7 @@ wealth than you could ever possibly imagine accumulated in one place.</Descripti
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4297,6 +4398,7 @@ likewise be cursed for ten generations to follow.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4327,10 +4429,18 @@ mortals to attempt to consume.</Description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4341,6 +4451,7 @@ mortals to attempt to consume.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>8</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -4381,6 +4492,7 @@ of the wearer.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4411,7 +4523,9 @@ light, making it very hard to see when it lies on the ground.</Description>
       <ExtraFlags>Glow Magic</ExtraFlags>
       <ItemTypes>Wand</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Spells>
         <Spell Level="35" SpellName="harm" />
@@ -4425,6 +4539,7 @@ light, making it very hard to see when it lies on the ground.</Description>
       <Material>oldstyle</Material>
       <Charges>25</Charges>
       <MaxCharges>25</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4455,8 +4570,12 @@ brilliant blazing light of the sun.</Description>
       <ExtraFlags>Hum Magic</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4467,6 +4586,7 @@ brilliant blazing light of the sun.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4496,7 +4616,9 @@ it gives off a continuous low humming noise that tickles your fingertips.</Descr
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Treasure</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4507,6 +4629,7 @@ it gives off a continuous low humming noise that tickles your fingertips.</Descr
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4537,8 +4660,12 @@ of wisdom and peace on its face.</Description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4549,6 +4676,7 @@ of wisdom and peace on its face.</Description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -4564,709 +4692,269 @@ emanating from them; they seem to be almost alive.</Description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="8702" Count="2" Max="6" Vnum="8700">
       <!--Spawn A horrible asp to Climbing the Great Pyramid-->
-      <Type>NPC</Type>
-      <Destination>8702</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8703" Count="2" Max="4" Vnum="8701">
       <!--Spawn A hooded cobra snake to Climbing the Great Pyramid-->
-      <Type>NPC</Type>
-      <Destination>8703</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>8701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8705" Count="1" Max="6" Vnum="8700">
       <!--Spawn A horrible asp to Climbing the Great Pyramid-->
-      <Type>NPC</Type>
-      <Destination>8705</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8706" Count="1" Max="3" Vnum="8702">
       <!--Spawn A wily little mongoose to The Apex of the Great Pyramid-->
-      <Type>NPC</Type>
-      <Destination>8706</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8709" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Musty Chamber-->
-      <Type>NPC</Type>
-      <Destination>8709</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an egyptian mace to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8700</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8700">
+      <!--Spawn an egyptian mace to A shooting star-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8709" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Musty Chamber-->
-      <Type>NPC</Type>
-      <Destination>8709</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8701">
       <!--Spawn sand-colored robes to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8711" Count="1" Max="1" Vnum="8709">
       <!--Spawn The efreeti to The Chamber of the Efreet-->
-      <Type>NPC</Type>
-      <Destination>8711</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8707">
       <!--Spawn a small hot ball of fire to The efreeti-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8713" Count="2" Max="6" Vnum="8700">
       <!--Spawn A horrible asp to A Tiny Crawlway-->
-      <Type>NPC</Type>
-      <Destination>8713</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8716" Count="1" Max="3" Vnum="8702">
       <!--Spawn A wily little mongoose to The Crawlway's End-->
-      <Type>NPC</Type>
-      <Destination>8716</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8719" Count="0" Max="1" Vnum="8723">
       <!--Spawn the diamond to A Rough Crevasse-->
-      <Type>Item</Type>
-      <Destination>8719</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8723</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8723" Count="1" Max="1" Vnum="8706">
       <!--Spawn The magic carpet to The Vault of the Lamp-->
-      <Type>NPC</Type>
-      <Destination>8723</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8723" Count="1" Max="1" Vnum="8711">
       <!--Spawn The djinn to The Vault of the Lamp-->
-      <Type>NPC</Type>
-      <Destination>8723</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8711</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn the lamp to The djinn-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8713</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8713">
+      <!--Spawn the lamp to A giant catfish-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8725" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Looted Tomb-->
-      <Type>NPC</Type>
-      <Destination>8725</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8725" Count="2" Max="4" Vnum="8707">
       <!--Spawn A mummy to A Looted Tomb-->
-      <Type>NPC</Type>
-      <Destination>8725</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>8707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8704">
       <!--Spawn some cloth wrappings to A mummy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8706">
       <!--Spawn a jar of formaldehyde to A mummy-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8725" Count="2" Max="4" Vnum="8707">
       <!--Spawn A mummy to A Looted Tomb-->
-      <Type>NPC</Type>
-      <Destination>8725</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>8707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8704">
       <!--Spawn some cloth wrappings to A mummy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8705">
       <!--Spawn a bottle of embalming fluid to A mummy-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8726" Count="1" Max="3" Vnum="8702">
       <!--Spawn A wily little mongoose to A Demolished Tomb-->
-      <Type>NPC</Type>
-      <Destination>8726</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8726" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Demolished Tomb-->
-      <Type>NPC</Type>
-      <Destination>8726</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8732" Count="1" Max="1" Vnum="8717">
       <!--Spawn Ramses the Damned to The Tomb of Ramses-->
-      <Type>NPC</Type>
-      <Destination>8732</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8719">
       <!--Spawn a pile of sand to Ramses the Damned-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8720">
       <!--Spawn the curse of the mummy to Ramses the Damned-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8720</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8721">
       <!--Spawn a small elixir to Ramses the Damned-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8721">
       <!--Spawn a small elixir to Ramses the Damned-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8722">
       <!--Spawn a golden mask to Ramses the Damned-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8722</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8733" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Ransacked Tomb-->
-      <Type>NPC</Type>
-      <Destination>8733</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8734" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Tunnel-->
-      <Type>NPC</Type>
-      <Destination>8734</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8735" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Fork in the Tunnel-->
-      <Type>NPC</Type>
-      <Destination>8735</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8737" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Dank Chamber-->
-      <Type>NPC</Type>
-      <Destination>8737</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8700">
       <!--Spawn an egyptian mace to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8737" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Dank Chamber-->
-      <Type>NPC</Type>
-      <Destination>8737</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8701">
       <!--Spawn sand-colored robes to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8737" Count="1" Max="4" Vnum="8707">
       <!--Spawn A mummy to A Dank Chamber-->
-      <Type>NPC</Type>
-      <Destination>8737</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8704">
       <!--Spawn some cloth wrappings to A mummy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8740" Count="1" Max="6" Vnum="8700">
       <!--Spawn A horrible asp to A Smelly Chamber-->
-      <Type>NPC</Type>
-      <Destination>8740</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8740" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Smelly Chamber-->
-      <Type>NPC</Type>
-      <Destination>8740</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8700">
       <!--Spawn an egyptian mace to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8740" Count="2" Max="6" Vnum="8703">
       <!--Spawn A pyramid watcher to A Smelly Chamber-->
-      <Type>NPC</Type>
-      <Destination>8740</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8701">
       <!--Spawn sand-colored robes to A pyramid watcher-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8741" Count="2" Max="4" Vnum="8701">
       <!--Spawn A hooded cobra snake to A Dust-Covered Hallway-->
-      <Type>NPC</Type>
-      <Destination>8741</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>8701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8741" Count="1" Max="4" Vnum="8707">
       <!--Spawn A mummy to A Dust-Covered Hallway-->
-      <Type>NPC</Type>
-      <Destination>8741</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8704">
       <!--Spawn some cloth wrappings to A mummy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8742" Count="1" Max="6" Vnum="8704">
       <!--Spawn A tomb thief to A Turn in the Hallway-->
-      <Type>NPC</Type>
-      <Destination>8742</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>8704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3351">
       <!--Spawn a standard issue dagger to A tomb thief-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3351</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8743" Count="1" Max="1" Vnum="8705">
       <!--Spawn Ali Baba to A Dead End-->
-      <Type>NPC</Type>
-      <Destination>8743</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8703">
       <!--Spawn a dirty cloth turban to Ali Baba-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8702">
       <!--Spawn an obsidian dirk to Ali Baba-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8745" Count="1" Max="2" Vnum="8710">
       <!--Spawn A caryatid to The Tomb of the Pharoahs-->
-      <Type>NPC</Type>
-      <Destination>8745</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>8710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8708">
       <!--Spawn a stone scimitar to A caryatid-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8745" Count="1" Max="2" Vnum="8710">
       <!--Spawn A caryatid to The Tomb of the Pharoahs-->
-      <Type>NPC</Type>
-      <Destination>8745</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>8710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8708">
       <!--Spawn a stone scimitar to A caryatid-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8709">
       <!--Spawn a stone key to A caryatid-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8745" Count="0" Max="1" Vnum="8710">
       <!--Spawn a mighty stone sarcophagus to The Tomb of the Pharoahs-->
-      <Type>Item</Type>
-      <Destination>8745</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Put" Destination="0" Count="0" Max="0" Vnum="8711">
       <!--Spawn some ancient dust to previous item-->
-      <Type>Put</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Put" Destination="0" Count="0" Max="0" Vnum="8712">
       <!--Spawn a small emerald scarab to previous item-->
-      <Type>Put</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8747" Count="1" Max="1" Vnum="8715">
       <!--Spawn An androsphinx to A Sandstone Crypt-->
-      <Type>NPC</Type>
-      <Destination>8747</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8716">
       <!--Spawn a lion's paw to An androsphinx-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8748" Count="1" Max="3" Vnum="8712">
       <!--Spawn A hieracosphinx to An Arched Hall-->
-      <Type>NPC</Type>
-      <Destination>8748</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8749" Count="1" Max="3" Vnum="8712">
       <!--Spawn A hieracosphinx to An Arched Hall-->
-      <Type>NPC</Type>
-      <Destination>8749</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8750" Count="2" Max="2" Vnum="8713">
       <!--Spawn A gynosphinx to A Golden Crypt-->
-      <Type>NPC</Type>
-      <Destination>8750</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>8713</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8750" Count="2" Max="2" Vnum="8713">
       <!--Spawn A gynosphinx to A Golden Crypt-->
-      <Type>NPC</Type>
-      <Destination>8750</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>8713</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8714">
       <!--Spawn an ankh to A gynosphinx-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8751" Count="1" Max="3" Vnum="8712">
       <!--Spawn A hieracosphinx to An Arched Hall-->
-      <Type>NPC</Type>
-      <Destination>8751</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>8712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8752" Count="2" Max="2" Vnum="8714">
       <!--Spawn A criosphinx to A Shining Vault-->
-      <Type>NPC</Type>
-      <Destination>8752</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>8714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8752" Count="2" Max="2" Vnum="8714">
       <!--Spawn A criosphinx to A Shining Vault-->
-      <Type>NPC</Type>
-      <Destination>8752</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>8714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="8715">
       <!--Spawn a book of riddles to A criosphinx-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8754" Count="1" Max="4" Vnum="8708">
       <!--Spawn A sandman to A Swirling Sandstorm-->
-      <Type>NPC</Type>
-      <Destination>8754</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8755" Count="1" Max="4" Vnum="8708">
       <!--Spawn A sandman to A Swirling Sandstorm-->
-      <Type>NPC</Type>
-      <Destination>8755</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8756" Count="1" Max="4" Vnum="8708">
       <!--Spawn A sandman to A Swirling Sandstorm-->
-      <Type>NPC</Type>
-      <Destination>8756</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8757" Count="1" Max="4" Vnum="8708">
       <!--Spawn A sandman to A Swirling Sandstorm-->
-      <Type>NPC</Type>
-      <Destination>8757</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>8708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="8758" Count="1" Max="1" Vnum="8716">
       <!--Spawn The great sphinx to A Massive Sand Dune-->
-      <Type>NPC</Type>
-      <Destination>8758</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>8716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="8717">
       <!--Spawn the answer to The great sphinx-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>8717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8759" Count="0" Max="1" Vnum="8718">
       <!--Spawn the treasure of the sphinx to Through the Hole in the Sand-->
-      <Type>Item</Type>
-      <Destination>8759</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8718</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8759" Count="0" Max="1" Vnum="8724">
       <!--Spawn a blazing sun wand to Through the Hole in the Sand-->
-      <Type>Item</Type>
-      <Destination>8759</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8724</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8759" Count="0" Max="1" Vnum="8725">
       <!--Spawn a sandy-colored ring to Through the Hole in the Sand-->
-      <Type>Item</Type>
-      <Destination>8759</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8725</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8759" Count="0" Max="1" Vnum="8726">
       <!--Spawn a small golden sphinx to Through the Hole in the Sand-->
-      <Type>Item</Type>
-      <Destination>8759</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8726</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="8759" Count="0" Max="1" Vnum="8727">
       <!--Spawn a pair of sphinxian leggings to Through the Hole in the Sand-->
-      <Type>Item</Type>
-      <Destination>8759</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>8727</Vnum>
     </Reset>
   </Resets>
 </Area>

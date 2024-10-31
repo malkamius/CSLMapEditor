@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>23600</VnumStart>
     <VnumEnd>23609</VnumEnd>
+    <MinimumLevel>1</MinimumLevel>
+    <MaximumLevel>51</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>ABAL} GGolem  Legions of Justice</Credits>
+    <Credits>GGolem  Legions of Justice</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -217,6 +221,7 @@ dies.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>200</ManaPointDiceCount>
       <ManaPointDiceBonus>1600</ManaPointDiceBonus>
+      <trust>60</trust>
       <hitpoints>1200</hitpoints>
       <maxhitpoints>1200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -243,6 +248,7 @@ dies.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared Haste DarkVision Swim DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>35</DamageDiceCount>
@@ -271,6 +277,7 @@ gods for the balance on Orthos.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>300</ManaPointDiceCount>
       <ManaPointDiceBonus>900</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -297,6 +304,7 @@ gods for the balance on Orthos.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared Haste DarkVision DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -326,7 +334,7 @@ gods for the balance on Orthos.</description>
       <DiceBonus>1</DiceBonus>
       <Weight>0.1</Weight>
       <WearFlags>NoSac</WearFlags>
-      <ExtraFlags>NoPurge BurnProof Closeable PickProof</ExtraFlags>
+      <ExtraFlags>NoPurge BurnProof Closable PickProof</ExtraFlags>
       <ItemTypes>Container</ItemTypes>
       <Affects />
       <Silver>0</Silver>
@@ -338,6 +346,7 @@ gods for the balance on Orthos.</description>
       <Material>ivory</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -370,6 +379,7 @@ gods for the balance on Orthos.</description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -402,6 +412,7 @@ gods for the balance on Orthos.</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -425,11 +436,21 @@ gods for the balance on Orthos.</description>
       <ExtraFlags>NoRemove NoPurge SellExtract NoUncurse</ExtraFlags>
       <ItemTypes>Treasure</ItemTypes>
       <Affects>
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectHidden" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell" />
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectHidden" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -440,6 +461,7 @@ gods for the balance on Orthos.</description>
       <Material>silver</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -463,9 +485,15 @@ gods for the balance on Orthos.</description>
       <ExtraFlags>Magic Bless BurnProof NoUncurse</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -476,6 +504,7 @@ gods for the balance on Orthos.</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>8</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -499,9 +528,15 @@ gods for the balance on Orthos.</description>
       <ExtraFlags>Magic Bless BurnProof NoUncurse</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="8" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="8" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-7" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="8" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="8" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-7" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -512,6 +547,7 @@ gods for the balance on Orthos.</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -535,9 +571,15 @@ gods for the balance on Orthos.</description>
       <ExtraFlags>Magic Bless BurnProof NoUncurse</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="9" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="9" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -548,6 +590,7 @@ gods for the balance on Orthos.</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>21</ArmorBash>
       <ArmorSlash>21</ArmorSlash>
       <ArmorPierce>21</ArmorPierce>
@@ -571,9 +614,15 @@ gods for the balance on Orthos.</description>
       <ExtraFlags>Magic Bless BurnProof NoUncurse</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="11" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-13" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="11" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-13" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -584,6 +633,7 @@ gods for the balance on Orthos.</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>25</ArmorBash>
       <ArmorSlash>25</ArmorSlash>
       <ArmorPierce>25</ArmorPierce>
@@ -592,37 +642,17 @@ gods for the balance on Orthos.</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="23600" Count="1" Max="1" Vnum="23600">
       <!--Spawn the enforcer to The Entrance-->
-      <Type>NPC</Type>
-      <Destination>23600</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>23600</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="23601">
       <!--Spawn the book of laws to the enforcer-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>23601</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="23602" Count="0" Max="1" Vnum="23600">
       <!--Spawn the bookstand to Room of Laws-->
-      <Type>Item</Type>
-      <Destination>23602</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>23600</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="23603" Count="1" Max="1" Vnum="23601">
       <!--Spawn the lawful cleric to The chapel-->
-      <Type>NPC</Type>
-      <Destination>23603</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>23601</Vnum>
     </Reset>
   </Resets>
 </Area>

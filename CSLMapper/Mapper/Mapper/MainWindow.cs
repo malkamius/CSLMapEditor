@@ -1,4 +1,5 @@
 using CrimsonStainedLands;
+using CrimsonStainedLands.World;
 using CrimsonStainedLands.Extensions;
 using SkiaSharp;
 using System.Drawing.Imaging;
@@ -12,6 +13,8 @@ namespace CLSMapper
     {
         bool pauseUpdate = false;
 
+        public AreaData EditingArea { get; private set; }
+
         AreaData? drawnArea = null;
         private Dictionary<RoomData, (int Zone, Drawer.Box Box)> RoomsDraw = new Dictionary<RoomData, (int Zone, Drawer.Box Box)>();
 
@@ -22,11 +25,11 @@ namespace CLSMapper
         public MainWindow()
         {
             InitializeComponent();
-            CrimsonStainedLands.Settings.DataPath = "..\\..\\..\\data";
-            CrimsonStainedLands.Settings.AreasPath = "..\\..\\..\\data\\areas";
-            CrimsonStainedLands.Settings.RacesPath = "..\\..\\..\\data\\races";
-            CrimsonStainedLands.Settings.GuildsPath = "..\\..\\..\\data\\guilds";
-            CrimsonStainedLands.Settings.PlayersPath = "..\\..\\..\\data\\players";
+            //CrimsonStainedLands.Settings.DataPath = "..\\..\\..\\data";
+            //CrimsonStainedLands.Settings.AreasPath = "..\\..\\..\\data\\areas";
+            //CrimsonStainedLands.Settings.RacesPath = "..\\..\\..\\data\\races";
+            //CrimsonStainedLands.Settings.GuildsPath = "..\\..\\..\\data\\guilds";
+            //CrimsonStainedLands.Settings.PlayersPath = "..\\..\\..\\data\\players";
             panel1.ZoomChanged += Panel1_ZoomChanged; ;
             //panel1.MouseWheel += PictureBox1_MouseWheel;
         }
@@ -39,6 +42,7 @@ namespace CLSMapper
 
         private void MainWindow_Load(object sender, EventArgs e)
         {
+
             Settings.Load();
             WeaponDamageMessage.LoadWeaponDamageMessages();
             Race.LoadRaces();
@@ -48,7 +52,9 @@ namespace CLSMapper
 
             WeaponDamageMessage.LoadWeaponDamageMessages();
 
-            CrimsonStainedLands.AreaData.LoadAreas(false);
+            AreaData.LoadAreas(false);
+
+            HideAreaPanel();
 
             foreach (var area in AreaData.Areas)
                 foreach (var exitfixroom in area.Rooms.Values)
@@ -63,7 +69,7 @@ namespace CLSMapper
                     }
             sectorComboBox.Items.AddRange((from sector in Utility.GetEnumValues<SectorTypes>() select ((object)sector.ToString())).ToArray());
 
-            selectorTreeView.Nodes.AddRange((from area in CrimsonStainedLands.AreaData.Areas orderby area.Name select new TreeNode(area.Name) { Tag = area }).ToArray());
+            selectorTreeView.Nodes.AddRange((from area in AreaData.Areas orderby area.Name select new TreeNode(area.Name) { Tag = area }).ToArray());
 
             foreach (var node in selectorTreeView.Nodes.OfType<TreeNode>())
             {
@@ -80,34 +86,73 @@ namespace CLSMapper
 
         private void selectorTreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            HideAreaPanel();
             if (e.Node == null) return;
-            else if (e.Node.Tag is AreaData)
-            {
 
-                drawMap((AreaData)e.Node.Tag);
+            AreaData areadata = null;
+            if (e.Node.Tag is AreaData directAreaData)
+            {
+                areadata = directAreaData;
+            }
+            else if (e.Node.Parent?.Tag is AreaData parentAreaData)
+            {
+                areadata = parentAreaData;
+            }
 
-            }
-            else if (e.Node.Tag is RoomData room)
+            if (areadata != null)
             {
-                selectNode(room);
-            }
-            if (e.Node.Text == "Items" && e.Node.Parent != null && e.Node.Parent.Tag is AreaData)
-            {
-                var itemsWindow = new ItemsWindow((AreaData)e.Node.Parent.Tag);
-                itemsWindow.Show(this);
-            }
-            else if (e.Node.Text == "NPCs" && e.Node.Parent != null && e.Node.Parent.Tag is AreaData)
-            {
-                var NPCsWindow = new NPCsWindow((AreaData)e.Node.Parent.Tag);
-                NPCsWindow.Show(this);
+                if (e.Node.Tag is AreaData)
+                {
+                    ShowAreaPanel(areadata);
+                    drawMap(areadata);
+                }
+                else if (e.Node.Tag is RoomData room)
+                {
+                    selectNode(room);
+                }
 
-            }
-            else if (e.Node.Text == "Resets" && e.Node.Parent != null && e.Node.Parent.Tag is AreaData)
-            {
-                var ResetsWindow = new ResetsWindow((AreaData)e.Node.Parent.Tag);
-                ResetsWindow.Show(this);
+                // Handle special node types
+                if (e.Node.Parent != null)
+                {
+                    switch (e.Node.Text)
+                    {
+                        case "Items":
+                            var itemsWindow = new ItemsWindow(areadata);
+                            itemsWindow.Show(this);
+                            break;
 
+                        case "NPCs":
+                            var NPCsWindow = new NPCsWindow(areadata);
+                            NPCsWindow.Show(this);
+                            break;
+
+                        case "Resets":
+                            var ResetsWindow = new ResetsWindow(areadata);
+                            ResetsWindow.Show(this);
+                            break;
+                    }
+                }
             }
+        }
+
+        private void ShowAreaPanel(AreaData areadata)
+        {
+            panel3.Visible = true;
+            panel2.Top = panel3.Bottom + 6;
+            pauseUpdate = true;
+            EditingArea = areadata;
+
+            OverroomVnumText.Text = EditingArea.OverRoomVnum.ToString();
+            AreaNameText.Text = EditingArea.Name;
+            AreaCreditsText.Text = EditingArea.Credits;
+
+            pauseUpdate = false;
+        }
+
+        private void HideAreaPanel()
+        {
+            panel3.Visible = false;
+            panel2.Top = panel3.Top;
         }
 
         Bitmap? drawBoxes(AreaData? area)
@@ -440,7 +485,8 @@ namespace CLSMapper
                 }
                 var exit = EditingRoom.exits[(int)direction];
                 exit.description = exitDescriptionTextBox.Text;
-                int.TryParse(exitDestinationTextBox.Text, out exit.destinationVnum);
+                if (int.TryParse(exitDestinationTextBox.Text, out var destvnum))
+                    exit.destinationVnum = destvnum;
 
                 if (windowCheckBox.Checked)
                     exit.flags.SETBIT(ExitFlags.Window);
@@ -732,9 +778,39 @@ namespace CLSMapper
 
         private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(AreaData.Areas.Any(a => a.saved == false))
+            if (AreaData.Areas.Any(a => a.saved == false))
             {
                 e.Cancel = MessageBox.Show("You have unsaved changes, exit?", "Warning", MessageBoxButtons.OKCancel) == DialogResult.Cancel;
+            }
+        }
+
+        private void AreaNameText_TextChanged(object sender, EventArgs e)
+        {
+            if (!pauseUpdate)
+            {
+                EditingArea.Name = AreaNameText.Text;
+                EditingArea.saved = false;
+            }
+        }
+
+        private void AreaCreditsText_TextChanged(object sender, EventArgs e)
+        {
+            if (!pauseUpdate)
+            {
+                EditingArea.Credits = AreaCreditsText.Text;
+                EditingArea.saved = false;
+            }
+        }
+
+        private void OverroomVnumText_TextChanged(object sender, EventArgs e)
+        {
+            if (!pauseUpdate)
+            {
+                if(int.TryParse(OverroomVnumText.Text, out var overroom))
+                {
+                    EditingArea.OverRoomVnum = overroom;
+                    EditingArea.saved = false;
+                }
             }
         }
     }

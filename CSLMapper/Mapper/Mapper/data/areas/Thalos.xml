@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>60700</VnumStart>
     <VnumEnd>60999</VnumEnd>
+    <MinimumLevel>10</MinimumLevel>
+    <MaximumLevel>25</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{10 25} Drkside Thalos</Credits>
+    <Credits>Drkside Thalos</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>101028</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -3699,6 +3703,7 @@ disintegrate you. Beholders are not known for their personality.</description>
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3725,6 +3730,7 @@ disintegrate you. Beholders are not known for their personality.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3754,6 +3760,7 @@ greedily.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3780,6 +3787,7 @@ greedily.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3808,6 +3816,7 @@ front.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3834,6 +3843,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3861,6 +3871,7 @@ front.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3887,6 +3898,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3914,6 +3926,7 @@ front.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3940,6 +3953,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3967,6 +3981,7 @@ front.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3993,6 +4008,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4020,6 +4036,7 @@ front.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4046,6 +4063,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4073,6 +4091,7 @@ front.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>3</trust>
       <hitpoints>60</hitpoints>
       <maxhitpoints>60</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4099,6 +4118,7 @@ front.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -4127,6 +4147,7 @@ stone creature. He stands here still guarding the city.</description>
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4152,7 +4173,8 @@ stone creature. He stands here still guarding the city.</description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>ProtectionEvil DetectIllusion</affectedBy>
+      <affectedBy>ProtectEvil DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4185,8 +4207,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4197,6 +4223,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4220,7 +4247,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4231,6 +4260,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4254,8 +4284,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4266,6 +4300,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4289,8 +4324,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4301,6 +4340,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4324,8 +4364,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4336,6 +4380,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4359,8 +4404,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4371,6 +4420,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4394,7 +4444,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4405,6 +4457,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4428,7 +4481,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-6" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-6" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4439,6 +4494,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4462,8 +4518,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4474,6 +4534,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4494,7 +4555,7 @@ stone creature. He stands here still guarding the city.</description>
       <DiceBonus>1</DiceBonus>
       <Weight>5</Weight>
       <WearFlags>Take</WearFlags>
-      <ExtraFlags>Invisibility Magic</ExtraFlags>
+      <ExtraFlags>Invis Magic</ExtraFlags>
       <ItemTypes>Potion</ItemTypes>
       <Affects />
       <Spells>
@@ -4511,6 +4572,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4531,7 +4593,7 @@ stone creature. He stands here still guarding the city.</description>
       <DiceBonus>1</DiceBonus>
       <Weight>10</Weight>
       <WearFlags>Take</WearFlags>
-      <ExtraFlags>Invisibility Magic</ExtraFlags>
+      <ExtraFlags>Invis Magic</ExtraFlags>
       <ItemTypes>Potion</ItemTypes>
       <Affects />
       <Spells>
@@ -4546,6 +4608,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4578,6 +4641,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4613,6 +4677,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4650,6 +4715,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4673,7 +4739,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Glow Magic</ExtraFlags>
       <ItemTypes>Instrument</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4684,6 +4752,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4707,8 +4776,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Glow Magic</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-8" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-8" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4719,6 +4792,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4751,6 +4825,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4783,6 +4858,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4806,8 +4882,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiEvil</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4818,6 +4898,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4841,7 +4922,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4852,6 +4935,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4875,7 +4959,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4886,6 +4972,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4918,6 +5005,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4950,6 +5038,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4982,6 +5071,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5014,6 +5104,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5046,6 +5137,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5065,11 +5157,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5080,6 +5174,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5099,11 +5194,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5114,6 +5211,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5133,11 +5231,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5148,6 +5248,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5167,11 +5268,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5182,6 +5285,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5201,11 +5305,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5216,6 +5322,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5235,11 +5342,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5250,6 +5359,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5269,11 +5379,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5284,6 +5396,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5316,6 +5429,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5335,11 +5449,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5350,6 +5466,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5369,11 +5486,13 @@ stone creature. He stands here still guarding the city.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>1</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5384,6 +5503,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5419,6 +5539,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>3</Charges>
       <MaxCharges>3</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5442,7 +5563,9 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Instrument</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5453,6 +5576,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5476,8 +5600,12 @@ stone creature. He stands here still guarding the city.</description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5488,6 +5616,7 @@ stone creature. He stands here still guarding the city.</description>
       <Material>oldstyle</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5496,717 +5625,272 @@ stone creature. He stands here still guarding the city.</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="60704" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A Garden Path-->
-      <Type>NPC</Type>
-      <Destination>60704</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60751">
       <!--Spawn a golden harp to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60751</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60705" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A Garden Path-->
-      <Type>NPC</Type>
-      <Destination>60705</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60730">
       <!--Spawn a pale blue stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60730</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60716" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A back alley-->
-      <Type>NPC</Type>
-      <Destination>60716</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60733">
       <!--Spawn a deep red stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60733</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60717" Count="0" Max="1" Vnum="60719">
       <!--Spawn a chunk of venison to The meat stand-->
-      <Type>Item</Type>
-      <Destination>60717</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60717" Count="2" Max="4" Vnum="60707">
       <!--Spawn The horned lizard to The meat stand-->
-      <Type>NPC</Type>
-      <Destination>60717</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>60707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60718" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A back alley-->
-      <Type>NPC</Type>
-      <Destination>60718</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60750">
       <!--Spawn a mandolin to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60750</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60719" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to The guild house-->
-      <Type>NPC</Type>
-      <Destination>60719</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60731">
       <!--Spawn a scarlet and blue stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60731</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60719" Count="1" Max="1" Vnum="60704">
       <!--Spawn The mimic to The guild house-->
-      <Type>NPC</Type>
-      <Destination>60719</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="60718">
       <!--Spawn a demon-faced talisman to The mimic-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60718</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an orange potion to The mimic-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60711</Vnum>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="60711">
+      <!--Spawn an orange potion to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60720" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to The produce stand-->
-      <Type>NPC</Type>
-      <Destination>60720</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
+      <!--Spawn a long slim dagger to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60724" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to Under the watchtower-->
-      <Type>NPC</Type>
-      <Destination>60724</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60743">
       <!--Spawn a clear stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60743</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
+      <!--Spawn a long slim dagger to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60726" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A ruined clay dwelling-->
-      <Type>NPC</Type>
-      <Destination>60726</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a pearly white stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60735</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60735">
+      <!--Spawn a pearly white stone to a livery servant-->
     </Reset>
-    <Reset>
-      <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
+      <!--Spawn a long slim dagger to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60726" Count="1" Max="1" Vnum="60703">
       <!--Spawn The mimic to A ruined clay dwelling-->
-      <Type>NPC</Type>
-      <Destination>60726</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60703</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a tattered scroll to The mimic-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60715</Vnum>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="60715">
+      <!--Spawn a tattered scroll to a livery servant-->
     </Reset>
-    <Reset>
-      <!--Spawn a dull grey stone to The mimic-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60739</Vnum>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="60739">
+      <!--Spawn a dull grey stone to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60727" Count="2" Max="4" Vnum="60707">
       <!--Spawn The horned lizard to A collapsed stone dwelling-->
-      <Type>NPC</Type>
-      <Destination>60727</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>60707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60729" Count="0" Max="1" Vnum="60707">
       <!--Spawn a battered iron breast plate to An abandoned shop-->
-      <Type>Item</Type>
-      <Destination>60729</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60729" Count="1" Max="1" Vnum="60702">
       <!--Spawn The mimic to An abandoned shop-->
-      <Type>NPC</Type>
-      <Destination>60729</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60702</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a black potion to The mimic-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60710</Vnum>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="60710">
+      <!--Spawn a black potion to a livery servant-->
     </Reset>
-    <Reset>
-      <!--Spawn a smooth quartz ball to The mimic-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60714</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60714">
+      <!--Spawn a smooth quartz ball to a livery servant-->
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60731" Count="0" Max="1" Vnum="60725">
       <!--Spawn the desk to South wing of the city hall-->
-      <Type>Item</Type>
-      <Destination>60731</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60725</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Put" Destination="0" Count="0" Max="0" Vnum="60715">
       <!--Spawn a tattered scroll to previous item-->
-      <Type>Put</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Put" Destination="0" Count="0" Max="0" Vnum="60716">
       <!--Spawn a bound scroll to previous item-->
-      <Type>Put</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60732" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to The city hall-->
-      <Type>NPC</Type>
-      <Destination>60732</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a silver flute to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60717</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60717">
+      <!--Spawn a silver flute to an pennatus trader-->
     </Reset>
-    <Reset>
-      <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
+      <!--Spawn a long slim dagger to an pennatus trader-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60732" Count="2" Max="4" Vnum="60707">
       <!--Spawn The horned lizard to The city hall-->
-      <Type>NPC</Type>
-      <Destination>60732</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>60707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60733" Count="0" Max="1" Vnum="60727">
       <!--Spawn the glass cabinet to East wing of the city hall-->
-      <Type>Item</Type>
-      <Destination>60733</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60727</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Put" Destination="0" Count="0" Max="0" Vnum="3105">
       <!--Spawn a bronze bracer to previous item-->
-      <Type>Put</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3105</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60734" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to The private gardens and courtyard of Thalos-->
-      <Type>NPC</Type>
-      <Destination>60734</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60732">
       <!--Spawn an incandescent blue stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60732</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60734" Count="0" Max="1" Vnum="60720">
       <!--Spawn a large cracked fountain to The private gardens and courtyard of Thalos-->
-      <Type>Item</Type>
-      <Destination>60734</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60720</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60736" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A collapsed home-->
-      <Type>NPC</Type>
-      <Destination>60736</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a lavender and green stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60737</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60737">
+      <!--Spawn a lavender and green stone to an pennatus trader-->
     </Reset>
-    <Reset>
-      <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
+      <!--Spawn a long slim dagger to an pennatus trader-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60736" Count="1" Max="1" Vnum="60706">
       <!--Spawn The mimic to A collapsed home-->
-      <Type>NPC</Type>
-      <Destination>60736</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60722">
       <!--Spawn a black silk robe to The mimic-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60722</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60738" Count="1" Max="1" Vnum="60705">
       <!--Spawn The mimic to A small shack-->
-      <Type>NPC</Type>
-      <Destination>60738</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60705</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a smooth quartz ball to The mimic-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60714</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60714">
+      <!--Spawn a smooth quartz ball to a pegasus-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60740" Count="1" Max="12" Vnum="60701">
       <!--Spawn The lamia to A back alley-->
-      <Type>NPC</Type>
-      <Destination>60740</Destination>
-      <Count>1</Count>
-      <Max>12</Max>
-      <Vnum>60701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60741">
       <!--Spawn a pink and green stone to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60741</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60752">
       <!--Spawn a long slim dagger to The lamia-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60752</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="60742" Count="0" Max="1" Vnum="60728">
       <!--Spawn a rotten arm to A bath house-->
-      <Type>Item</Type>
-      <Destination>60742</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>60728</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60744" Count="1" Max="4" Vnum="60707">
       <!--Spawn The horned lizard to An upright house-->
-      <Type>NPC</Type>
-      <Destination>60744</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>60707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60746" Count="2" Max="8" Vnum="60708">
       <!--Spawn The stone golem to The north-west watchtower-->
-      <Type>NPC</Type>
-      <Destination>60746</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>60708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60721">
       <!--Spawn a two-handed sword to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60721</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an engraved ivory seal to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60726</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60726">
+      <!--Spawn an engraved ivory seal to a pegasus-->
     </Reset>
-    <Reset>
-      <!--Spawn some mithril sleeves to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60703</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60703">
+      <!--Spawn some mithril sleeves to a pegasus-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60747" Count="2" Max="8" Vnum="60708">
       <!--Spawn The stone golem to The south-west watchtower-->
-      <Type>NPC</Type>
-      <Destination>60747</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>60708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60721">
       <!--Spawn a two-handed sword to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60724">
       <!--Spawn an engraved ebony seal to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60724</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60700">
       <!--Spawn a mithril vest to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60704">
       <!--Spawn a pair of mithril boots to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60748" Count="2" Max="8" Vnum="60708">
       <!--Spawn The stone golem to The north-east watchtower-->
-      <Type>NPC</Type>
-      <Destination>60748</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>60708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60721">
       <!--Spawn a two-handed sword to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60705">
       <!--Spawn a set of mithril leggings to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60705</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a mithril girth to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60706</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60706">
+      <!--Spawn a mithril girth to a pegasus-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60750" Count="1" Max="1" Vnum="60700">
       <!--Spawn The mighty beholder to The Temple of Thalos-->
-      <Type>NPC</Type>
-      <Destination>60750</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>60700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60708">
       <!--Spawn a sturdy iron shield to The mighty beholder-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60708</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a dark green cloak to The mighty beholder-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60723</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60723">
+      <!--Spawn a dark green cloak to an pennatus prisoner-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60754" Count="2" Max="8" Vnum="60708">
       <!--Spawn The stone golem to The south-east watchtower-->
-      <Type>NPC</Type>
-      <Destination>60754</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>60708</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a two-handed sword to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60721</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60721">
+      <!--Spawn a two-handed sword to an pennatus prisoner-->
     </Reset>
-    <Reset>
-      <!--Spawn a mithril helm to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60701</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60701">
+      <!--Spawn a mithril helm to an pennatus prisoner-->
     </Reset>
-    <Reset>
-      <!--Spawn a pair of mithril gauntlets to The stone golem-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>60702</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="60702">
+      <!--Spawn a pair of mithril gauntlets to an pennatus prisoner-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60767" Count="1" Max="2" Vnum="5111">
       <!--Spawn the drow scout to A valley in the dark dwarf forest-->
-      <Type>NPC</Type>
-      <Destination>60767</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>5111</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a commoner's longsword to the drow scout-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>5100</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="5100">
+      <!--Spawn a commoner's longsword to an pennatus prisoner-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60770" Count="2" Max="2" Vnum="5110">
       <!--Spawn the drow guard to Down the path into a dead end-->
-      <Type>NPC</Type>
-      <Destination>60770</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>5110</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a commoner's longsword to the drow guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>5100</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="5100">
+      <!--Spawn a commoner's longsword to an pennatus prisoner-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60770" Count="2" Max="2" Vnum="5110">
       <!--Spawn the drow guard to Down the path into a dead end-->
-      <Type>NPC</Type>
-      <Destination>60770</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>5110</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="5100">
       <!--Spawn a commoner's longsword to the drow guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>5100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="60772" Count="1" Max="2" Vnum="5111">
       <!--Spawn the drow scout to A dim trail in the dwarf forest-->
-      <Type>NPC</Type>
-      <Destination>60772</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>5111</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="5100">
       <!--Spawn a commoner's longsword to the drow scout-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>5100</Vnum>
     </Reset>
   </Resets>
 </Area>

@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>18100</VnumStart>
     <VnumEnd>18199</VnumEnd>
+    <MinimumLevel>30</MinimumLevel>
+    <MaximumLevel>51</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{30 up} Ceran   Drannor, Drow Enclaves</Credits>
+    <Credits>Ceran   Drannor, Drow Enclaves</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -3187,6 +3191,7 @@ freeing and allyng themselves withthe Lord of the ruins.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>5</ManaPointDiceCount>
       <ManaPointDiceBonus>400</ManaPointDiceBonus>
+      <trust>37</trust>
       <hitpoints>740</hitpoints>
       <maxhitpoints>740</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3213,6 +3218,7 @@ freeing and allyng themselves withthe Lord of the ruins.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared Sneak</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3243,6 +3249,7 @@ one.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>300</ManaPointDiceBonus>
+      <trust>43</trust>
       <hitpoints>860</hitpoints>
       <maxhitpoints>860</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3269,6 +3276,7 @@ one.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared Sneak Haste</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3298,6 +3306,7 @@ manibles are almost as long as swords and just as sharp.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3324,6 +3333,7 @@ manibles are almost as long as swords and just as sharp.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3354,6 +3364,7 @@ before the drow that called it forth unleashes it's wrath upon you.</description
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>800</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3380,6 +3391,7 @@ before the drow that called it forth unleashes it's wrath upon you.</description
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>7</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3409,6 +3421,7 @@ the rakshasa and beholders to bother with the likes of you.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>400</ManaPointDiceBonus>
+      <trust>53</trust>
       <hitpoints>1060</hitpoints>
       <maxhitpoints>1060</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3435,6 +3448,7 @@ the rakshasa and beholders to bother with the likes of you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared Sneak</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3464,6 +3478,7 @@ of snakes to bite at you.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>900</ManaPointDiceBonus>
+      <trust>53</trust>
       <hitpoints>1060</hitpoints>
       <maxhitpoints>1060</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3490,6 +3505,7 @@ of snakes to bite at you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3519,6 +3535,7 @@ knows he will reap the rewards.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>48</trust>
       <hitpoints>960</hitpoints>
       <maxhitpoints>960</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3545,6 +3562,7 @@ knows he will reap the rewards.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared Sneak</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3575,6 +3593,7 @@ incisors.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>47</trust>
       <hitpoints>940</hitpoints>
       <maxhitpoints>940</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3601,6 +3620,7 @@ incisors.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3630,6 +3650,7 @@ his human form to take on that which he most admires, the spider.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>900</ManaPointDiceBonus>
+      <trust>53</trust>
       <hitpoints>1060</hitpoints>
       <maxhitpoints>1060</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3656,6 +3677,7 @@ his human form to take on that which he most admires, the spider.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3685,6 +3707,7 @@ the dark-elves, hate, power and darkness all combined.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>20</ManaPointDiceCount>
       <ManaPointDiceBonus>800</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3711,6 +3734,7 @@ the dark-elves, hate, power and darkness all combined.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared Sneak</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>10</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3743,6 +3767,7 @@ are defeated and the beholders compromised with.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>2000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3769,6 +3794,7 @@ are defeated and the beholders compromised with.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Sanctuary Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3798,6 +3824,7 @@ It's starved for life.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>56</trust>
       <hitpoints>1120</hitpoints>
       <maxhitpoints>1120</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3824,6 +3851,7 @@ It's starved for life.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared Sneak Hide Haste</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3856,15 +3884,33 @@ It's starved for life.</description>
       <ExtraFlags>Glow Hum Dark Evil Magic NoDrop AntiGood NoRemove RotDeath</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3875,6 +3921,7 @@ It's starved for life.</description>
       <Material>energy</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -3898,11 +3945,21 @@ It's starved for life.</description>
       <ExtraFlags>Dark Evil Magic VisDeath</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-7" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-7" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3913,6 +3970,7 @@ It's starved for life.</description>
       <Material>silk</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -3936,11 +3994,21 @@ It's starved for life.</description>
       <ExtraFlags>Hum Magic VisDeath</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="35" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="35" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3951,6 +4019,7 @@ It's starved for life.</description>
       <Material>flesh</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>10</ArmorSlash>
       <ArmorPierce>6</ArmorPierce>
@@ -3974,9 +4043,15 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3987,6 +4062,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4010,9 +4086,15 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4023,6 +4105,7 @@ It's starved for life.</description>
       <Material>flesh</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4046,10 +4129,18 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4060,6 +4151,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4083,11 +4175,21 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4098,6 +4200,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4121,10 +4224,18 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4135,6 +4246,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4158,11 +4270,21 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="-50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4173,6 +4295,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>10</ArmorPierce>
@@ -4196,12 +4319,24 @@ It's starved for life.</description>
       <ExtraFlags>Dark Evil VisDeath</ExtraFlags>
       <ItemTypes>Boat</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4212,6 +4347,7 @@ It's starved for life.</description>
       <Material>energy</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4235,9 +4371,15 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic NoDrop AntiGood NoRemove</ExtraFlags>
       <ItemTypes>Wand</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Spells>
         <Spell Level="50" SpellName="gas breath" />
@@ -4251,6 +4393,7 @@ It's starved for life.</description>
       <Material>energy</Material>
       <Charges>3</Charges>
       <MaxCharges>3</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4274,11 +4417,21 @@ It's starved for life.</description>
       <ExtraFlags>Hum Dark Evil Magic AntiGood NoRemove</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-8" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-8" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4289,6 +4442,7 @@ It's starved for life.</description>
       <Material>flesh</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -4312,9 +4466,15 @@ It's starved for life.</description>
       <ExtraFlags>Glow Dark Evil Magic NoDrop NoRemove VisDeath</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="15" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="15" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4325,6 +4485,7 @@ It's starved for life.</description>
       <Material>bone</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>12</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4357,6 +4518,7 @@ It's starved for life.</description>
       <Material>obsidian</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4392,6 +4554,7 @@ It's starved for life.</description>
       <Material>warpstone</Material>
       <Charges>1</Charges>
       <MaxCharges>1</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4415,11 +4578,21 @@ It's starved for life.</description>
       <ExtraFlags>Glow Magic</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-9" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-9" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4430,6 +4603,7 @@ It's starved for life.</description>
       <Material>silk</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -4462,6 +4636,7 @@ It's starved for life.</description>
       <Material>bone</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4482,7 +4657,7 @@ It's starved for life.</description>
       <DiceBonus>1</DiceBonus>
       <Weight>0</Weight>
       <WearFlags></WearFlags>
-      <ExtraFlags>NoPurge Closeable PickProof</ExtraFlags>
+      <ExtraFlags>NoPurge Closable PickProof</ExtraFlags>
       <ItemTypes>Container</ItemTypes>
       <Affects />
       <Silver>0</Silver>
@@ -4494,6 +4669,7 @@ It's starved for life.</description>
       <Material>energy</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4517,10 +4693,18 @@ It's starved for life.</description>
       <ExtraFlags>Dark Evil Magic NoDrop AntiGood NoRemove</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-15" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-15" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4531,6 +4715,7 @@ It's starved for life.</description>
       <Material>ebony</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4539,397 +4724,152 @@ It's starved for life.</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="18103" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to In a dark hallway-->
-      <Type>NPC</Type>
-      <Destination>18103</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18105" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to In a dark hallway-->
-      <Type>NPC</Type>
-      <Destination>18105</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18107" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to In a dark hallway-->
-      <Type>NPC</Type>
-      <Destination>18107</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18109" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to In a dark hallway-->
-      <Type>NPC</Type>
-      <Destination>18109</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18111" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to In a dark hallway-->
-      <Type>NPC</Type>
-      <Destination>18111</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18115" Count="1" Max="4" Vnum="18101">
       <!--Spawn a drider to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18115</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18101</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18117" Count="1" Max="2" Vnum="18102">
       <!--Spawn a spider daemon to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18117</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>18102</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18118" Count="1" Max="4" Vnum="18106">
       <!--Spawn a drow warrior to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18118</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18106</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18113">
       <!--Spawn a drow longsword to a drow warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18113</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18122" Count="1" Max="4" Vnum="18106">
       <!--Spawn a drow warrior to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18122</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18106</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18113">
       <!--Spawn a drow longsword to a drow warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18113</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18125" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18125</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18128" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18128</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18131" Count="1" Max="1" Vnum="18103">
       <!--Spawn a forming demon to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18131</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18103</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="18114">
       <!--Spawn a black stone to a forming demon-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18114</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18133" Count="1" Max="4" Vnum="18106">
       <!--Spawn a drow warrior to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18133</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18106</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18113">
       <!--Spawn a drow longsword to a drow warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18113</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18136" Count="1" Max="4" Vnum="18101">
       <!--Spawn a drider to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18136</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18101</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18140" Count="1" Max="1" Vnum="18105">
       <!--Spawn the Medusa to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18140</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18105</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18104">
       <!--Spawn gloves of the dark-elven skin to the Medusa-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18104</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18111">
       <!--Spawn a wig made from thirteen deadly snakes to the Medusa-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18111</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18144" Count="1" Max="4" Vnum="18101">
       <!--Spawn a drider to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18144</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18101</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18145" Count="1" Max="8" Vnum="18100">
       <!--Spawn a drow patroller to Within the darkened enclaves-->
-      <Type>NPC</Type>
-      <Destination>18145</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>18100</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18147" Count="1" Max="1" Vnum="18111">
       <!--Spawn a drow predator to It's too dark to see!-->
-      <Type>NPC</Type>
-      <Destination>18147</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18111</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18107">
       <!--Spawn a pair of dark-elven boots to a drow predator-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18148" Count="1" Max="2" Vnum="18102">
       <!--Spawn a spider daemon to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18148</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>18102</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18151" Count="1" Max="5" Vnum="18107">
       <!--Spawn a clicking spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18151</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18153" Count="1" Max="5" Vnum="18107">
       <!--Spawn a clicking spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18153</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18154" Count="1" Max="5" Vnum="18107">
       <!--Spawn a clicking spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18154</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18155" Count="1" Max="4" Vnum="18101">
       <!--Spawn a drider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18155</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18101</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18160" Count="1" Max="1" Vnum="18108">
       <!--Spawn a demon spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18160</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18108</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="18115">
       <!--Spawn a quickling belt to a demon spider-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18115</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18164" Count="1" Max="5" Vnum="18107">
       <!--Spawn a clicking spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18164</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18168" Count="1" Max="5" Vnum="18107">
       <!--Spawn a clicking spider to A webbed corridor in the enclaves-->
-      <Type>NPC</Type>
-      <Destination>18168</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>18107</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18171" Count="1" Max="4" Vnum="18106">
       <!--Spawn a drow warrior to In the Lower enclaves-->
-      <Type>NPC</Type>
-      <Destination>18171</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>18106</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18113">
       <!--Spawn a drow longsword to a drow warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18113</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18173" Count="1" Max="1" Vnum="18104">
       <!--Spawn a drow priestess to On a huge web-->
-      <Type>NPC</Type>
-      <Destination>18173</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18104</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18105">
       <!--Spawn a dark-elven battle helm to a drow priestess-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18105</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18106">
       <!--Spawn some drow battle sleeves to a drow priestess-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18106</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18112">
       <!--Spawn a necklace of the drow templars to a drow priestess-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18112</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18176" Count="1" Max="1" Vnum="18109">
       <!--Spawn a dark-elven antipaladin to In a throne room-->
-      <Type>NPC</Type>
-      <Destination>18176</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18109</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18118">
       <!--Spawn a spider-shaped kris to a dark-elven antipaladin-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18118</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18101">
       <!--Spawn a spider-spun cloak to a dark-elven antipaladin-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18101</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18108">
       <!--Spawn some dark-elven leggings to a dark-elven antipaladin-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18108</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="18177" Count="1" Max="1" Vnum="18110">
       <!--Spawn a nosferatu drow prince to In the altar room-->
-      <Type>NPC</Type>
-      <Destination>18177</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>18110</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="18116">
       <!--Spawn a demon-marked key to a nosferatu drow prince-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18116</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18109">
       <!--Spawn Hate to a nosferatu drow prince-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18109</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18103">
       <!--Spawn a suit of the drow battlearmor to a nosferatu drow prince-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18103</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="18110">
       <!--Spawn something dark to a nosferatu drow prince-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>18110</Vnum>
     </Reset>
   </Resets>
 </Area>

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CrimsonStainedLands.World;
 
 namespace CLSMapper
 {
@@ -15,6 +16,11 @@ namespace CLSMapper
         public createSquareForm()
         {
             InitializeComponent();
+        }
+
+        private void createSquareForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

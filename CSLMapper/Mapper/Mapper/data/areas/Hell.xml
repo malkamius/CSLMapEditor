@@ -5,9 +5,12 @@
     <Info></Info>
     <VnumStart>27000</VnumStart>
     <VnumEnd>27099</VnumEnd>
+    <MinimumLevel>40</MinimumLevel>
+    <MaximumLevel>51</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{40 up} Kyrissaean Hell</Credits>
+    <Credits>Kyrissaean Hell</Credits>
+    <Continent>Mainland</Continent>
     <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
@@ -4025,6 +4028,7 @@ one he's currently puffing away at.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4082,6 +4086,7 @@ samples one of his delicious truffles.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4140,6 +4145,7 @@ hunched from his many years of manual labor.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4197,6 +4203,7 @@ turns his back to the book of erotica in his hands.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4254,6 +4261,7 @@ goods as he sells.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4311,6 +4319,7 @@ in toast to you, then tosses it back.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4368,6 +4377,7 @@ a drink and tosses it back.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4430,6 +4440,7 @@ toward your throat, missing you by mere inches.</description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>15000</ManaPointDiceBonus>
+      <trust>60</trust>
       <hitpoints>1200</hitpoints>
       <maxhitpoints>1200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4487,6 +4498,7 @@ blend perfectly into the background.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4545,6 +4557,7 @@ you, but something deep inside warns you to stay away...</description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>10000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4602,6 +4615,7 @@ in stride.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4659,6 +4673,7 @@ he looks to be quite drunk himself.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4716,6 +4731,7 @@ of those watching her.</description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>10000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4775,6 +4791,7 @@ sight.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4832,6 +4849,7 @@ then jumps in and helps thrash the loser.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4887,6 +4905,7 @@ your soul.</description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>12500</ManaPointDiceBonus>
+      <trust>60</trust>
       <hitpoints>1200</hitpoints>
       <maxhitpoints>1200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4943,6 +4962,7 @@ table so he can pay them for table dances.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>1</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -6333,7 +6353,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Sanctuary" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-5" hidden="False" affectType="Spell">
@@ -6385,7 +6405,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="PassDoor" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6483,7 +6503,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectInvis" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6581,7 +6601,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Haste" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6633,10 +6653,10 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="ProtectEvil ProtectionGood" modifier="0" hidden="False" affectType="Spell">
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="ProtectEvil ProtectGood" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-3" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-3" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6682,7 +6702,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="ProtectEvil ProtectionGood" modifier="0" hidden="False" affectType="Spell">
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="ProtectEvil ProtectGood" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell">
@@ -6777,7 +6797,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Flying" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6826,7 +6846,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Invisible" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -6875,7 +6895,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="9" hidden="False" affectType="Spell">
@@ -6921,7 +6941,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Sneak Hide" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-5" hidden="False" affectType="Spell">
@@ -6973,7 +6993,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectInvis DetectHidden" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-5" hidden="False" affectType="Spell">
@@ -7022,7 +7042,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="FaerieFire" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-2" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell">
@@ -7074,7 +7094,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Slow" modifier="0" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-5" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-6" hidden="False" affectType="Spell">
@@ -7241,7 +7261,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-5" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="75" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="75" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="75" hidden="False" affectType="Spell">
@@ -7431,7 +7451,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="30" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="30" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
@@ -7517,7 +7537,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="40" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="40" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="40" hidden="False" affectType="Spell">
@@ -7569,7 +7589,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -7609,7 +7629,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="25" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="25" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell">
@@ -7652,7 +7672,7 @@ table so he can pay them for table dances.</description>
       <ExtraFlags>Evil BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="10" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="10" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell">
@@ -7670,7 +7690,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -7713,7 +7733,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="100" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="100" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -7974,7 +7994,7 @@ table so he can pay them for table dances.</description>
         <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-3" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="65" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="65" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -8037,13 +8057,13 @@ table so he can pay them for table dances.</description>
       <!--Spawn Thanatos to Purgatory-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="27035">
-      <!--Spawn a key to Thanatos-->
+      <!--Spawn a key to Demon-Elf-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="27058">
-      <!--Spawn Thanatos' Scythe to Thanatos-->
+      <!--Spawn Thanatos' Scythe to Angelic Spirit-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="27059">
-      <!--Spawn a Robe made from Illbegotten Souls to Thanatos-->
+      <!--Spawn a Robe made from Illbegotten Souls to Angelic Spirit-->
     </Reset>
     <Reset Type="NPC" Destination="27006" Count="1" Max="4" Vnum="27009">
       <!--Spawn a seccubi to A Bedroom-->
@@ -8088,13 +8108,13 @@ table so he can pay them for table dances.</description>
       <!--Spawn a cigar to the tabacco dealer-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27002">
-      <!--Spawn a package of chewing tabacco to the tabacco dealer-->
+      <!--Spawn a package of chewing tabacco to Guardian of Destruction-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27003">
-      <!--Spawn a pipe to the tabacco dealer-->
+      <!--Spawn a pipe to a lady ranger-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27004">
-      <!--Spawn a package of pipe tabacco to the tabacco dealer-->
+      <!--Spawn a package of pipe tabacco to a lady ranger-->
     </Reset>
     <Reset Type="Item" Destination="27014" Count="0" Max="1" Vnum="27038">
       <!--Spawn a king-sized bed to A Bedroom-->
@@ -8103,7 +8123,7 @@ table so he can pay them for table dances.</description>
       <!--Spawn a dealer to The Craps Tables-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="27060">
-      <!--Spawn a money belt to a dealer-->
+      <!--Spawn a money belt to the marmalade cat-->
     </Reset>
     <Reset Type="Item" Destination="27016" Count="0" Max="1" Vnum="27039">
       <!--Spawn a gaming table to The Craps Tables-->
@@ -8133,22 +8153,22 @@ table so he can pay them for table dances.</description>
       <!--Spawn a piece of rock candy to the confectionist-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27006">
-      <!--Spawn a truffle to the confectionist-->
+      <!--Spawn a truffle to a pixie-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27007">
-      <!--Spawn some gummy bears to the confectionist-->
+      <!--Spawn some gummy bears to a pixie-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27008">
-      <!--Spawn a peanut butter cup to the confectionist-->
+      <!--Spawn a peanut butter cup to a brownie-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="27009">
-      <!--Spawn a piece of marble fudge to the confectionist-->
+      <!--Spawn a piece of marble fudge to a brownie-->
     </Reset>
     <Reset Type="NPC" Destination="27022" Count="1" Max="4" Vnum="27009">
       <!--Spawn a seccubi to A Bedroom-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="27067">
-      <!--Spawn a pair of french cut, fishnet stockings to a seccubi-->
+      <!--Spawn a pair of french cut, fishnet stockings to a pixie-->
     </Reset>
     <Reset Type="Item" Destination="27022" Count="0" Max="1" Vnum="27038">
       <!--Spawn a king-sized bed to A Bedroom-->

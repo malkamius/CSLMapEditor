@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>11000</VnumStart>
     <VnumEnd>11099</VnumEnd>
+    <MinimumLevel>51</MinimumLevel>
+    <MaximumLevel>1</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{51-Up} Kraenesk Dark Forest</Credits>
+    <Credits>Kraenesk Dark Forest</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -1335,6 +1339,7 @@ continue by land.</Description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>60</trust>
       <hitpoints>1200</hitpoints>
       <maxhitpoints>1200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1360,7 +1365,8 @@ continue by land.</Description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectHidden ProtectionEvil ProtectionGood Haste DarkVision Regeneration DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis DetectHidden ProtectEvil ProtectGood Haste DarkVision Regeneration DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>40</DamageDiceSides>
       <DamageDiceCount>20</DamageDiceCount>
@@ -1393,6 +1399,7 @@ darkness.</description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>52</trust>
       <hitpoints>1040</hitpoints>
       <maxhitpoints>1040</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1418,7 +1425,8 @@ darkness.</description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectHidden Sanctuary Infrared ProtectionEvil ProtectionGood Flying DarkVision</affectedBy>
+      <affectedBy>DetectInvis DetectHidden Sanctuary Infrared ProtectEvil ProtectGood Flying DarkVision</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -1447,6 +1455,7 @@ of you and stares you down with his yellow eyes.</description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>52</trust>
       <hitpoints>1040</hitpoints>
       <maxhitpoints>1040</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1472,7 +1481,8 @@ of you and stares you down with his yellow eyes.</description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectHidden ProtectionGood Sneak Flying DarkVision</affectedBy>
+      <affectedBy>DetectInvis DetectHidden ProtectGood Sneak Flying DarkVision</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -1505,12 +1515,24 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic NoDrop AntiGood AntiEvil NoRemove BurnProof NoUncurse Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToVulnerabilities" level="0" duration="-1" location="None" DamageTypes="Silver" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Haste Regeneration" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToVulnerabilities" level="0" duration="-1" location="None" DamageTypes="Silver" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Haste Regeneration" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1521,6 +1543,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1544,13 +1567,27 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic NoDrop AntiGood AntiEvil NoRemove VisDeath BurnProof NoUncurse</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToResist" level="0" duration="-1" location="None" DamageTypes="Magic" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToVulnerabilities" level="0" duration="-1" location="None" DamageTypes="Fire" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-20" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToResist" level="0" duration="-1" location="None" DamageTypes="Magic" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToVulnerabilities" level="0" duration="-1" location="None" DamageTypes="Fire" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1561,6 +1598,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>fur</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1584,11 +1622,21 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic NoDrop AntiGood AntiEvil VisDeath BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell" />
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectEvil DetectMagic DetectGood Sneak" modifier="0" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="100" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="DetectEvil DetectMagic DetectGood Sneak" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1599,6 +1647,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>fur</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1622,10 +1671,18 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic NoDrop AntiGood AntiEvil VisDeath BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-6" hidden="False" affectType="Spell" />
-        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Flying" modifier="0" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-6" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToAffects" level="0" duration="-1" location="None" flags="Flying" modifier="0" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1636,6 +1693,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>soft leather</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1659,10 +1717,18 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic NoDrop AntiGood AntiEvil VisDeath</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1673,6 +1739,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>bone</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1696,10 +1763,18 @@ of you and stares you down with his yellow eyes.</description>
       <ExtraFlags>Glow Hum Magic AntiGood AntiEvil VisDeath BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -1710,6 +1785,7 @@ of you and stares you down with his yellow eyes.</description>
       <Material>bone</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -1718,205 +1794,80 @@ of you and stares you down with his yellow eyes.</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="11008" Count="1" Max="1" Vnum="11002">
       <!--Spawn a large grey wolf to In a dark forest.-->
-      <Type>NPC</Type>
-      <Destination>11008</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11002">
       <!--Spawn a Wolf's hide to a large grey wolf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11013" Count="1" Max="1" Vnum="11002">
       <!--Spawn a large grey wolf to In a dark forest-->
-      <Type>NPC</Type>
-      <Destination>11013</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11002">
       <!--Spawn a Wolf's hide to a large grey wolf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11015" Count="1" Max="1" Vnum="11001">
       <!--Spawn a large bat to At the entrance to a Cave.-->
-      <Type>NPC</Type>
-      <Destination>11015</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11003">
       <!--Spawn a bat's wings to a large bat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11016" Count="1" Max="1" Vnum="11001">
       <!--Spawn a large bat to In a dark cave-->
-      <Type>NPC</Type>
-      <Destination>11016</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11003">
       <!--Spawn a bat's wings to a large bat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11016" Count="1" Max="1" Vnum="11001">
       <!--Spawn a large bat to In a dark cave-->
-      <Type>NPC</Type>
-      <Destination>11016</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11003">
       <!--Spawn a bat's wings to a large bat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11018" Count="1" Max="1" Vnum="11001">
       <!--Spawn a large bat to A passage in the cave-->
-      <Type>NPC</Type>
-      <Destination>11018</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11003">
       <!--Spawn a bat's wings to a large bat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11018" Count="1" Max="1" Vnum="11001">
       <!--Spawn a large bat to A passage in the cave-->
-      <Type>NPC</Type>
-      <Destination>11018</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11003">
       <!--Spawn a bat's wings to a large bat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11020" Count="1" Max="1" Vnum="11000">
       <!--Spawn the bear to Inside the bear's den-->
-      <Type>NPC</Type>
-      <Destination>11020</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11000</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11001">
       <!--Spawn A bear's hide to the bear-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11001</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11004">
       <!--Spawn A large bear's front claws to the bear-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11004</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11005">
       <!--Spawn a large bear's rear claws to the bear-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11005</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11000">
       <!--Spawn A Large bear's Claw to the bear-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11000</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11021" Count="1" Max="1" Vnum="11002">
       <!--Spawn a large grey wolf to In a dark forest-->
-      <Type>NPC</Type>
-      <Destination>11021</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11002">
       <!--Spawn a Wolf's hide to a large grey wolf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11023" Count="1" Max="1" Vnum="11002">
       <!--Spawn a large grey wolf to In a dark forest-->
-      <Type>NPC</Type>
-      <Destination>11023</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11002">
       <!--Spawn a Wolf's hide to a large grey wolf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="11026" Count="1" Max="1" Vnum="11002">
       <!--Spawn a large grey wolf to In a dark forest-->
-      <Type>NPC</Type>
-      <Destination>11026</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>11002</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="11002">
       <!--Spawn a Wolf's hide to a large grey wolf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>11002</Vnum>
     </Reset>
   </Resets>
 </Area>

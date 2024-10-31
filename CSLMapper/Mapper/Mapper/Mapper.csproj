@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLua" Version="1.6.3" />
+    <PackageReference Include="NLua" Version="1.7.3" />
     <PackageReference Include="SkiaSharp" Version="2.88.8" />
   </ItemGroup>
 
@@ -31,6 +31,9 @@
     <None Update="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Settings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

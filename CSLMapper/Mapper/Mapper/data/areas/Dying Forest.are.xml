@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>24300</VnumStart>
     <VnumEnd>24399</VnumEnd>
+    <MinimumLevel>25</MinimumLevel>
+    <MaximumLevel>51</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{25 51} Ceran   Dying Forest</Credits>
+    <Credits>Ceran   Dying Forest</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>101025</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -2718,6 +2722,7 @@ their creatures of the night.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>32</trust>
       <hitpoints>640</hitpoints>
       <maxhitpoints>640</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2744,6 +2749,7 @@ their creatures of the night.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2772,6 +2778,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>2000</ManaPointDiceBonus>
+      <trust>44</trust>
       <hitpoints>880</hitpoints>
       <maxhitpoints>880</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2798,6 +2805,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2826,6 +2834,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>2000</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2852,6 +2861,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2880,6 +2890,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>2000</ManaPointDiceBonus>
+      <trust>59</trust>
       <hitpoints>1180</hitpoints>
       <maxhitpoints>1180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2906,6 +2917,7 @@ battle to drive back the anti-rangers and their darkfriends.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2935,6 +2947,7 @@ to destroy.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2961,6 +2974,7 @@ to destroy.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2991,6 +3005,7 @@ doesn't seem much at ease.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3017,6 +3032,7 @@ doesn't seem much at ease.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3045,6 +3061,7 @@ much of the forest as it can.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>57</trust>
       <hitpoints>1140</hitpoints>
       <maxhitpoints>1140</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3071,6 +3088,7 @@ much of the forest as it can.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared Berserk DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3100,6 +3118,7 @@ and destruction.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>60</trust>
       <hitpoints>1200</hitpoints>
       <maxhitpoints>1200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3126,6 +3145,7 @@ and destruction.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared Berserk DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3154,6 +3174,7 @@ It's mortal form is that of a mass of vines with a life of their own.</descripti
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3180,6 +3201,7 @@ It's mortal form is that of a mass of vines with a life of their own.</descripti
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>10</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -3208,6 +3230,7 @@ Metagar's mortal form as it seeks to destroy nature wherever it finds it.</descr
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3234,6 +3257,7 @@ Metagar's mortal form as it seeks to destroy nature wherever it finds it.</descr
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3263,6 +3287,7 @@ ruined is the most satisfying thing imaginable.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>59</trust>
       <hitpoints>1180</hitpoints>
       <maxhitpoints>1180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3289,6 +3314,7 @@ ruined is the most satisfying thing imaginable.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic Infrared Flying</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>8</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3317,6 +3343,7 @@ it.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>38</trust>
       <hitpoints>760</hitpoints>
       <maxhitpoints>760</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3343,6 +3370,7 @@ it.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3371,6 +3399,7 @@ powerful evil creatures slowly ravage her home.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>20</trust>
       <hitpoints>400</hitpoints>
       <maxhitpoints>400</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3397,6 +3426,7 @@ powerful evil creatures slowly ravage her home.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3425,6 +3455,7 @@ the invasion of the evil creatures it's job has become far more involved.</descr
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3451,6 +3482,7 @@ the invasion of the evil creatures it's job has become far more involved.</descr
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3480,6 +3512,7 @@ teeth.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3506,6 +3539,7 @@ teeth.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectEvil DetectInvis DetectMagic DetectHidden Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -3534,6 +3568,7 @@ now it seeks food...</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>1</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>30</trust>
       <hitpoints>600</hitpoints>
       <maxhitpoints>600</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3560,6 +3595,7 @@ now it seeks food...</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3592,8 +3628,12 @@ now it seeks food...</description>
       <ExtraFlags>AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3604,6 +3644,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>6</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -3627,8 +3668,12 @@ now it seeks food...</description>
       <ExtraFlags>AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3639,6 +3684,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -3662,7 +3708,9 @@ now it seeks food...</description>
       <ExtraFlags>AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3673,6 +3721,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>6</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -3696,8 +3745,12 @@ now it seeks food...</description>
       <ExtraFlags>AntiEvil</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3708,6 +3761,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -3731,8 +3785,12 @@ now it seeks food...</description>
       <ExtraFlags>Hum Bless AntiEvil TwoHands</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3743,6 +3801,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3766,8 +3825,12 @@ now it seeks food...</description>
       <ExtraFlags>Glow Bless</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3778,6 +3841,7 @@ now it seeks food...</description>
       <Material>hair</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>10</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -3801,8 +3865,12 @@ now it seeks food...</description>
       <ExtraFlags>Dark Evil AntiGood</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3813,6 +3881,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3836,8 +3905,12 @@ now it seeks food...</description>
       <ExtraFlags>Hum Dark Evil NoDrop NoRemove</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3848,6 +3921,7 @@ now it seeks food...</description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3871,10 +3945,18 @@ now it seeks food...</description>
       <ExtraFlags>Dark Evil NoDrop AntiGood</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-8" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="35" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-8" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="35" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -3885,6 +3967,7 @@ now it seeks food...</description>
       <Material>wood</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -3893,1037 +3976,392 @@ now it seeks food...</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="24302" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24302</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24304" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24304</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24305" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24305</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24305" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24305</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24305" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24305</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24306" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24306</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24307" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24307</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24308" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24308</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24308" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24308</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24310" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24310</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24310" Count="1" Max="1" Vnum="24309">
       <!--Spawn Belqark to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24310</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24309</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24310" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24310</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24311" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24311</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24314" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24314</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24314" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24314</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24314" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24314</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24315" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24315</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24315" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24315</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24316" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24316</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24317" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24317</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24317" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24317</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24318" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24318</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24318" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24318</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24319" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24319</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24319" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24319</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24319" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24319</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24319" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24319</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24320" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24320</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24321" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24321</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24321" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24321</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24321" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24321</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24322" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24322</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24322" Count="1" Max="1" Vnum="24310">
       <!--Spawn Metagar to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24322</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24310</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24309">
       <!--Spawn Fist of the Earth to Metagar-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24309</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24323" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24323</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24323" Count="1" Max="1" Vnum="24311">
       <!--Spawn Lethrak to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24323</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24311</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24323" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24323</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24324" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24324</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24325" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24325</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24308">
       <!--Spawn a blackened bastard sword to an anti-ranger-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24308</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24325" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24325</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24326" Count="3" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24326</Destination>
-      <Count>3</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24326" Count="3" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24326</Destination>
-      <Count>3</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24326" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24326</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24326" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24326</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24328" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24328</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24328" Count="2" Max="7" Vnum="24312">
       <!--Spawn a centaur scout to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24328</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24328" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24328</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24329" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24329</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24330" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24330</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24331" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24331</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24332" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24332</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24333" Count="2" Max="10" Vnum="24305">
       <!--Spawn an anti-ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24333</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24333" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24333</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24333" Count="3" Max="6" Vnum="24316">
       <!--Spawn a marauder troll to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24333</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>24316</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24335" Count="1" Max="1" Vnum="24307">
       <!--Spawn Rimlarker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24335</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24307</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24336" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24336</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24336" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24336</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24336" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24336</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24337" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24337</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24337" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24337</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24337" Count="2" Max="7" Vnum="24313">
       <!--Spawn a dryad to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24337</Destination>
-      <Count>2</Count>
-      <Max>7</Max>
-      <Vnum>24313</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24338" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24338</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24338" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24338</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24339" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24339</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24339" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24339</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24341" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24341</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24341" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24341</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24342" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24342</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24342" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24342</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24344" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24344</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24345" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24345</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24346" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24346</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24347" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24347</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24301">
       <!--Spawn a steel centaur bracer to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24347" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24347</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24348" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24348</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24348" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24348</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24349" Count="3" Max="12" Vnum="24314">
       <!--Spawn a centaur to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24349</Destination>
-      <Count>3</Count>
-      <Max>12</Max>
-      <Vnum>24314</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24351" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24351</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24351" Count="1" Max="5" Vnum="24303">
       <!--Spawn a centaur captain to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24351</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>24303</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24352" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24352</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24353" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24353</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24353" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24353</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24355" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24355</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24356" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24356</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24359" Count="1" Max="5" Vnum="24303">
       <!--Spawn a centaur captain to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24359</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>24303</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24360" Count="1" Max="5" Vnum="24303">
       <!--Spawn a centaur captain to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24360</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>24303</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24362" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24362</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24363" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24363</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24300">
       <!--Spawn a pair of centaur armguards to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24300</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24364" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Settlement-->
-      <Type>NPC</Type>
-      <Destination>24364</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24365" Count="1" Max="5" Vnum="24303">
       <!--Spawn a centaur captain to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24365</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>24303</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24366" Count="1" Max="1" Vnum="24304">
       <!--Spawn the Centaur Leader to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24366</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24304</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24305">
       <!--Spawn a steel-tipped spear to the Centaur Leader-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24305</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24306">
       <!--Spawn a circlet of braided centaur hair to the Centaur Leader-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24367" Count="4" Max="18" Vnum="24301">
       <!--Spawn a centaur guardian to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24367</Destination>
-      <Count>4</Count>
-      <Max>18</Max>
-      <Vnum>24301</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24302">
       <!--Spawn a centaur helm to a centaur guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24367" Count="2" Max="9" Vnum="24302">
       <!--Spawn a centaur ranger to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24367</Destination>
-      <Count>2</Count>
-      <Max>9</Max>
-      <Vnum>24302</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24367" Count="1" Max="5" Vnum="24303">
       <!--Spawn a centaur captain to Within a Centaur Hut-->
-      <Type>NPC</Type>
-      <Destination>24367</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>24303</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24369" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24369</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24370" Count="3" Max="8" Vnum="24315">
       <!--Spawn a dark stalker to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24370</Destination>
-      <Count>3</Count>
-      <Max>8</Max>
-      <Vnum>24315</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24371" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24371</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24371" Count="1" Max="1" Vnum="24308">
       <!--Spawn Medagar to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24371</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>24308</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="24312">
       <!--Spawn a casing of ebonwood bark to Medagar-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>24312</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="24372" Count="1" Max="10" Vnum="24306">
       <!--Spawn a greater Forest naga to Within the Dying Forest-->
-      <Type>NPC</Type>
-      <Destination>24372</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>24306</Vnum>
     </Reset>
   </Resets>
 </Area>

@@ -1,4 +1,5 @@
 ﻿using CrimsonStainedLands;
+using CrimsonStainedLands.World;
 
 namespace CLSMapper
 {

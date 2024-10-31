@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>7700</VnumStart>
     <VnumEnd>7799</VnumEnd>
+    <MinimumLevel>10</MinimumLevel>
+    <MaximumLevel>35</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{10 35} Andersen Astral/Githyanki</Credits>
+    <Credits>Andersen Astral/Githyanki</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -4194,6 +4198,7 @@ It stands before you with arms folded, seemingly uninterested in you.</descripti
       <ManaPointDiceSides>18</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>37</trust>
       <hitpoints>740</hitpoints>
       <maxhitpoints>740</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4219,7 +4224,8 @@ It stands before you with arms folded, seemingly uninterested in you.</descripti
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectHidden Sanctuary ProtectionEvil DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis DetectHidden Sanctuary ProtectEvil DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4249,6 +4255,7 @@ than the darkest night, and hooves that burn with unholy fires.</description>
       <ManaPointDiceSides>9</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>18</trust>
       <hitpoints>360</hitpoints>
       <maxhitpoints>360</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4275,6 +4282,7 @@ than the darkest night, and hooves that burn with unholy fires.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared Flying DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -4304,6 +4312,7 @@ master to torment.</description>
       <ManaPointDiceSides>24</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>24</trust>
       <hitpoints>480</hitpoints>
       <maxhitpoints>480</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4330,6 +4339,7 @@ master to torment.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4358,6 +4368,7 @@ feel nothing, not even the slightest of motions.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>17</trust>
       <hitpoints>340</hitpoints>
       <maxhitpoints>340</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4384,6 +4395,7 @@ feel nothing, not even the slightest of motions.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Invisible Flying DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4412,6 +4424,7 @@ mindlessly, unaware of its surroundings.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4438,6 +4451,7 @@ mindlessly, unaware of its surroundings.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4467,6 +4481,7 @@ and sunken.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4493,6 +4508,7 @@ and sunken.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden Infrared Sneak DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4523,6 +4539,7 @@ whistles through the air as it slices towards your neck.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4549,6 +4566,7 @@ whistles through the air as it slices towards your neck.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -4579,6 +4597,7 @@ whistles through the air as it slices towards your neck.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4605,6 +4624,7 @@ whistles through the air as it slices towards your neck.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -4635,6 +4655,7 @@ of his sword against its scabbard as it is unsheathed.</description>
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4661,6 +4682,7 @@ of his sword against its scabbard as it is unsheathed.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4691,6 +4713,7 @@ of his sword against its scabbard as it is unsheathed.</description>
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4717,6 +4740,7 @@ of his sword against its scabbard as it is unsheathed.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -4747,6 +4771,7 @@ people.  You notice this from the blast of lightning headed towards you.</descri
       <ManaPointDiceSides>11</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4773,6 +4798,7 @@ people.  You notice this from the blast of lightning headed towards you.</descri
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -4803,6 +4829,7 @@ people.  You notice this from the blast of lightning headed towards you.</descri
       <ManaPointDiceSides>11</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>11</trust>
       <hitpoints>220</hitpoints>
       <maxhitpoints>220</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4829,6 +4856,7 @@ people.  You notice this from the blast of lightning headed towards you.</descri
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -4859,6 +4887,7 @@ your back.</description>
       <ManaPointDiceSides>20</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>20</trust>
       <hitpoints>400</hitpoints>
       <maxhitpoints>400</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4885,6 +4914,7 @@ your back.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4915,6 +4945,7 @@ hollow eyes sends you into paroxysms of fright.</description>
       <ManaPointDiceSides>15</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>30</trust>
       <hitpoints>600</hitpoints>
       <maxhitpoints>600</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4941,6 +4972,7 @@ hollow eyes sends you into paroxysms of fright.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectMagic DetectHidden Sanctuary Infrared DetectIllusion Flying PassDoor DarkVision</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -4974,6 +5006,7 @@ to tighten.  You are about to die.</description>
       <ManaPointDiceSides>17</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5000,6 +5033,7 @@ to tighten.  You are about to die.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Invisible DetectInvis DetectHidden Sanctuary Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -5030,6 +5064,7 @@ true living beings it encounters, including you.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>16</trust>
       <hitpoints>320</hitpoints>
       <maxhitpoints>320</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5056,6 +5091,7 @@ true living beings it encounters, including you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared Flying PassDoor DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -5085,6 +5121,7 @@ are bitter enemies, and this one happened to get caught.  He intends to escape.<
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5111,6 +5148,7 @@ are bitter enemies, and this one happened to get caught.  He intends to escape.<
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -5140,6 +5178,7 @@ by the githyanki.  It cringes as you approach.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>8</trust>
       <hitpoints>160</hitpoints>
       <maxhitpoints>160</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5166,6 +5205,7 @@ by the githyanki.  It cringes as you approach.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -5196,6 +5236,7 @@ from his open mouth.</description>
       <ManaPointDiceSides>28</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>28</trust>
       <hitpoints>560</hitpoints>
       <maxhitpoints>560</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5222,6 +5263,7 @@ from his open mouth.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared Flying</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -5249,6 +5291,7 @@ from his open mouth.</description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>13</trust>
       <hitpoints>260</hitpoints>
       <maxhitpoints>260</maxhitpoints>
       <manapoints>0</manapoints>
@@ -5275,6 +5318,7 @@ from his open mouth.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -5307,9 +5351,15 @@ from his open mouth.</description>
       <ExtraFlags>AntiGood AntiEvil</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="6" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="6" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5320,6 +5370,7 @@ from his open mouth.</description>
       <Material>wood</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5362,6 +5413,7 @@ from his open mouth.</description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5403,6 +5455,7 @@ from his open mouth.</description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5445,6 +5498,7 @@ writings etched deep into its surface.</Description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5473,8 +5527,12 @@ writings etched deep into its surface.</Description>
       <ExtraFlags>Evil NoDrop</ExtraFlags>
       <ItemTypes>Wand</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="-1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Spells>
         <Spell Level="25" SpellName="energy drain" />
@@ -5488,6 +5546,7 @@ writings etched deep into its surface.</Description>
       <Material>glass</Material>
       <Charges>5</Charges>
       <MaxCharges>5</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5520,7 +5579,9 @@ not to utter aloud.</Description>
       <ExtraFlags>Evil NoDrop</ExtraFlags>
       <ItemTypes>Talisman</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="-10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="-10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Spells>
         <Spell Level="25" SpellName="flamestrike" />
@@ -5534,6 +5595,7 @@ not to utter aloud.</Description>
       <Material>wood</Material>
       <Charges>5</Charges>
       <MaxCharges>5</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5565,8 +5627,12 @@ Engraved in the center is one word.  Merely reading the word induces fright.</De
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5577,6 +5643,7 @@ Engraved in the center is one word.  Merely reading the word induces fright.</De
       <Material>silver</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5607,8 +5674,12 @@ fluid to the touch.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5619,6 +5690,7 @@ fluid to the touch.</Description>
       <Material>silver</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5649,9 +5721,15 @@ fluid to the touch.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5662,6 +5740,7 @@ fluid to the touch.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5692,8 +5771,12 @@ could probably cut through stone.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5704,6 +5787,7 @@ could probably cut through stone.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5734,8 +5818,12 @@ could probably cut through stone.</Description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5746,6 +5834,7 @@ could probably cut through stone.</Description>
       <Material>silver</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5776,7 +5865,9 @@ fluid to the touch.</Description>
       <ExtraFlags>Hum Evil</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5787,6 +5878,7 @@ fluid to the touch.</Description>
       <Material>iron</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5817,10 +5909,18 @@ barbs on it.</Description>
       <ExtraFlags>Evil NoDrop NoRemove</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="-1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="-1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5831,6 +5931,7 @@ barbs on it.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5861,8 +5962,12 @@ Maybe picking it up wasn't such a good idea.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5873,6 +5978,7 @@ Maybe picking it up wasn't such a good idea.</Description>
       <Material>stone</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5911,6 +6017,7 @@ ease.  The flame creates a light that allows you to see for miles.</Description>
       <Material>dust</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5948,6 +6055,7 @@ ease.  The flame creates a light that allows you to see for miles.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>6</ArmorSlash>
       <ArmorPierce>6</ArmorPierce>
@@ -5986,6 +6094,7 @@ quality of steels.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -6024,6 +6133,7 @@ quality of steels.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -6053,9 +6163,15 @@ quality of steels.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6066,6 +6182,7 @@ quality of steels.</Description>
       <Material>steel</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -6095,8 +6212,12 @@ quality of steels.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-6" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Saves" modifier="-2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-6" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6107,6 +6228,7 @@ quality of steels.</Description>
       <Material>leather</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -6150,6 +6272,7 @@ to a husk.  It is covered with stains, burns, scorch marks, and blood.</Descript
       <Material>glass</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6191,6 +6314,7 @@ to a husk.  It is covered with stains, burns, scorch marks, and blood.</Descript
       <Material>glass</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6233,6 +6357,7 @@ to a husk.  It is covered with stains, burns, scorch marks, and blood.</Descript
       <Material>glass</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6274,6 +6399,7 @@ to a husk.  It is covered with stains, burns, scorch marks, and blood.</Descript
       <Material>chocolate</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6300,7 +6426,7 @@ interior that must be savored, not swallowed.</Description>
       <DiceBonus>1</DiceBonus>
       <Weight>10</Weight>
       <WearFlags>Take Hold</WearFlags>
-      <ExtraFlags>Invisibility</ExtraFlags>
+      <ExtraFlags>Invis</ExtraFlags>
       <ItemTypes>Key</ItemTypes>
       <Affects />
       <Silver>0</Silver>
@@ -6312,6 +6438,7 @@ interior that must be savored, not swallowed.</Description>
       <Material>wood</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6350,6 +6477,7 @@ Inscribed on its exterior loop are markings in an alien tongue.</Description>
       <Material>leather</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6363,1205 +6491,455 @@ Inscribed on its exterior loop are markings in an alien tongue.</Description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="7706" Count="1" Max="1" Vnum="7700">
       <!--Spawn The Astral Guardian to The Astral Gate-->
-      <Type>NPC</Type>
-      <Destination>7706</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7700">
       <!--Spawn a massive slate-grey sledgehammer to The Astral Guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7700</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7713" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Roaming the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7713</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7714" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Roaming the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7714</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7715" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Roaming the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7715</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7716" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Roaming the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7716</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7717" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Roaming the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7717</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7718" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7718</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7718" Count="2" Max="8" Vnum="7705">
       <!--Spawn A githyanki hunter to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7718</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>7705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7707">
       <!--Spawn a silvery dagger to A githyanki hunter-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7719" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7719</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7720" Count="1" Max="4" Vnum="7703">
       <!--Spawn An invisible stalker to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7720</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7714">
       <!--Spawn some astral powder to An invisible stalker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7720" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7720</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7720" Count="2" Max="8" Vnum="7705">
       <!--Spawn A githyanki hunter to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7720</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>7705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7707">
       <!--Spawn a silvery dagger to A githyanki hunter-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7721" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7721</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7722" Count="1" Max="10" Vnum="7704">
       <!--Spawn A poor soulless being to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7722</Destination>
-      <Count>1</Count>
-      <Max>10</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="3022">
       <!--Spawn a long sword to A poor soulless being-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3022</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7722" Count="2" Max="8" Vnum="7705">
       <!--Spawn A githyanki hunter to Wandering the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7722</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>7705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7707">
       <!--Spawn a silvery dagger to A githyanki hunter-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7723" Count="3" Max="6" Vnum="7706">
       <!--Spawn A githyanki warrior to Travelling the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7723</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7724" Count="1" Max="4" Vnum="7703">
       <!--Spawn An invisible stalker to Travelling the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7724</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7714">
       <!--Spawn some astral powder to An invisible stalker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7724" Count="2" Max="8" Vnum="7705">
       <!--Spawn A githyanki hunter to Travelling the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7724</Destination>
-      <Count>2</Count>
-      <Max>8</Max>
-      <Vnum>7705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7707">
       <!--Spawn a silvery dagger to A githyanki hunter-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7726" Count="1" Max="4" Vnum="7703">
       <!--Spawn An invisible stalker to Travelling the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7726</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7714">
       <!--Spawn some astral powder to An invisible stalker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7727" Count="3" Max="6" Vnum="7706">
       <!--Spawn A githyanki warrior to Travelling the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7727</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki warrior-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7729" Count="3" Max="6" Vnum="7710">
       <!--Spawn An evil gish to Traversing the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7729</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>7710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7730" Count="1" Max="4" Vnum="7703">
       <!--Spawn An invisible stalker to Traversing the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7730</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7714">
       <!--Spawn some astral powder to An invisible stalker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7730" Count="2" Max="3" Vnum="7708">
       <!--Spawn A githyanki knight to Traversing the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7730</Destination>
-      <Count>2</Count>
-      <Max>3</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7709">
       <!--Spawn a thin two-handed sword to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7716">
       <!--Spawn a splint mail skirt to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7717">
       <!--Spawn a pair of splint mail sleeves to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7731" Count="3" Max="6" Vnum="7710">
       <!--Spawn An evil gish to Traversing the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7731</Destination>
-      <Count>3</Count>
-      <Max>6</Max>
-      <Vnum>7710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7733" Count="1" Max="2" Vnum="7701">
       <!--Spawn A pitch-black nightmare to Lost in the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7733</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>7701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7704">
       <!--Spawn a small demon's amulet to A pitch-black nightmare-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7734" Count="1" Max="2" Vnum="7701">
       <!--Spawn A pitch-black nightmare to Lost in the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7734</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>7701</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7704">
       <!--Spawn a small demon's amulet to A pitch-black nightmare-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7704</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7745" Count="1" Max="3" Vnum="7715">
       <!--Spawn An insubstantial ghost to Deep Within the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7745</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7721">
       <!--Spawn a vial of murky fluid to An insubstantial ghost-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7746" Count="1" Max="1" Vnum="7702">
       <!--Spawn An evil night hag to Deep Within the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7746</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7705">
       <!--Spawn a devilish talisman to An evil night hag-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7705</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7747" Count="1" Max="3" Vnum="7715">
       <!--Spawn An insubstantial ghost to Deep Within the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7747</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7721">
       <!--Spawn a vial of murky fluid to An insubstantial ghost-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7749" Count="1" Max="3" Vnum="7715">
       <!--Spawn An insubstantial ghost to Deep Within the Astral Plane-->
-      <Type>NPC</Type>
-      <Destination>7749</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7721">
       <!--Spawn a vial of murky fluid to An insubstantial ghost-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7721</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7751" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to A guard station-->
-      <Type>NPC</Type>
-      <Destination>7751</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7751" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to A guard station-->
-      <Type>NPC</Type>
-      <Destination>7751</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7753" Count="1" Max="6" Vnum="7711">
       <!--Spawn An evil gish to A grey road-->
-      <Type>NPC</Type>
-      <Destination>7753</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7755" Count="1" Max="3" Vnum="7708">
       <!--Spawn A githyanki knight to A grey road-->
-      <Type>NPC</Type>
-      <Destination>7755</Destination>
-      <Count>1</Count>
-      <Max>3</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a thin two-handed sword to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7709</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7709">
+      <!--Spawn a thin two-handed sword to a strong giant guard-->
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to a strong giant guard-->
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail skirt to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7716</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7716">
+      <!--Spawn a splint mail skirt to a strong giant guard-->
     </Reset>
-    <Reset>
-      <!--Spawn a pair of splint mail sleeves to A githyanki knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7717</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7717">
+      <!--Spawn a pair of splint mail sleeves to a strong giant guard-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7759" Count="1" Max="6" Vnum="7711">
       <!--Spawn An evil gish to A grey road-->
-      <Type>NPC</Type>
-      <Destination>7759</Destination>
-      <Count>1</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7762" Count="2" Max="6" Vnum="7711">
       <!--Spawn An evil gish to A small building-->
-      <Type>NPC</Type>
-      <Destination>7762</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7762" Count="2" Max="6" Vnum="7711">
       <!--Spawn An evil gish to A small building-->
-      <Type>NPC</Type>
-      <Destination>7762</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
       <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7722">
+      <!--Spawn a silvery-colored potion to the weeping elf-->
+    </Reset>
+    <Reset Type="NPC" Destination="7763" Count="2" Max="6" Vnum="7711">
+      <!--Spawn An evil gish to A small building-->
+    </Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
+      <!--Spawn a silvery knife to the dying gnome-->
+    </Reset>
+    <Reset Type="NPC" Destination="7763" Count="2" Max="6" Vnum="7711">
+      <!--Spawn An evil gish to A small building-->
+    </Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7706">
+      <!--Spawn a silvery knife to An evil gish-->
+    </Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7722">
       <!--Spawn a silvery-colored potion to An evil gish-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7722</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn An evil gish to A small building-->
-      <Type>NPC</Type>
-      <Destination>7763</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
-    </Reset>
-    <Reset>
-      <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
-    </Reset>
-    <Reset>
-      <!--Spawn An evil gish to A small building-->
-      <Type>NPC</Type>
-      <Destination>7763</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>7711</Vnum>
-    </Reset>
-    <Reset>
-      <!--Spawn a silvery knife to An evil gish-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7706</Vnum>
-    </Reset>
-    <Reset>
-      <!--Spawn a silvery-colored potion to An evil gish-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7722</Vnum>
-    </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7764" Count="1" Max="4" Vnum="7712">
       <!--Spawn A warlock of the Gith to A large dwelling-->
-      <Type>NPC</Type>
-      <Destination>7764</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7712</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a silvery sword to A warlock of the Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7710</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7710">
+      <!--Spawn a silvery sword to the weeping elf-->
     </Reset>
-    <Reset>
-      <!--Spawn a scroll with githyanki writings on it to A warlock of the Gith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7703</Vnum>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7703">
+      <!--Spawn a scroll with githyanki writings on it to the weeping elf-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7765" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to The Githyanki Weaponry-->
-      <Type>NPC</Type>
-      <Destination>7765</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to the weeping elf-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7765" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to The Githyanki Weaponry-->
-      <Type>NPC</Type>
-      <Destination>7765</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
+      <!--Spawn an extremely sharp and thin sword to the dying gnome-->
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to the dying gnome-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7767" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to The Githyanki Armoury-->
-      <Type>NPC</Type>
-      <Destination>7767</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to the weeping elf-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7767" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to The Githyanki Armoury-->
-      <Type>NPC</Type>
-      <Destination>7767</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
+      <!--Spawn an extremely sharp and thin sword to the weeping elf-->
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to the weeping elf-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="1" Max="1" Vnum="7718">
       <!--Spawn The enslaved red dragon to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7718</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7713">
       <!--Spawn a brightly flaming stone to The enslaved red dragon-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7713</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7768" Count="6" Max="6" Vnum="7719">
       <!--Spawn A massive blast of fire to Inside the furnace-->
-      <Type>NPC</Type>
-      <Destination>7768</Destination>
-      <Count>6</Count>
-      <Max>6</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7769" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to A guard station-->
-      <Type>NPC</Type>
-      <Destination>7769</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
       <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7769" Count="1" Max="8" Vnum="7707">
       <!--Spawn A githyanki guardian to A guard station-->
-      <Type>NPC</Type>
-      <Destination>7769</Destination>
-      <Count>1</Count>
-      <Max>8</Max>
-      <Vnum>7707</Vnum>
     </Reset>
-    <Reset>
-      <!--Spawn an extremely sharp and thin sword to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7708</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7708">
+      <!--Spawn an extremely sharp and thin sword to the screaming elf-->
     </Reset>
-    <Reset>
-      <!--Spawn a splint mail vest to A githyanki guardian-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
+      <!--Spawn a splint mail vest to the screaming elf-->
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7771" Count="1" Max="1" Vnum="7717">
       <!--Spawn A tortured mindflayer prisoner to A cramped cell-->
-      <Type>NPC</Type>
-      <Destination>7771</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7772" Count="1" Max="1" Vnum="7716">
       <!--Spawn An imprisoned githzerai to A tiny cell-->
-      <Type>NPC</Type>
-      <Destination>7772</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7773" Count="1" Max="4" Vnum="7712">
       <!--Spawn A warlock of the Gith to A large dwelling-->
-      <Type>NPC</Type>
-      <Destination>7773</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>7712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7710">
       <!--Spawn a silvery sword to A warlock of the Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7703">
       <!--Spawn a scroll with githyanki writings on it to A warlock of the Gith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7774" Count="2" Max="4" Vnum="7712">
       <!--Spawn A warlock of the Gith to South End of the Hall-->
-      <Type>NPC</Type>
-      <Destination>7774</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>7712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7710">
       <!--Spawn a silvery sword to A warlock of the Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7703">
       <!--Spawn a scroll with githyanki writings on it to A warlock of the Gith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7774" Count="2" Max="4" Vnum="7712">
       <!--Spawn A warlock of the Gith to South End of the Hall-->
-      <Type>NPC</Type>
-      <Destination>7774</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>7712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7710">
       <!--Spawn a silvery sword to A warlock of the Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7710</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7703">
       <!--Spawn a scroll with githyanki writings on it to A warlock of the Gith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7703</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7776" Count="2" Max="2" Vnum="7709">
       <!--Spawn A githyanki protector to The Altar Chamber-->
-      <Type>NPC</Type>
-      <Destination>7776</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>7709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7709">
       <!--Spawn a thin two-handed sword to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7716">
       <!--Spawn a splint mail skirt to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7717">
       <!--Spawn a pair of splint mail sleeves to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7718">
       <!--Spawn a pair of ornately designed gauntlets to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7718</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7776" Count="2" Max="2" Vnum="7709">
       <!--Spawn A githyanki protector to The Altar Chamber-->
-      <Type>NPC</Type>
-      <Destination>7776</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>7709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7709">
       <!--Spawn a thin two-handed sword to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7709</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7715">
       <!--Spawn a splint mail vest to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7715</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7716">
       <!--Spawn a splint mail skirt to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7716</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7717">
       <!--Spawn a pair of splint mail sleeves to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7717</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7718">
       <!--Spawn a pair of ornately designed gauntlets to A githyanki protector-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7718</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7777" Count="1" Max="1" Vnum="7713">
       <!--Spawn The lich-queen to Before the Altar-->
-      <Type>NPC</Type>
-      <Destination>7777</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7713</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7711">
       <!--Spawn an iron barbed flail to The lich-queen-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7711</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7724">
       <!--Spawn a black pentagram to The lich-queen-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7724</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7702">
       <!--Spawn a black etched tablet to The lich-queen-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7702</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="7779" Count="1" Max="1" Vnum="7714">
       <!--Spawn Lord Gith to Utter darkness and despair-->
-      <Type>NPC</Type>
-      <Destination>7779</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>7714</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7712">
       <!--Spawn the unholy sword of the githyanki to Lord Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7712</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="7719">
       <!--Spawn a decaying vest made from cracked leather to Lord Gith-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7719</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="7725">
       <!--Spawn a rotting pouch to Lord Gith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>7725</Vnum>
     </Reset>
   </Resets>
 </Area>

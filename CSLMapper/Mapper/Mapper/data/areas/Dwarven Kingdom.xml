@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>6500</VnumStart>
     <VnumEnd>6599</VnumEnd>
+    <MinimumLevel>10</MinimumLevel>
+    <MaximumLevel>25</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{10 25} Anon    Dwarven Kingdom</Credits>
+    <Credits>Anon    Dwarven Kingdom</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -1641,6 +1645,7 @@ The dwarven kingdom lies to the east.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>20</trust>
       <hitpoints>400</hitpoints>
       <maxhitpoints>400</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1667,6 +1672,7 @@ The dwarven kingdom lies to the east.</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -1694,6 +1700,7 @@ The dwarven kingdom lies to the east.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>12</trust>
       <hitpoints>240</hitpoints>
       <maxhitpoints>240</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1720,6 +1727,7 @@ The dwarven kingdom lies to the east.</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>10</DamageDiceCount>
@@ -1747,6 +1755,7 @@ The dwarven kingdom lies to the east.</Description>
       <ManaPointDiceSides>14</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>29</trust>
       <hitpoints>580</hitpoints>
       <maxhitpoints>580</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1773,6 +1782,7 @@ The dwarven kingdom lies to the east.</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectHidden DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>12</DamageDiceCount>
@@ -1800,6 +1810,7 @@ The dwarven kingdom lies to the east.</Description>
       <ManaPointDiceSides>17</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1826,6 +1837,7 @@ The dwarven kingdom lies to the east.</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -1854,6 +1866,7 @@ The dwarven kingdom lies to the east.</Description>
       <ManaPointDiceSides>17</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1880,6 +1893,7 @@ The dwarven kingdom lies to the east.</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -1909,6 +1923,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>9</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>18</trust>
       <hitpoints>360</hitpoints>
       <maxhitpoints>360</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1935,6 +1950,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -1962,6 +1978,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>16</trust>
       <hitpoints>320</hitpoints>
       <maxhitpoints>320</maxhitpoints>
       <manapoints>0</manapoints>
@@ -1988,6 +2005,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2015,6 +2033,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>8</trust>
       <hitpoints>160</hitpoints>
       <maxhitpoints>160</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2041,6 +2060,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2068,6 +2088,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>21</trust>
       <hitpoints>420</hitpoints>
       <maxhitpoints>420</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2094,6 +2115,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2121,6 +2143,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2147,6 +2170,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectInvis Sanctuary Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2174,6 +2198,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>1</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>3</trust>
       <hitpoints>60</hitpoints>
       <maxhitpoints>60</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2200,6 +2225,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2227,6 +2253,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2253,6 +2280,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2280,6 +2308,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2306,6 +2335,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -2333,6 +2363,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2359,6 +2390,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2386,6 +2418,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>16</trust>
       <hitpoints>320</hitpoints>
       <maxhitpoints>320</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2412,6 +2445,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Infrared</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2439,6 +2473,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2465,6 +2500,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2492,6 +2528,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>14</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>29</trust>
       <hitpoints>580</hitpoints>
       <maxhitpoints>580</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2518,6 +2555,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sanctuary DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>12</DamageDiceCount>
@@ -2545,6 +2583,7 @@ habitat.  He looks very powerful.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2571,6 +2610,7 @@ habitat.  He looks very powerful.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2612,6 +2652,7 @@ habitat.  He looks very powerful.</description>
       <Material>iron</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2644,6 +2685,7 @@ habitat.  He looks very powerful.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2676,6 +2718,7 @@ habitat.  He looks very powerful.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -2711,6 +2754,7 @@ habitat.  He looks very powerful.</description>
       <Material>oldstyle</Material>
       <Charges>10</Charges>
       <MaxCharges>10</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2743,6 +2787,7 @@ habitat.  He looks very powerful.</description>
       <Material>wood</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2775,6 +2820,7 @@ habitat.  He looks very powerful.</description>
       <Material>wood</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2798,8 +2844,12 @@ habitat.  He looks very powerful.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -2810,6 +2860,7 @@ habitat.  He looks very powerful.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2842,6 +2893,7 @@ habitat.  He looks very powerful.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -2865,8 +2917,12 @@ habitat.  He looks very powerful.</description>
       <ExtraFlags>Magic</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -2877,6 +2933,7 @@ habitat.  He looks very powerful.</description>
       <Material>gold</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2900,8 +2957,12 @@ habitat.  He looks very powerful.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -2912,6 +2973,7 @@ habitat.  He looks very powerful.</description>
       <Material>mithril</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>5</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -2944,6 +3006,7 @@ habitat.  He looks very powerful.</description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -2982,6 +3045,7 @@ it's not suitable for transmission across a public data network.</Description>
       <Material>iron</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3014,6 +3078,7 @@ it's not suitable for transmission across a public data network.</Description>
       <Material>iron</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3046,6 +3111,7 @@ it's not suitable for transmission across a public data network.</Description>
       <Material>coal</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3078,6 +3144,7 @@ it's not suitable for transmission across a public data network.</Description>
       <Material>iron</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3113,6 +3180,7 @@ it's not suitable for transmission across a public data network.</Description>
       <Material>pill</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3152,6 +3220,7 @@ used for a while.</Description>
       <Material>paper</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -3202,773 +3271,293 @@ Kingdom</Description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="6501" Count="2" Max="6" Vnum="6501">
       <!--Spawn the dwarven worker to Path, base of mountain-->
-      <Type>NPC</Type>
-      <Destination>6501</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>6501</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6502" Count="2" Max="6" Vnum="6501">
       <!--Spawn the dwarven worker to Path, middle of mountain-->
-      <Type>NPC</Type>
-      <Destination>6502</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>6501</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6503" Count="0" Max="1" Vnum="6507">
       <!--Spawn long, black stick to Top of mountain-->
-      <Type>Item</Type>
-      <Destination>6503</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6503" Count="2" Max="6" Vnum="6501">
       <!--Spawn the dwarven worker to Top of mountain-->
-      <Type>NPC</Type>
-      <Destination>6503</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>6501</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6505" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Entrance to Mountain-->
-      <Type>NPC</Type>
-      <Destination>6505</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6502">
       <!--Spawn a deep green key to the dwarven guard-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6502</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6505" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Entrance to Mountain-->
-      <Type>NPC</Type>
-      <Destination>6505</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6505" Count="0" Max="1" Vnum="6507">
       <!--Spawn long, black stick to Entrance to Mountain-->
-      <Type>Item</Type>
-      <Destination>6505</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6508" Count="2" Max="2" Vnum="6506">
       <!--Spawn the giant to Narrow north-south path-->
-      <Type>NPC</Type>
-      <Destination>6508</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>6506</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6509" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Door to Kingdom-->
-      <Type>NPC</Type>
-      <Destination>6509</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6509">
       <!--Spawn a two-handed dwarven axe to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6509</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6510">
       <!--Spawn a dwarven helmet to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6510</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6511">
       <!--Spawn a dwarven golden ring to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6509" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Door to Kingdom-->
-      <Type>NPC</Type>
-      <Destination>6509</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6512">
       <!--Spawn dwarven gloves to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6512</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6509">
       <!--Spawn a two-handed dwarven axe to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6509</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6512" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Door to Castle-->
-      <Type>NPC</Type>
-      <Destination>6512</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6512" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Door to Castle-->
-      <Type>NPC</Type>
-      <Destination>6512</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6513" Count="0" Max="1" Vnum="6507">
       <!--Spawn long, black stick to Inside the entrance-->
-      <Type>Item</Type>
-      <Destination>6513</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6515" Count="1" Max="2" Vnum="6505">
       <!--Spawn the giant lizard to Turn in road-->
-      <Type>NPC</Type>
-      <Destination>6515</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6516" Count="1" Max="1" Vnum="6503">
       <!--Spawn the storekeeper to Hide & Tooth Shop-->
-      <Type>NPC</Type>
-      <Destination>6516</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>6503</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the storekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the storekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6510">
       <!--Spawn a dwarven helmet to the storekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6510</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6511">
       <!--Spawn a dwarven golden ring to the storekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6512">
       <!--Spawn dwarven gloves to the storekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6512</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the storekeeper-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6520" Count="1" Max="2" Vnum="6505">
       <!--Spawn the giant lizard to Path next to barracks-->
-      <Type>NPC</Type>
-      <Destination>6520</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6521" Count="4" Max="4" Vnum="6514">
       <!--Spawn the barracks guard to Entrance to barracks-->
-      <Type>NPC</Type>
-      <Destination>6521</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6514</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6509">
       <!--Spawn a two-handed dwarven axe to the barracks guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6509</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6521" Count="4" Max="4" Vnum="6514">
       <!--Spawn the barracks guard to Entrance to barracks-->
-      <Type>NPC</Type>
-      <Destination>6521</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6514</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6509">
       <!--Spawn a two-handed dwarven axe to the barracks guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6509</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6521" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Entrance to barracks-->
-      <Type>NPC</Type>
-      <Destination>6521</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6521" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Entrance to barracks-->
-      <Type>NPC</Type>
-      <Destination>6521</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6523" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to First Barrack room-->
-      <Type>NPC</Type>
-      <Destination>6523</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6523" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to First Barrack room-->
-      <Type>NPC</Type>
-      <Destination>6523</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6508">
       <!--Spawn dwarven club to the dwarf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6508</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6514">
       <!--Spawn a castle key to the dwarf-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6514</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6523" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to First Barrack room-->
-      <Type>NPC</Type>
-      <Destination>6523</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6523" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to First Barrack room-->
-      <Type>NPC</Type>
-      <Destination>6523</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6524" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to Back of Barracks-->
-      <Type>NPC</Type>
-      <Destination>6524</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6524" Count="0" Max="1" Vnum="6513">
       <!--Spawn a note to Back of Barracks-->
-      <Type>Item</Type>
-      <Destination>6524</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6513</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6524" Count="1" Max="2" Vnum="6502">
       <!--Spawn the wraith to Back of Barracks-->
-      <Type>NPC</Type>
-      <Destination>6524</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6502</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6524" Count="6" Max="8" Vnum="6511">
       <!--Spawn the dwarf to Back of Barracks-->
-      <Type>NPC</Type>
-      <Destination>6524</Destination>
-      <Count>6</Count>
-      <Max>8</Max>
-      <Vnum>6511</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6520">
       <!--Spawn a map of Castle Strangelove to the dwarf-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6520</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6527" Count="1" Max="2" Vnum="6502">
       <!--Spawn the wraith to Wine cellar-->
-      <Type>NPC</Type>
-      <Destination>6527</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6502</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6502">
       <!--Spawn a deep green key to the wraith-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6502</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6528" Count="2" Max="3" Vnum="6512">
       <!--Spawn the unwanted son to Stairs in castle-->
-      <Type>NPC</Type>
-      <Destination>6528</Destination>
-      <Count>2</Count>
-      <Max>3</Max>
-      <Vnum>6512</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6529" Count="2" Max="3" Vnum="6512">
       <!--Spawn the unwanted son to Stairs-->
-      <Type>NPC</Type>
-      <Destination>6529</Destination>
-      <Count>2</Count>
-      <Max>3</Max>
-      <Vnum>6512</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6529" Count="2" Max="3" Vnum="6513">
       <!--Spawn the unwanted daughter to Stairs-->
-      <Type>NPC</Type>
-      <Destination>6529</Destination>
-      <Count>2</Count>
-      <Max>3</Max>
-      <Vnum>6513</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6530" Count="2" Max="3" Vnum="6513">
       <!--Spawn the unwanted daughter to Top of stairs-->
-      <Type>NPC</Type>
-      <Destination>6530</Destination>
-      <Count>2</Count>
-      <Max>3</Max>
-      <Vnum>6513</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6531" Count="4" Max="4" Vnum="6515">
       <!--Spawn the man in waiting to Queen's waiting room-->
-      <Type>NPC</Type>
-      <Destination>6531</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6515</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6531" Count="4" Max="4" Vnum="6515">
       <!--Spawn the man in waiting to Queen's waiting room-->
-      <Type>NPC</Type>
-      <Destination>6531</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6515</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6532" Count="0" Max="1" Vnum="6516">
       <!--Spawn a mine key to Bedroom-->
-      <Type>Item</Type>
-      <Destination>6532</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6516</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6534" Count="0" Max="1" Vnum="6506">
       <!--Spawn long, black stick to Hospital-->
-      <Type>Item</Type>
-      <Destination>6534</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6506</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6534" Count="4" Max="4" Vnum="6510">
       <!--Spawn the dwarven peon to Hospital-->
-      <Type>NPC</Type>
-      <Destination>6534</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6510</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6534" Count="4" Max="4" Vnum="6510">
       <!--Spawn the dwarven peon to Hospital-->
-      <Type>NPC</Type>
-      <Destination>6534</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>6510</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6534" Count="1" Max="1" Vnum="6509">
       <!--Spawn the dwarven doctor to Hospital-->
-      <Type>NPC</Type>
-      <Destination>6534</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>6509</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6506">
       <!--Spawn long, black stick to the dwarven doctor-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6506</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6519">
       <!--Spawn a box of birth control pills to the dwarven doctor-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6519</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6535" Count="1" Max="1" Vnum="6504">
       <!--Spawn the baker to Granite Head's Bakery-->
-      <Type>NPC</Type>
-      <Destination>6535</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="3000">
       <!--Spawn a barrel of beer to the baker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3000</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="3003">
       <!--Spawn a bottle of firebreather to the baker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3003</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="3009">
       <!--Spawn a big pot pie to the baker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3009</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="3031">
       <!--Spawn a hooded brass lantern to the baker-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>3031</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the baker-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6540" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Dark path-->
-      <Type>NPC</Type>
-      <Destination>6540</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6502">
       <!--Spawn a deep green key to the dwarven guard-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6502</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6540" Count="2" Max="10" Vnum="6500">
       <!--Spawn the dwarven guard to Dark path-->
-      <Type>NPC</Type>
-      <Destination>6540</Destination>
-      <Count>2</Count>
-      <Max>10</Max>
-      <Vnum>6500</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6505">
       <!--Spawn dwarven plate mail to the dwarven guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6505</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6540" Count="0" Max="1" Vnum="6507">
       <!--Spawn long, black stick to Dark path-->
-      <Type>Item</Type>
-      <Destination>6540</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6542" Count="2" Max="4" Vnum="6507">
       <!--Spawn the dwarven miner to Inside the mine-->
-      <Type>NPC</Type>
-      <Destination>6542</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6508">
       <!--Spawn dwarven club to the dwarven miner-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6508</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6543" Count="3" Max="4" Vnum="6507">
       <!--Spawn the dwarven miner to Path in the mine-->
-      <Type>NPC</Type>
-      <Destination>6543</Destination>
-      <Count>3</Count>
-      <Max>4</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6508">
       <!--Spawn dwarven club to the dwarven miner-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6508</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6543" Count="3" Max="4" Vnum="6507">
       <!--Spawn the dwarven miner to Path in the mine-->
-      <Type>NPC</Type>
-      <Destination>6543</Destination>
-      <Count>3</Count>
-      <Max>4</Max>
-      <Vnum>6507</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6508">
       <!--Spawn dwarven club to the dwarven miner-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6508</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6543" Count="2" Max="2" Vnum="6508">
       <!--Spawn the dwarven mine leader to Path in the mine-->
-      <Type>NPC</Type>
-      <Destination>6543</Destination>
-      <Count>2</Count>
-      <Max>2</Max>
-      <Vnum>6508</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6512">
       <!--Spawn dwarven gloves to the dwarven mine leader-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6512</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="6504">
       <!--Spawn a hammer to the dwarven mine leader-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6504</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6545" Count="0" Max="1" Vnum="6517">
       <!--Spawn a chunk of coal to Coal Room-->
-      <Type>Item</Type>
-      <Destination>6545</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6517</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6548" Count="1" Max="2" Vnum="6517">
       <!--Spawn the giant snake to Maze-->
-      <Type>NPC</Type>
-      <Destination>6548</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6517</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6549" Count="1" Max="2" Vnum="6517">
       <!--Spawn the giant snake to Maze-->
-      <Type>NPC</Type>
-      <Destination>6549</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>6517</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="6551" Count="0" Max="1" Vnum="6518">
       <!--Spawn a mining pick to Mining equipment room-->
-      <Type>Item</Type>
-      <Destination>6551</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>6518</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="6553" Count="1" Max="1" Vnum="6516">
       <!--Spawn the mazekeeper to The Mazekeeper's Room-->
-      <Type>NPC</Type>
-      <Destination>6553</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>6516</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="6519">
       <!--Spawn a box of birth control pills to the mazekeeper-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>6519</Vnum>
     </Reset>
   </Resets>
 </Area>

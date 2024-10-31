@@ -7,12 +7,12 @@ using System.Linq;
 using CLSMapper;
 using Microsoft.VisualBasic.ApplicationServices;
 using SkiaSharp;
-
+using CrimsonStainedLands.World;
 internal class Drawer
 {
     public class Box
     {
-        internal Dictionary<CrimsonStainedLands.Direction, Box> Exits = new Dictionary<CrimsonStainedLands.Direction, Box>();
+        internal Dictionary<Direction, Box> Exits = new Dictionary<Direction, Box>();
 
         public int x { get; set; }
 
@@ -124,29 +124,29 @@ internal class Drawer
 
                         switch (exit.Key)
                         {
-                            case CrimsonStainedLands.Direction.North:
+                            case Direction.North:
                                 starty = (yoffset + box.y) * boxheight + 10;
                                 endy = (yoffset + exit.Value.y) * boxheight + 10 + boxheight - 10;
                                 break;
-                            case CrimsonStainedLands.Direction.South:
+                            case Direction.South:
                                 starty = (yoffset + box.y) * boxheight + 10 + boxheight - 10;
                                 endy = (yoffset + exit.Value.y) * boxheight + 10;
                                 break;
-                            case CrimsonStainedLands.Direction.East:
+                            case Direction.East:
                                 startx = columnstarts[xoffset + box.x] + 5 + columnwidths[xoffset + box.x];
                                 endx = columnstarts[xoffset + exit.Value.x] + 5;
                                 break;
-                            case CrimsonStainedLands.Direction.West:
+                            case Direction.West:
                                 startx = columnstarts[xoffset + box.x] + 5;
                                 endx = columnstarts[xoffset + exit.Value.x] + 5 + columnwidths[xoffset + exit.Value.x];
                                 break;
-                            case CrimsonStainedLands.Direction.Up:
+                            case Direction.Up:
                                 startx = columnstarts[xoffset + box.x] + 5 + columnwidths[xoffset + box.x];
                                 starty = (yoffset + box.y) * boxheight + 10;
                                 endx = columnstarts[xoffset + exit.Value.x] + 5;
                                 endy = (yoffset + exit.Value.y) * boxheight + 10 + boxheight - 10;
                                 break;
-                            case CrimsonStainedLands.Direction.Down:
+                            case Direction.Down:
                                 startx = columnstarts[xoffset + box.x] + 5;
                                 starty = (yoffset + box.y) * boxheight + 10 + boxheight - 10;
                                 endx = columnstarts[xoffset + exit.Value.x] + 5 + columnwidths[xoffset + exit.Value.x];

@@ -5,10 +5,13 @@
     <Info></Info>
     <VnumStart>21600</VnumStart>
     <VnumEnd>21999</VnumEnd>
+    <MinimumLevel>30</MinimumLevel>
+    <MaximumLevel>35</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{30 35} Mishakal   Neraka</Credits>
-    <OverRoomVnum>0</OverRoomVnum>
+    <Credits>Mishakal   Neraka</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>101007</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -13397,6 +13400,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13422,7 +13426,7 @@ not alone and are being watched.</Description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis DetectHidden Sanctuary ProtectEvil ProtectionGood DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis DetectHidden Sanctuary ProtectEvil ProtectGood DetectIllusion</affectedBy>
       <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
@@ -13451,6 +13455,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>9</ManaPointDiceCount>
       <ManaPointDiceBonus>4000</ManaPointDiceBonus>
+      <trust>48</trust>
       <hitpoints>960</hitpoints>
       <maxhitpoints>960</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13476,7 +13481,7 @@ not alone and are being watched.</Description>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
-      <affectedBy>DetectInvis Sanctuary Infrared ProtectEvil ProtectionGood DetectIllusion</affectedBy>
+      <affectedBy>DetectInvis Sanctuary Infrared ProtectEvil ProtectGood DetectIllusion</affectedBy>
       <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>6</DamageDiceSides>
@@ -13505,6 +13510,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>2500</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13559,6 +13565,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>50</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13614,6 +13621,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>20</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13668,6 +13676,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>5</ManaPointDiceCount>
       <ManaPointDiceBonus>40</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13722,6 +13731,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>5</ManaPointDiceCount>
       <ManaPointDiceBonus>40</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13776,6 +13786,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>40</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13830,6 +13841,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>40</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13884,6 +13896,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>10</ManaPointDiceBonus>
+      <trust>35</trust>
       <hitpoints>700</hitpoints>
       <maxhitpoints>700</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13938,6 +13951,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>50</ManaPointDiceBonus>
+      <trust>46</trust>
       <hitpoints>920</hitpoints>
       <maxhitpoints>920</maxhitpoints>
       <manapoints>0</manapoints>
@@ -13992,6 +14006,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>36</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14047,6 +14062,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>10</ManaPointDiceBonus>
+      <trust>45</trust>
       <hitpoints>900</hitpoints>
       <maxhitpoints>900</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14102,6 +14118,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>59</trust>
       <hitpoints>1180</hitpoints>
       <maxhitpoints>1180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14156,6 +14173,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>20</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14211,6 +14229,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>7</ManaPointDiceCount>
       <ManaPointDiceBonus>25</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14265,6 +14284,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>30</ManaPointDiceBonus>
+      <trust>42</trust>
       <hitpoints>840</hitpoints>
       <maxhitpoints>840</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14319,6 +14339,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>250</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14373,6 +14394,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>400</ManaPointDiceBonus>
+      <trust>47</trust>
       <hitpoints>940</hitpoints>
       <maxhitpoints>940</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14428,6 +14450,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>4</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>250</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14482,6 +14505,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>300</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14536,6 +14560,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>200</ManaPointDiceBonus>
+      <trust>44</trust>
       <hitpoints>880</hitpoints>
       <maxhitpoints>880</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14590,6 +14615,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>30</ManaPointDiceBonus>
+      <trust>30</trust>
       <hitpoints>600</hitpoints>
       <maxhitpoints>600</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14644,6 +14670,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>200</ManaPointDiceBonus>
+      <trust>36</trust>
       <hitpoints>720</hitpoints>
       <maxhitpoints>720</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14698,6 +14725,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>20</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>800</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14752,6 +14780,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>6</ManaPointDiceBonus>
+      <trust>30</trust>
       <hitpoints>600</hitpoints>
       <maxhitpoints>600</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14806,6 +14835,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>20</ManaPointDiceCount>
       <ManaPointDiceBonus>235</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14860,6 +14890,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>6</ManaPointDiceBonus>
+      <trust>52</trust>
       <hitpoints>1040</hitpoints>
       <maxhitpoints>1040</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14914,6 +14945,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>20</ManaPointDiceCount>
       <ManaPointDiceBonus>4000</ManaPointDiceBonus>
+      <trust>47</trust>
       <hitpoints>940</hitpoints>
       <maxhitpoints>940</maxhitpoints>
       <manapoints>0</manapoints>
@@ -14968,6 +15000,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>2</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>20</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15022,6 +15055,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>4</ManaPointDiceCount>
       <ManaPointDiceBonus>35</ManaPointDiceBonus>
+      <trust>46</trust>
       <hitpoints>920</hitpoints>
       <maxhitpoints>920</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15076,6 +15110,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>15</ManaPointDiceCount>
       <ManaPointDiceBonus>120</ManaPointDiceBonus>
+      <trust>52</trust>
       <hitpoints>1040</hitpoints>
       <maxhitpoints>1040</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15130,6 +15165,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15184,6 +15220,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>6</ManaPointDiceCount>
       <ManaPointDiceBonus>400</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15238,6 +15275,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>15</ManaPointDiceCount>
       <ManaPointDiceBonus>200</ManaPointDiceBonus>
+      <trust>54</trust>
       <hitpoints>1080</hitpoints>
       <maxhitpoints>1080</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15292,6 +15330,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>250</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15346,6 +15385,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>100</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>2500</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15400,6 +15440,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>40</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15454,6 +15495,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>40</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15508,6 +15550,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15562,6 +15605,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>4000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15616,6 +15660,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>55</trust>
       <hitpoints>1100</hitpoints>
       <maxhitpoints>1100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15670,6 +15715,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>5</trust>
       <hitpoints>100</hitpoints>
       <maxhitpoints>100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15724,6 +15770,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>20</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>200</ManaPointDiceBonus>
+      <trust>41</trust>
       <hitpoints>820</hitpoints>
       <maxhitpoints>820</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15778,6 +15825,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>40</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>500</ManaPointDiceBonus>
+      <trust>39</trust>
       <hitpoints>780</hitpoints>
       <maxhitpoints>780</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15832,6 +15880,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>20</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>5000</ManaPointDiceBonus>
+      <trust>52</trust>
       <hitpoints>1040</hitpoints>
       <maxhitpoints>1040</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15886,6 +15935,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>500</ManaPointDiceBonus>
+      <trust>37</trust>
       <hitpoints>740</hitpoints>
       <maxhitpoints>740</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15944,6 +15994,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>1500</ManaPointDiceBonus>
+      <trust>50</trust>
       <hitpoints>1000</hitpoints>
       <maxhitpoints>1000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -15999,6 +16050,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>1000</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -16054,6 +16106,7 @@ not alone and are being watched.</Description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>40</trust>
       <hitpoints>800</hitpoints>
       <maxhitpoints>800</maxhitpoints>
       <manapoints>0</manapoints>
@@ -16114,7 +16167,7 @@ not alone and are being watched.</Description>
       <ExtraFlags>Hum Evil AntiGood AntiNeutral BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="-1" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="-1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
@@ -16168,7 +16221,7 @@ not alone and are being watched.</Description>
       <ExtraFlags>Glow NoDrop AntiEvil NoRemove BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="-2" hidden="False" affectType="Spell">
@@ -16423,7 +16476,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell">
@@ -16859,7 +16912,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="15" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="15" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
@@ -17781,7 +17834,7 @@ not alone and are being watched.</Description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -17865,7 +17918,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="1" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-5" hidden="False" affectType="Spell">
@@ -18131,7 +18184,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="-50" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="-50" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="-20" hidden="False" affectType="Spell">
@@ -18173,7 +18226,7 @@ not alone and are being watched.</Description>
       <DiceBonus>0</DiceBonus>
       <Weight>5</Weight>
       <WearFlags>Take Wield</WearFlags>
-      <ExtraFlags>Hum Evil Invisibility Frost Sharp TwoHands Poison Unholy</ExtraFlags>
+      <ExtraFlags>Hum Evil Invis Frost Sharp TwoHands Poison Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
         <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="4" hidden="False" affectType="Spell">
@@ -18496,7 +18549,7 @@ not alone and are being watched.</Description>
       <ExtraFlags>BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -18792,7 +18845,7 @@ not alone and are being watched.</Description>
       <ExtraFlags>BurnProof</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
       </Affects>
@@ -19759,7 +19812,7 @@ not alone and are being watched.</Description>
       <DiceBonus>0</DiceBonus>
       <Weight>7</Weight>
       <WearFlags>Take Wield</WearFlags>
-      <ExtraFlags>Hum Evil Invisibility AntiNeutral Unholy</ExtraFlags>
+      <ExtraFlags>Hum Evil Invis AntiNeutral Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
@@ -20300,7 +20353,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="-25" hidden="False" affectType="Spell">
@@ -20614,7 +20667,7 @@ not alone and are being watched.</Description>
         <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="15" hidden="False" affectType="Spell">
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="15" hidden="False" affectType="Spell">
           <ExtraState />
         </Affect>
         <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
@@ -21684,19 +21737,19 @@ not alone and are being watched.</Description>
       <!--Spawn a tankard of dark ale to a barmaid-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21605">
-      <!--Spawn a glass jar of liquor to a barmaid-->
+      <!--Spawn a glass jar of liquor to a Tar Valon guard-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21617">
-      <!--Spawn a mug of ale to a barmaid-->
+      <!--Spawn a mug of ale to a Tar Valon guard-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21615">
-      <!--Spawn a mug of honey mead to a barmaid-->
+      <!--Spawn a mug of honey mead to a Tar Valon guard-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21614">
-      <!--Spawn a bottle of amber beer to a barmaid-->
+      <!--Spawn a bottle of amber beer to a Tar Valon guard-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21616">
-      <!--Spawn a bowl of nuts to a barmaid-->
+      <!--Spawn a bowl of nuts to a Tar Valon guard-->
     </Reset>
     <Reset Type="Item" Destination="21884" Count="0" Max="1" Vnum="21713">
       <!--Spawn a small wooden table to A dirty pub-->
@@ -21729,7 +21782,7 @@ not alone and are being watched.</Description>
       <!--Spawn a quiver of black arrows to The draconian archer-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21632">
-      <!--Spawn a black longbow to The draconian archer-->
+      <!--Spawn a black longbow to a Tar Valon guard-->
     </Reset>
     <Reset Type="NPC" Destination="21892" Count="1" Max="18" Vnum="21610">
       <!--Spawn a draconian guard to At the base of a guard tower-->
@@ -21750,7 +21803,7 @@ not alone and are being watched.</Description>
       <!--Spawn a Neraka citizen to Streets of Neraka-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21716">
-      <!--Spawn a small canteen to a Neraka citizen-->
+      <!--Spawn a small canteen to a beggar-->
     </Reset>
     <Reset Type="NPC" Destination="21896" Count="1" Max="1" Vnum="21612">
       <!--Spawn the bartender to A filthy tavern-->
@@ -21786,7 +21839,7 @@ not alone and are being watched.</Description>
       <!--Spawn the elven prisoner to A cell-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21693">
-      <!--Spawn Amulet of the Blind to the elven prisoner-->
+      <!--Spawn Amulet of the Blind to a citizen-->
     </Reset>
     <Reset Type="NPC" Destination="21914" Count="1" Max="2" Vnum="21633">
       <!--Spawn a fire demon of the Abyss to A cell-->
@@ -21801,16 +21854,16 @@ not alone and are being watched.</Description>
       <!--Spawn the old shopkeeper to A run-down supply store-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21715">
-      <!--Spawn a piece of dried beef to the old shopkeeper-->
+      <!--Spawn a piece of dried beef to a seedy patron-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21716">
-      <!--Spawn a small canteen to the old shopkeeper-->
+      <!--Spawn a small canteen to a seedy patron-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21717">
-      <!--Spawn a large canteen to the old shopkeeper-->
+      <!--Spawn a large canteen to the tavernowner-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21718">
-      <!--Spawn a wooden walking stick to the old shopkeeper-->
+      <!--Spawn a wooden walking stick to the tavernowner-->
     </Reset>
     <Reset Type="Item" Destination="21917" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -21822,10 +21875,10 @@ not alone and are being watched.</Description>
       <!--Spawn the goblin mercenary to Inside a tent-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21628">
-      <!--Spawn a hammered iron plate mail to the goblin mercenary-->
+      <!--Spawn a hammered iron plate mail to a Tar Valon guard-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21631">
-      <!--Spawn a hammered iron sword to the goblin mercenary-->
+      <!--Spawn a hammered iron sword to a Tar Valon guard-->
     </Reset>
     <Reset Type="Item" Destination="21918" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -21834,10 +21887,10 @@ not alone and are being watched.</Description>
       <!--Spawn The human mercenary to Inside a tent-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21629">
-      <!--Spawn a hammered iron helmet to The human mercenary-->
+      <!--Spawn a hammered iron helmet to a komodo dragon-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21630">
-      <!--Spawn a pair of hammered iron gauntlets to The human mercenary-->
+      <!--Spawn a pair of hammered iron gauntlets to a sentinel cactus-->
     </Reset>
     <Reset Type="Item" Destination="21919" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -21846,7 +21899,7 @@ not alone and are being watched.</Description>
       <!--Spawn the goblin mercenary to Inside a tent-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21629">
-      <!--Spawn a hammered iron helmet to the goblin mercenary-->
+      <!--Spawn a hammered iron helmet to a small, horned lizard-->
     </Reset>
     <Reset Type="Item" Destination="21919" Count="0" Max="1" Vnum="21628">
       <!--Spawn a hammered iron plate mail to Inside a tent-->
@@ -21864,25 +21917,25 @@ not alone and are being watched.</Description>
       <!--Spawn The draconian archer to At the top of a guard tower-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21632">
-      <!--Spawn a black longbow to The draconian archer-->
+      <!--Spawn a black longbow to a panhandler-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21645">
-      <!--Spawn a quiver of black arrows to The draconian archer-->
+      <!--Spawn a quiver of black arrows to a tumbleweed-->
     </Reset>
     <Reset Type="NPC" Destination="21923" Count="1" Max="18" Vnum="21610">
       <!--Spawn a draconian guard to At the base of a guard tower-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21627">
-      <!--Spawn a long, black polearm to a draconian guard-->
+      <!--Spawn a long, black polearm to a beggar-->
     </Reset>
     <Reset Type="NPC" Destination="21924" Count="2" Max="16" Vnum="21617">
       <!--Spawn The draconian archer to At the top of a guard tower-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21632">
-      <!--Spawn a black longbow to The draconian archer-->
+      <!--Spawn a black longbow to a small, horned lizard-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21645">
-      <!--Spawn a quiver of black arrows to The draconian archer-->
+      <!--Spawn a quiver of black arrows to the innkeeper-->
     </Reset>
     <Reset Type="Item" Destination="21925" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -21897,10 +21950,10 @@ not alone and are being watched.</Description>
       <!--Spawn The minotaur mercenary to Southern Road to Neraka-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21628">
-      <!--Spawn a hammered iron plate mail to The minotaur mercenary-->
+      <!--Spawn a hammered iron plate mail to a seedy patron-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21629">
-      <!--Spawn a hammered iron helmet to The minotaur mercenary-->
+      <!--Spawn a hammered iron helmet to a seedy patron-->
     </Reset>
     <Reset Type="Item" Destination="21934" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -21924,7 +21977,7 @@ not alone and are being watched.</Description>
       <!--Spawn The human mercenary to Streets of Neraka-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21630">
-      <!--Spawn a pair of hammered iron gauntlets to The human mercenary-->
+      <!--Spawn a pair of hammered iron gauntlets to a citizen-->
     </Reset>
     <Reset Type="NPC" Destination="21945" Count="1" Max="15" Vnum="21615">
       <!--Spawn The human mercenary to Streets of Neraka-->
@@ -21984,16 +22037,16 @@ not alone and are being watched.</Description>
       <!--Spawn A fat hobgoblin cook to Mess kitchen-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21646">
-      <!--Spawn a bloody apron to A fat hobgoblin cook-->
+      <!--Spawn a bloody apron to a jeweller-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21648">
-      <!--Spawn a bloody cleaver to A fat hobgoblin cook-->
+      <!--Spawn a bloody cleaver to a jeweller-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21647">
-      <!--Spawn a large stirring spoon to A fat hobgoblin cook-->
+      <!--Spawn a large stirring spoon to a clockmaker-->
     </Reset>
     <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="21640">
-      <!--Spawn a piece of soggy meat to A fat hobgoblin cook-->
+      <!--Spawn a piece of soggy meat to a clockmaker-->
     </Reset>
     <Reset Type="Item" Destination="21958" Count="0" Max="1" Vnum="21635">
       <!--Spawn a small cot to Inside a tent-->
@@ -22017,10 +22070,10 @@ not alone and are being watched.</Description>
       <!--Spawn a necromancer to A necromancer's room-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21657">
-      <!--Spawn a wand made from a bone and a skull to a necromancer-->
+      <!--Spawn a wand made from a bone and a skull to a musician-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21719">
-      <!--Spawn the black robes of a necromancer to a necromancer-->
+      <!--Spawn the black robes of a necromancer to a musician-->
     </Reset>
     <Reset Type="Item" Destination="21962" Count="0" Max="1" Vnum="21654">
       <!--Spawn a hard wooden bed to A cleric's room-->
@@ -22029,7 +22082,7 @@ not alone and are being watched.</Description>
       <!--Spawn Nastul to A cleric's room-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21656">
-      <!--Spawn the bone-headed spiked mace to Nastul-->
+      <!--Spawn the bone-headed spiked mace to a drunken sailor-->
     </Reset>
     <Reset Type="Item" Destination="21963" Count="0" Max="1" Vnum="21654">
       <!--Spawn a hard wooden bed to A cleric's room-->
@@ -22041,7 +22094,7 @@ not alone and are being watched.</Description>
       <!--Spawn the undead spectre to The Forge-->
     </Reset>
     <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="21711">
-      <!--Spawn a forge-axe to the undead spectre-->
+      <!--Spawn a forge-axe to a serving girl-->
     </Reset>
   </Resets>
 </Area>

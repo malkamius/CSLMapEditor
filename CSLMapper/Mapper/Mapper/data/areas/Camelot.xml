@@ -5,9 +5,13 @@
     <Info></Info>
     <VnumStart>20900</VnumStart>
     <VnumEnd>20999</VnumEnd>
+    <MinimumLevel>5</MinimumLevel>
+    <MaximumLevel>25</MaximumLevel>
     <Builders></Builders>
     <Security>0</Security>
-    <Credits>{5-25} Chipper Camelot</Credits>
+    <Credits>Chipper Camelot</Credits>
+    <Continent>Mainland</Continent>
+    <OverRoomVnum>0</OverRoomVnum>
   </AreaData>
   <Rooms>
     <Room>
@@ -2232,6 +2236,7 @@ Ulf</Description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>5</trust>
       <hitpoints>100</hitpoints>
       <maxhitpoints>100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2258,6 +2263,7 @@ Ulf</Description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -2286,6 +2292,7 @@ strolls in front of you.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2312,6 +2319,7 @@ strolls in front of you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -2340,6 +2348,7 @@ Guard.</description>
       <ManaPointDiceSides>7</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>7</trust>
       <hitpoints>140</hitpoints>
       <maxhitpoints>140</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2366,6 +2375,7 @@ Guard.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2394,6 +2404,7 @@ rolling a set of dice in his hands and praying for luck.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>8</trust>
       <hitpoints>160</hitpoints>
       <maxhitpoints>160</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2420,6 +2431,7 @@ rolling a set of dice in his hands and praying for luck.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2448,6 +2460,7 @@ of the king and queen.</description>
       <ManaPointDiceSides>9</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2474,6 +2487,7 @@ of the king and queen.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2501,6 +2515,7 @@ of the king and queen.</description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>6</trust>
       <hitpoints>120</hitpoints>
       <maxhitpoints>120</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2527,6 +2542,7 @@ of the king and queen.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -2554,6 +2570,7 @@ of the king and queen.</description>
       <ManaPointDiceSides>6</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>6</trust>
       <hitpoints>120</hitpoints>
       <maxhitpoints>120</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2580,6 +2597,7 @@ of the king and queen.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -2607,6 +2625,7 @@ of the king and queen.</description>
       <ManaPointDiceSides>10</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>10</trust>
       <hitpoints>200</hitpoints>
       <maxhitpoints>200</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2633,6 +2652,7 @@ of the king and queen.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -2661,6 +2681,7 @@ and roars in anger at your intrusion.</description>
       <ManaPointDiceSides>8</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>8</trust>
       <hitpoints>160</hitpoints>
       <maxhitpoints>160</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2687,6 +2708,7 @@ and roars in anger at your intrusion.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2716,6 +2738,7 @@ before he wakes up.</description>
       <ManaPointDiceSides>9</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>9</trust>
       <hitpoints>180</hitpoints>
       <maxhitpoints>180</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2742,6 +2765,7 @@ before he wakes up.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2770,6 +2794,7 @@ merrily at you.</description>
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>12</trust>
       <hitpoints>240</hitpoints>
       <maxhitpoints>240</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2796,6 +2821,7 @@ merrily at you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2823,6 +2849,7 @@ merrily at you.</description>
       <ManaPointDiceSides>14</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>14</trust>
       <hitpoints>280</hitpoints>
       <maxhitpoints>280</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2849,6 +2876,7 @@ merrily at you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Berserk DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2880,6 +2908,7 @@ at you with the arrogance only a cat can truly achieve.</description>
       <ManaPointDiceSides>15</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2906,6 +2935,7 @@ at you with the arrogance only a cat can truly achieve.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DarkVision</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>claw</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -2939,6 +2969,7 @@ how he can stand it.</description>
       <ManaPointDiceSides>13</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>13</trust>
       <hitpoints>260</hitpoints>
       <maxhitpoints>260</maxhitpoints>
       <manapoints>0</manapoints>
@@ -2965,6 +2996,7 @@ how he can stand it.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -2993,6 +3025,7 @@ in accusation as you walk past him.</description>
       <ManaPointDiceSides>12</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>12</trust>
       <hitpoints>240</hitpoints>
       <maxhitpoints>240</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3019,6 +3052,7 @@ in accusation as you walk past him.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3047,6 +3081,7 @@ about God destroying this world to create a new one.</description>
       <ManaPointDiceSides>13</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>13</trust>
       <hitpoints>260</hitpoints>
       <maxhitpoints>260</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3073,6 +3108,7 @@ about God destroying this world to create a new one.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3102,6 +3138,7 @@ sin he has committed.</description>
       <ManaPointDiceSides>15</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3128,6 +3165,7 @@ sin he has committed.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3155,6 +3193,7 @@ sin he has committed.</description>
       <ManaPointDiceSides>15</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>15</trust>
       <hitpoints>300</hitpoints>
       <maxhitpoints>300</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3181,6 +3220,7 @@ sin he has committed.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3210,6 +3250,7 @@ thing to do.</description>
       <ManaPointDiceSides>13</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>13</trust>
       <hitpoints>260</hitpoints>
       <maxhitpoints>260</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3236,6 +3277,7 @@ thing to do.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>3</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3264,6 +3306,7 @@ here.</description>
       <ManaPointDiceSides>16</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>16</trust>
       <hitpoints>320</hitpoints>
       <maxhitpoints>320</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3290,6 +3333,7 @@ here.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3318,6 +3362,7 @@ is a young man with brown hair and eyes, and a ready smile.</description>
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3344,6 +3389,7 @@ is a young man with brown hair and eyes, and a ready smile.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sanctuary DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3372,6 +3418,7 @@ by anything you say to her.  She has long golden hair and blue eyes.</descriptio
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3398,6 +3445,7 @@ by anything you say to her.  She has long golden hair and blue eyes.</descriptio
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sanctuary DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3428,6 +3476,7 @@ against?"</description>
       <ManaPointDiceSides>17</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>17</trust>
       <hitpoints>340</hitpoints>
       <maxhitpoints>340</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3454,6 +3503,7 @@ against?"</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3483,6 +3533,7 @@ you heard of any tales of injustice I might join in?"</description>
       <ManaPointDiceSides>17</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>17</trust>
       <hitpoints>340</hitpoints>
       <maxhitpoints>340</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3509,6 +3560,7 @@ you heard of any tales of injustice I might join in?"</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3537,6 +3589,7 @@ polish, then smiles at you.</description>
       <ManaPointDiceSides>18</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>18</trust>
       <hitpoints>360</hitpoints>
       <maxhitpoints>360</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3563,6 +3616,7 @@ polish, then smiles at you.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3591,6 +3645,7 @@ its arrangement.</description>
       <ManaPointDiceSides>22</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>22</trust>
       <hitpoints>440</hitpoints>
       <maxhitpoints>440</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3617,6 +3672,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3644,6 +3700,7 @@ its arrangement.</description>
       <ManaPointDiceSides>19</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>19</trust>
       <hitpoints>380</hitpoints>
       <maxhitpoints>380</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3670,6 +3727,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -3699,6 +3757,7 @@ something more.</description>
       <ManaPointDiceSides>21</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>21</trust>
       <hitpoints>420</hitpoints>
       <maxhitpoints>420</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3725,6 +3784,7 @@ something more.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3752,6 +3812,7 @@ something more.</description>
       <ManaPointDiceSides>21</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>21</trust>
       <hitpoints>420</hitpoints>
       <maxhitpoints>420</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3778,6 +3839,7 @@ something more.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3806,6 +3868,7 @@ is a sullen looking man with dark hair and eyes.</description>
       <ManaPointDiceSides>23</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>23</trust>
       <hitpoints>460</hitpoints>
       <maxhitpoints>460</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3832,6 +3895,7 @@ is a sullen looking man with dark hair and eyes.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3860,6 +3924,7 @@ from the chair he rests in.</description>
       <ManaPointDiceSides>23</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>23</trust>
       <hitpoints>460</hitpoints>
       <maxhitpoints>460</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3886,6 +3951,7 @@ from the chair he rests in.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -3914,6 +3980,7 @@ its arrangement.</description>
       <ManaPointDiceSides>22</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>22</trust>
       <hitpoints>440</hitpoints>
       <maxhitpoints>440</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3940,6 +4007,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -3967,6 +4035,7 @@ its arrangement.</description>
       <ManaPointDiceSides>19</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>19</trust>
       <hitpoints>380</hitpoints>
       <maxhitpoints>380</maxhitpoints>
       <manapoints>0</manapoints>
@@ -3993,6 +4062,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>6</DamageDiceCount>
@@ -4020,6 +4090,7 @@ its arrangement.</description>
       <ManaPointDiceSides>50</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4046,6 +4117,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sanctuary DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -4073,6 +4145,7 @@ its arrangement.</description>
       <ManaPointDiceSides>25</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>25</trust>
       <hitpoints>500</hitpoints>
       <maxhitpoints>500</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4099,6 +4172,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>Sanctuary DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>8</DamageDiceCount>
@@ -4126,6 +4200,7 @@ its arrangement.</description>
       <ManaPointDiceSides>18</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>18</trust>
       <hitpoints>360</hitpoints>
       <maxhitpoints>360</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4152,6 +4227,7 @@ its arrangement.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>4</DamageDiceSides>
       <DamageDiceCount>7</DamageDiceCount>
@@ -4186,6 +4262,7 @@ the sorcerer's secrets.</description>
       <ManaPointDiceSides>5</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>5</trust>
       <hitpoints>100</hitpoints>
       <maxhitpoints>100</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4212,6 +4289,7 @@ the sorcerer's secrets.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>2</DamageDiceSides>
       <DamageDiceCount>4</DamageDiceCount>
@@ -4239,6 +4317,7 @@ the sorcerer's secrets.</description>
       <ManaPointDiceSides>3</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>1</trust>
       <hitpoints>20</hitpoints>
       <maxhitpoints>20</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4265,6 +4344,7 @@ the sorcerer's secrets.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>1</DamageDiceSides>
       <DamageDiceCount>5</DamageDiceCount>
@@ -4292,6 +4372,7 @@ the sorcerer's secrets.</description>
       <ManaPointDiceSides>0</ManaPointDiceSides>
       <ManaPointDiceCount>0</ManaPointDiceCount>
       <ManaPointDiceBonus>0</ManaPointDiceBonus>
+      <trust>0</trust>
       <hitpoints>0</hitpoints>
       <maxhitpoints>0</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4318,6 +4399,7 @@ the sorcerer's secrets.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <PermanentStats>
         <Strength>16</Strength>
@@ -4342,6 +4424,7 @@ the sorcerer's secrets.</description>
       <ManaPointDiceSides>250</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>250</trust>
       <hitpoints>5000</hitpoints>
       <maxhitpoints>5000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4368,6 +4451,7 @@ the sorcerer's secrets.</description>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>87</DamageDiceCount>
@@ -4395,6 +4479,7 @@ the sorcerer's secrets.</description>
       <ManaPointDiceSides>200</ManaPointDiceSides>
       <ManaPointDiceCount>10</ManaPointDiceCount>
       <ManaPointDiceBonus>100</ManaPointDiceBonus>
+      <trust>200</trust>
       <hitpoints>4000</hitpoints>
       <maxhitpoints>4000</maxhitpoints>
       <manapoints>0</manapoints>
@@ -4416,11 +4501,12 @@ the sorcerer's secrets.</description>
       <gold>0</gold>
       <SavingThrow>0</SavingThrow>
       <Guild></Guild>
-      <flags>NPC Gain</flags>
+      <flags>NPC Trainer</flags>
       <immune></immune>
       <resist></resist>
       <vulnerable></vulnerable>
       <affectedBy>DetectIllusion</affectedBy>
+      <WiznetFlags></WiznetFlags>
       <WeaponDamageMessage>punch</WeaponDamageMessage>
       <DamageDiceSides>5</DamageDiceSides>
       <DamageDiceCount>70</DamageDiceCount>
@@ -4453,7 +4539,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4464,6 +4552,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4487,8 +4576,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Move" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4499,6 +4592,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4531,6 +4625,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4554,7 +4649,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4565,6 +4662,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4597,6 +4695,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>3</ArmorSlash>
       <ArmorPierce>4</ArmorPierce>
@@ -4620,7 +4719,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4631,6 +4732,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4654,7 +4756,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4665,6 +4769,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>3</ArmorSlash>
       <ArmorPierce>4</ArmorPierce>
@@ -4697,6 +4802,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4720,7 +4826,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4731,6 +4839,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>3</ArmorSlash>
       <ArmorPierce>4</ArmorPierce>
@@ -4754,7 +4863,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Hum</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4765,6 +4876,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>4</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>6</ArmorPierce>
@@ -4788,7 +4900,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4799,6 +4913,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -4822,7 +4937,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4833,6 +4950,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>6</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -4856,7 +4974,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4867,6 +4987,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -4899,6 +5020,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -4922,7 +5044,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4933,6 +5057,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>5</ArmorPierce>
@@ -4956,7 +5081,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -4967,6 +5094,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>5</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -4990,7 +5118,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5001,6 +5131,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>6</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>7</ArmorPierce>
@@ -5024,8 +5155,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5036,6 +5171,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5059,8 +5195,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5071,6 +5211,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5094,8 +5235,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow Hum Frost Sharp TwoHands Poison Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5106,6 +5251,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5129,8 +5275,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5141,6 +5291,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>11</ArmorPierce>
@@ -5164,8 +5315,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="30" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5176,6 +5331,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>9</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -5199,8 +5355,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5211,6 +5371,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -5243,6 +5404,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5266,8 +5428,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5278,6 +5444,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5301,8 +5468,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Hum</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="40" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="40" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5313,6 +5484,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>8</ArmorBash>
       <ArmorSlash>10</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -5336,9 +5508,15 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Hum</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="1" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5349,6 +5527,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5381,6 +5560,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5404,8 +5584,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="15" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="15" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5416,6 +5600,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>7</ArmorBash>
       <ArmorSlash>8</ArmorSlash>
       <ArmorPierce>9</ArmorPierce>
@@ -5439,7 +5624,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="10" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5450,6 +5637,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>9</ArmorBash>
       <ArmorSlash>7</ArmorSlash>
       <ArmorPierce>8</ArmorPierce>
@@ -5473,8 +5661,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5485,6 +5677,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5504,12 +5697,16 @@ the sorcerer's secrets.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>0.2</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Hum</ExtraFlags>
       <ItemTypes>Gem</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="30" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5520,6 +5717,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5552,6 +5750,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5587,6 +5786,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5610,11 +5810,21 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow BurnProof</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-30" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-30" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5625,6 +5835,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5648,11 +5859,21 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow BurnProof</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5663,6 +5884,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5686,12 +5908,24 @@ the sorcerer's secrets.</description>
       <ExtraFlags>BurnProof</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="200" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="100" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="200" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5702,6 +5936,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5725,12 +5960,24 @@ the sorcerer's secrets.</description>
       <ExtraFlags>BurnProof</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="150" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="75" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="4" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="150" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="75" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingSpell" modifier="-5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5741,6 +5988,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5773,6 +6021,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5796,11 +6045,21 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow Magic BurnProof</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="150" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-75" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="15" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="15" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="150" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-75" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="15" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="15" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5811,6 +6070,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5834,8 +6094,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Hum</ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-3" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5846,6 +6110,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>25</ArmorBash>
       <ArmorSlash>25</ArmorSlash>
       <ArmorPierce>25</ArmorPierce>
@@ -5883,6 +6148,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5906,10 +6172,18 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Flaming Frost Vorpal TwoHands Shocking Poison Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-20" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="200" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="7" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="7" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-20" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="200" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="7" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="7" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5920,6 +6194,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -5943,13 +6218,27 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="25" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="1000" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-1000" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Dexterity" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="1000" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-1000" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -5960,6 +6249,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6002,6 +6292,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6034,6 +6325,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6057,7 +6349,9 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Armor</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="10000" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="10000" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6068,6 +6362,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>10000</ArmorBash>
       <ArmorSlash>10000</ArmorSlash>
       <ArmorPierce>10000</ArmorPierce>
@@ -6091,8 +6386,12 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Vorpal TwoHands Shocking Poison</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6103,6 +6402,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6140,6 +6440,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6163,11 +6464,21 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow BurnProof</ExtraFlags>
       <ItemTypes>Light</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-4" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-50" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="100" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="SavingBreath" modifier="-4" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Armor" modifier="-50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="25" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6178,6 +6489,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6215,6 +6527,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6250,6 +6563,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6285,6 +6599,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6321,6 +6636,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6344,12 +6660,24 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="100" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Constitution" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6360,6 +6688,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6379,15 +6708,25 @@ the sorcerer's secrets.</description>
       <DiceCount>1</DiceCount>
       <DiceBonus>1</DiceBonus>
       <Weight>0</Weight>
-      <WearFlags>Take WearFloat</WearFlags>
+      <WearFlags>Take Float</WearFlags>
       <ExtraFlags>Glow BurnProof</ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hp" modifier="100" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="5" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitpoints" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="50" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6398,6 +6737,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6421,10 +6761,18 @@ the sorcerer's secrets.</description>
       <ExtraFlags></ExtraFlags>
       <ItemTypes>Jewelry</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="100" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Strength" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Mana" modifier="100" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Str" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Intelligence" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Wisdom" modifier="2" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6435,6 +6783,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6458,10 +6807,18 @@ the sorcerer's secrets.</description>
       <ExtraFlags>Glow Hum Frost Sharp Vorpal TwoHands Shocking Poison Unholy</ExtraFlags>
       <ItemTypes>Weapon</ItemTypes>
       <Affects>
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="12" hidden="False" affectType="Spell" />
-        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="13" hidden="False" affectType="Spell" />
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="3" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Hitroll" modifier="12" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
+        <Affect where="ToObject" level="0" duration="-1" location="Damroll" modifier="13" hidden="False" affectType="Spell">
+          <ExtraState />
+        </Affect>
       </Affects>
       <Silver>0</Silver>
       <Gold>0</Gold>
@@ -6472,6 +6829,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6509,6 +6867,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6541,6 +6900,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6573,6 +6933,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6605,6 +6966,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6637,6 +6999,7 @@ the sorcerer's secrets.</description>
       <Material>unknown</Material>
       <Charges>0</Charges>
       <MaxCharges>0</MaxCharges>
+      <MaxDurability>100</MaxDurability>
       <ArmorBash>0</ArmorBash>
       <ArmorSlash>0</ArmorSlash>
       <ArmorPierce>0</ArmorPierce>
@@ -6645,1189 +7008,449 @@ the sorcerer's secrets.</description>
     </Item>
   </Items>
   <Resets>
-    <Reset>
+    <Reset Type="NPC" Destination="20901" Count="2" Max="6" Vnum="20900">
       <!--Spawn a page to A Marble Road-->
-      <Type>NPC</Type>
-      <Destination>20901</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20900">
       <!--Spawn a page's dagger to a page-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20902" Count="2" Max="6" Vnum="20900">
       <!--Spawn a page to Entrance Hall-->
-      <Type>NPC</Type>
-      <Destination>20902</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20900">
       <!--Spawn a page's dagger to a page-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20902" Count="1" Max="1" Vnum="20936">
       <!--Spawn Sir Bedevere to Entrance Hall-->
-      <Type>NPC</Type>
-      <Destination>20902</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20936</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20904" Count="5" Max="5" Vnum="20905">
       <!--Spawn an off-duty guardsman to Rose Mess Hall-->
-      <Type>NPC</Type>
-      <Destination>20904</Destination>
-      <Count>5</Count>
-      <Max>5</Max>
-      <Vnum>20905</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20901">
       <!--Spawn a pair of rose earrings to an off-duty guardsman-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20905" Count="1" Max="5" Vnum="20901">
       <!--Spawn a Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20905</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20902">
       <!--Spawn a rose mace to a Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20905" Count="1" Max="5" Vnum="20902">
       <!--Spawn a squire of the Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20905</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20904">
       <!--Spawn a pair of riding boots to a squire of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20906" Count="1" Max="5" Vnum="20901">
       <!--Spawn a Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20906</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20902">
       <!--Spawn a rose mace to a Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20906" Count="1" Max="5" Vnum="20902">
       <!--Spawn a squire of the Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20906</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20904">
       <!--Spawn a pair of riding boots to a squire of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20907" Count="1" Max="5" Vnum="20901">
       <!--Spawn a Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20907</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20902">
       <!--Spawn a rose mace to a Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20907" Count="1" Max="5" Vnum="20902">
       <!--Spawn a squire of the Rose Guard to Rose Hall-->
-      <Type>NPC</Type>
-      <Destination>20907</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20904">
       <!--Spawn a pair of riding boots to a squire of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20908" Count="1" Max="5" Vnum="20901">
       <!--Spawn a Rose Guard to Rose Barracks-->
-      <Type>NPC</Type>
-      <Destination>20908</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20902">
       <!--Spawn a rose mace to a Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20908" Count="1" Max="5" Vnum="20902">
       <!--Spawn a squire of the Rose Guard to Rose Barracks-->
-      <Type>NPC</Type>
-      <Destination>20908</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20904">
       <!--Spawn a pair of riding boots to a squire of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20909" Count="1" Max="5" Vnum="20901">
       <!--Spawn a Rose Guard to Rose Barracks-->
-      <Type>NPC</Type>
-      <Destination>20909</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20901</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20902">
       <!--Spawn a rose mace to a Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20909" Count="1" Max="5" Vnum="20902">
       <!--Spawn a squire of the Rose Guard to Rose Barracks-->
-      <Type>NPC</Type>
-      <Destination>20909</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20902</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20904">
       <!--Spawn a pair of riding boots to a squire of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20909" Count="1" Max="1" Vnum="20903">
       <!--Spawn a gambling guard to Rose Barracks-->
-      <Type>NPC</Type>
-      <Destination>20909</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20903</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20905">
       <!--Spawn a pair of bone dice to a gambling guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20905</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20910" Count="5" Max="5" Vnum="20904">
       <!--Spawn an officer of the Rose Guard to Officer's Quarters-->
-      <Type>NPC</Type>
-      <Destination>20910</Destination>
-      <Count>5</Count>
-      <Max>5</Max>
-      <Vnum>20904</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20906">
       <!--Spawn a shield of honor to an officer of the Rose Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20906</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20912" Count="5" Max="5" Vnum="20906">
       <!--Spawn a drunken Dragon Guard to Dragon's Mess Hall-->
-      <Type>NPC</Type>
-      <Destination>20912</Destination>
-      <Count>5</Count>
-      <Max>5</Max>
-      <Vnum>20906</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20903">
       <!--Spawn a pair of dragon earrings to a drunken Dragon Guard-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20903</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20913" Count="1" Max="5" Vnum="20907">
       <!--Spawn a Dragon Guard to Dragon Hall-->
-      <Type>NPC</Type>
-      <Destination>20913</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20914" Count="1" Max="5" Vnum="20907">
       <!--Spawn a Dragon Guard to Dragon Hall-->
-      <Type>NPC</Type>
-      <Destination>20914</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20907">
       <!--Spawn a dragon whip to a Dragon Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20915" Count="1" Max="5" Vnum="20907">
       <!--Spawn a Dragon Guard to Dragon Hall-->
-      <Type>NPC</Type>
-      <Destination>20915</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20907">
       <!--Spawn a dragon whip to a Dragon Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20916" Count="4" Max="4" Vnum="20909">
       <!--Spawn an officer of the Dragon Guard to Officer's Quarters-->
-      <Type>NPC</Type>
-      <Destination>20916</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20909</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20908">
       <!--Spawn a shield of gain to an officer of the Dragon Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20908</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20917" Count="1" Max="5" Vnum="20907">
       <!--Spawn a Dragon Guard to Dragon Barracks-->
-      <Type>NPC</Type>
-      <Destination>20917</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20907">
       <!--Spawn a dragon whip to a Dragon Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20918" Count="1" Max="5" Vnum="20907">
       <!--Spawn a Dragon Guard to Dragon Barracks-->
-      <Type>NPC</Type>
-      <Destination>20918</Destination>
-      <Count>1</Count>
-      <Max>5</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20907">
       <!--Spawn a dragon whip to a Dragon Guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20907</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20918" Count="5" Max="5" Vnum="20908">
       <!--Spawn a violent guard to Dragon Barracks-->
-      <Type>NPC</Type>
-      <Destination>20918</Destination>
-      <Count>5</Count>
-      <Max>5</Max>
-      <Vnum>20908</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20905">
       <!--Spawn a pair of bone dice to a violent guard-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20905</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20919" Count="2" Max="6" Vnum="20900">
       <!--Spawn a page to Main Hall-->
-      <Type>NPC</Type>
-      <Destination>20919</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20900">
       <!--Spawn a page's dagger to a page-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20900</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20921" Count="2" Max="4" Vnum="20919">
       <!--Spawn a king's footman to Main Hall-->
-      <Type>NPC</Type>
-      <Destination>20921</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20919</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20909">
       <!--Spawn a pair of knee britches to a king's footman-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20909</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20923" Count="2" Max="4" Vnum="20918">
       <!--Spawn an altar boy to Sitting Room-->
-      <Type>NPC</Type>
-      <Destination>20923</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20918</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20914">
       <!--Spawn a white kerchief to an altar boy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20914</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20924" Count="2" Max="4" Vnum="20918">
       <!--Spawn an altar boy to Father Benedict's Bedroom-->
-      <Type>NPC</Type>
-      <Destination>20924</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20918</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20914">
       <!--Spawn a white kerchief to an altar boy-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20914</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20925" Count="2" Max="6" Vnum="20914">
       <!--Spawn a monk to Chapel Hall-->
-      <Type>NPC</Type>
-      <Destination>20925</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20914</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20915">
       <!--Spawn a monk's robe to a monk-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20915</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20926" Count="2" Max="6" Vnum="20914">
       <!--Spawn a monk to Chapel Hall-->
-      <Type>NPC</Type>
-      <Destination>20926</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20914</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20915">
       <!--Spawn a monk's robe to a monk-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20915</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20927" Count="2" Max="6" Vnum="20914">
       <!--Spawn a monk to Chapel Entrance-->
-      <Type>NPC</Type>
-      <Destination>20927</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20914</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20915">
       <!--Spawn a monk's robe to a monk-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20915</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20928" Count="2" Max="4" Vnum="20915">
       <!--Spawn a brother to Chapel-->
-      <Type>NPC</Type>
-      <Destination>20928</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20915</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20916">
       <!--Spawn a brother's stole to a brother-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20916</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20929" Count="1" Max="1" Vnum="20917">
       <!--Spawn Father John to Confessional-->
-      <Type>NPC</Type>
-      <Destination>20929</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20917</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20929" Count="1" Max="1" Vnum="20915">
       <!--Spawn a brother to Confessional-->
-      <Type>NPC</Type>
-      <Destination>20929</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20915</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20916">
       <!--Spawn a brother's stole to a brother-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20916</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20929" Count="1" Max="1" Vnum="20916">
       <!--Spawn Sir Galahad to Confessional-->
-      <Type>NPC</Type>
-      <Destination>20929</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20916</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20917">
       <!--Spawn a holy cross to Sir Galahad-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20917</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20929" Count="1" Max="1" Vnum="20917">
       <!--Spawn Father John to Confessional-->
-      <Type>NPC</Type>
-      <Destination>20929</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20917</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20918">
       <!--Spawn a ruby ring to Father John-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20918</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20931" Count="5" Max="5" Vnum="20912">
       <!--Spawn a cat to Servant's Quarters-->
-      <Type>NPC</Type>
-      <Destination>20931</Destination>
-      <Count>5</Count>
-      <Max>5</Max>
-      <Vnum>20912</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20910">
       <!--Spawn a cat's collar to a cat-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20910</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20932" Count="2" Max="6" Vnum="20910">
       <!--Spawn a kitchen servant to Servant's Hallway-->
-      <Type>NPC</Type>
-      <Destination>20932</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20910</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20912">
       <!--Spawn a servant's apron to a kitchen servant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20912</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20933" Count="1" Max="1" Vnum="20911">
       <!--Spawn a white dog to Cook's Quarters-->
-      <Type>NPC</Type>
-      <Destination>20933</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20911</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20911">
       <!--Spawn a pair of white gloves to a white dog-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20911</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20934" Count="2" Max="6" Vnum="20910">
       <!--Spawn a kitchen servant to Servant's Hallway-->
-      <Type>NPC</Type>
-      <Destination>20934</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20910</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20912">
       <!--Spawn a servant's apron to a kitchen servant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20912</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20935" Count="2" Max="6" Vnum="20910">
       <!--Spawn a kitchen servant to Storage Room-->
-      <Type>NPC</Type>
-      <Destination>20935</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20910</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20912">
       <!--Spawn a servant's apron to a kitchen servant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20912</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20936" Count="2" Max="4" Vnum="20913">
       <!--Spawn a cook to Kitchen-->
-      <Type>NPC</Type>
-      <Destination>20936</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20913</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20913">
       <!--Spawn a onion hatchet to a cook-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20913</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20937" Count="1" Max="4" Vnum="20913">
       <!--Spawn a cook to Kitchen-->
-      <Type>NPC</Type>
-      <Destination>20937</Destination>
-      <Count>1</Count>
-      <Max>4</Max>
-      <Vnum>20913</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20937" Count="2" Max="4" Vnum="20913">
       <!--Spawn a cook to Kitchen-->
-      <Type>NPC</Type>
-      <Destination>20937</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20913</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20913">
       <!--Spawn a onion hatchet to a cook-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20913</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20938" Count="2" Max="4" Vnum="20919">
       <!--Spawn a king's footman to Main Hall-->
-      <Type>NPC</Type>
-      <Destination>20938</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20919</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20909">
       <!--Spawn a pair of knee britches to a king's footman-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20909</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20939" Count="1" Max="1" Vnum="20921">
       <!--Spawn Queen Guenhuevere to Throne Room-->
-      <Type>NPC</Type>
-      <Destination>20939</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20939" Count="1" Max="1" Vnum="20920">
       <!--Spawn King Arthur to Throne Room-->
-      <Type>NPC</Type>
-      <Destination>20939</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20920</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20919">
       <!--Spawn caliburn to King Arthur-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20919</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20939" Count="1" Max="1" Vnum="20921">
       <!--Spawn Queen Guenhuevere to Throne Room-->
-      <Type>NPC</Type>
-      <Destination>20939</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20920">
       <!--Spawn a golden crown to Queen Guenhuevere-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20920</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20940" Count="2" Max="6" Vnum="20922">
       <!--Spawn a knight-errant to Queen's Hall-->
-      <Type>NPC</Type>
-      <Destination>20940</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20922</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a knight-errant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20941" Count="2" Max="6" Vnum="20922">
       <!--Spawn a knight-errant to Queen's Hall-->
-      <Type>NPC</Type>
-      <Destination>20941</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20922</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a knight-errant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20942" Count="2" Max="4" Vnum="20924">
       <!--Spawn a serving wench to Private Dining Room-->
-      <Type>NPC</Type>
-      <Destination>20942</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20924</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20922">
       <!--Spawn a cleaning rag to a serving wench-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20922</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20942" Count="1" Max="2" Vnum="20925">
       <!--Spawn a king's butler to Private Dining Room-->
-      <Type>NPC</Type>
-      <Destination>20942</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>20925</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20923">
       <!--Spawn a flowered lance to a king's butler-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20943" Count="2" Max="4" Vnum="20924">
       <!--Spawn a serving wench to Private Council Chamber-->
-      <Type>NPC</Type>
-      <Destination>20943</Destination>
-      <Count>2</Count>
-      <Max>4</Max>
-      <Vnum>20924</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20922">
       <!--Spawn a cleaning rag to a serving wench-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20922</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20943" Count="1" Max="2" Vnum="20925">
       <!--Spawn a king's butler to Private Council Chamber-->
-      <Type>NPC</Type>
-      <Destination>20943</Destination>
-      <Count>1</Count>
-      <Max>2</Max>
-      <Vnum>20925</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20923">
       <!--Spawn a flowered lance to a king's butler-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20944" Count="4" Max="4" Vnum="20926">
       <!--Spawn the queen's lady to Queen's Council Chamber-->
-      <Type>NPC</Type>
-      <Destination>20944</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20926</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20930">
       <!--Spawn a ladies' scarf to the queen's lady-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20930</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20945" Count="2" Max="6" Vnum="20922">
       <!--Spawn a knight-errant to Queen's Hall-->
-      <Type>NPC</Type>
-      <Destination>20945</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20922</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a knight-errant-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20946" Count="1" Max="1" Vnum="20927">
       <!--Spawn Sir Tristan to Dining Hall-->
-      <Type>NPC</Type>
-      <Destination>20946</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20927</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20924">
       <!--Spawn isobel's Ring to Sir Tristan-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20924</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20946" Count="1" Max="1" Vnum="20928">
       <!--Spawn Sir Lancelot to Dining Hall-->
-      <Type>NPC</Type>
-      <Destination>20946</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20928</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20925">
       <!--Spawn queen Guenhuevere's Favor to Sir Lancelot-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20925</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20947" Count="1" Max="1" Vnum="20929">
       <!--Spawn Sir Kay to Drinking Lounge-->
-      <Type>NPC</Type>
-      <Destination>20947</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20929</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20927">
       <!--Spawn kay's glasses to Sir Kay-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20927</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20947" Count="1" Max="1" Vnum="20930">
       <!--Spawn Sir Mordred to Drinking Lounge-->
-      <Type>NPC</Type>
-      <Destination>20947</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20930</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20928">
       <!--Spawn flail of the innocents to Sir Mordred-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20928</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20948" Count="2" Max="6" Vnum="20923">
       <!--Spawn a black knight to King's Hall-->
-      <Type>NPC</Type>
-      <Destination>20948</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a black knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20949" Count="4" Max="4" Vnum="20931">
       <!--Spawn a king's butler to Round Table-->
-      <Type>NPC</Type>
-      <Destination>20949</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20931</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20949" Count="4" Max="4" Vnum="20931">
       <!--Spawn a king's butler to Round Table-->
-      <Type>NPC</Type>
-      <Destination>20949</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20931</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20923">
       <!--Spawn a flowered lance to a king's butler-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20949" Count="0" Max="1" Vnum="20935">
       <!--Spawn the Siege Perilous to Round Table-->
-      <Type>Item</Type>
-      <Destination>20949</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20935</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20950" Count="2" Max="6" Vnum="20923">
       <!--Spawn a black knight to King's Hall-->
-      <Type>NPC</Type>
-      <Destination>20950</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a black knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20951" Count="4" Max="4" Vnum="20932">
       <!--Spawn the king's squire to King's Bedchamber-->
-      <Type>NPC</Type>
-      <Destination>20951</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20932</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20931">
       <!--Spawn a linen towel to the king's squire-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20931</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20952" Count="2" Max="6" Vnum="20923">
       <!--Spawn a black knight to King's Hall-->
-      <Type>NPC</Type>
-      <Destination>20952</Destination>
-      <Count>2</Count>
-      <Max>6</Max>
-      <Vnum>20923</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20921">
       <!--Spawn a white belt to a black knight-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20921</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20953" Count="1" Max="1" Vnum="20934">
       <!--Spawn Morgause to Merlin's Laboratory-->
-      <Type>NPC</Type>
-      <Destination>20953</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20934</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20953" Count="1" Max="1" Vnum="20933">
       <!--Spawn Merlin to Merlin's Laboratory-->
-      <Type>NPC</Type>
-      <Destination>20953</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20933</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20934">
       <!--Spawn an owl to Merlin-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20934</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20933">
       <!--Spawn a ruby bracelet to Merlin-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20933</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20955" Count="4" Max="4" Vnum="20935">
       <!--Spawn the queen's lady to Queen's Bedchamber-->
-      <Type>NPC</Type>
-      <Destination>20955</Destination>
-      <Count>4</Count>
-      <Max>4</Max>
-      <Vnum>20935</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Equip" Destination="0" Count="0" Max="0" Vnum="20930">
       <!--Spawn a ladies' scarf to the queen's lady-->
-      <Type>Equip</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20930</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="NPC" Destination="20999" Count="1" Max="1" Vnum="20945">
       <!--Spawn a virgin to Rose Clan Vestibule-->
-      <Type>NPC</Type>
-      <Destination>20999</Destination>
-      <Count>1</Count>
-      <Max>1</Max>
-      <Vnum>20945</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20946">
       <!--Spawn a blue rose lantern to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20946</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20947">
       <!--Spawn a pink rose lantern to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20947</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20948">
       <!--Spawn a golden rose lantern to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20948</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20949">
       <!--Spawn a yellow rose lantern to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20949</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20984">
       <!--Spawn a red rose lantern to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20984</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20990">
       <!--Spawn a White Rose Orb to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20990</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20990">
       <!--Spawn a White Rose Orb to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20990</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Give" Destination="0" Count="0" Max="0" Vnum="20990">
       <!--Spawn a White Rose Orb to a virgin-->
-      <Type>Give</Type>
-      <Destination>0</Destination>
-      <Count>0</Count>
-      <Max>0</Max>
-      <Vnum>20990</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20990">
       <!--Spawn a White Rose Orb to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20990</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20946">
       <!--Spawn a blue rose lantern to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20946</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20947">
       <!--Spawn a pink rose lantern to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20947</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20948">
       <!--Spawn a golden rose lantern to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20948</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20949">
       <!--Spawn a yellow rose lantern to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20949</Vnum>
     </Reset>
-    <Reset>
+    <Reset Type="Item" Destination="20999" Count="0" Max="1" Vnum="20984">
       <!--Spawn a red rose lantern to Rose Clan Vestibule-->
-      <Type>Item</Type>
-      <Destination>20999</Destination>
-      <Count>0</Count>
-      <Max>1</Max>
-      <Vnum>20984</Vnum>
     </Reset>
   </Resets>
 </Area>

@@ -1,4 +1,5 @@
 ﻿using CrimsonStainedLands;
+using CrimsonStainedLands.World;
 using CrimsonStainedLands.Extensions;
 using System;
 using System.Collections.Generic;
@@ -53,7 +54,7 @@ namespace CLSMapper
 
                 switch (reset.resetType)
                 {
-                    case CrimsonStainedLands.ResetTypes.NPC:
+                    case ResetTypes.NPC:
                         {
                             if (Area.NPCTemplates.TryGetValue(reset.spawnVnum, out var npc))
                                 ResetsTreeView.Nodes.Add(node = new TreeNode("NPC " + reset.spawnVnum + " " + npc.ShortDescription + " to " + reset.roomVnum + " " + (room != null ? room.Name : "unknown room")));
@@ -63,7 +64,7 @@ namespace CLSMapper
                         }
                         node.Tag = reset;
                         break;
-                    case CrimsonStainedLands.ResetTypes.Item:
+                    case ResetTypes.Item:
                         {
                             if (Area.ItemTemplates.TryGetValue(reset.spawnVnum, out var item))
                             {
@@ -79,8 +80,8 @@ namespace CLSMapper
                         }
                         node.Tag = reset;
                         break;
-                    case CrimsonStainedLands.ResetTypes.Equip:
-                    case CrimsonStainedLands.ResetTypes.Give:
+                    case ResetTypes.Equip:
+                    case ResetTypes.Give:
                         {
                             if (Area.ItemTemplates.TryGetValue(reset.spawnVnum, out var item))
                             {
@@ -96,7 +97,7 @@ namespace CLSMapper
                         }
                         node.Tag = reset;
                         break;
-                    case CrimsonStainedLands.ResetTypes.Put:
+                    case ResetTypes.Put:
                         {
                             if (Area.ItemTemplates.TryGetValue(reset.spawnVnum, out var item))
                             {
